@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Src
+CXX_INCLUDES = -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/External/glm -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/External/glad -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/External/khr -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/External/glfw
 
 CXX_FLAGSarm64 = -std=gnu++20 -arch arm64
 

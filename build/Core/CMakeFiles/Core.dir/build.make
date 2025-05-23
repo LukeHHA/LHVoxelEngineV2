@@ -72,31 +72,63 @@ include Core/CMakeFiles/Core.dir/flags.make
 Core/CMakeFiles/Core.dir/codegen:
 .PHONY : Core/CMakeFiles/Core.dir/codegen
 
-Core/CMakeFiles/Core.dir/Src/Core/Core.cpp.o: Core/CMakeFiles/Core.dir/flags.make
-Core/CMakeFiles/Core.dir/Src/Core/Core.cpp.o: /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Src/Core/Core.cpp
-Core/CMakeFiles/Core.dir/Src/Core/Core.cpp.o: Core/CMakeFiles/Core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Core/CMakeFiles/Core.dir/Src/Core/Core.cpp.o"
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/Core.dir/Src/Core/Core.cpp.o -MF CMakeFiles/Core.dir/Src/Core/Core.cpp.o.d -o CMakeFiles/Core.dir/Src/Core/Core.cpp.o -c /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Src/Core/Core.cpp
+Core/CMakeFiles/Core.dir/__/External/glad/glad.c.o: Core/CMakeFiles/Core.dir/flags.make
+Core/CMakeFiles/Core.dir/__/External/glad/glad.c.o: /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/External/glad/glad.c
+Core/CMakeFiles/Core.dir/__/External/glad/glad.c.o: Core/CMakeFiles/Core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object Core/CMakeFiles/Core.dir/__/External/glad/glad.c.o"
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Core/CMakeFiles/Core.dir/__/External/glad/glad.c.o -MF CMakeFiles/Core.dir/__/External/glad/glad.c.o.d -o CMakeFiles/Core.dir/__/External/glad/glad.c.o -c /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/External/glad/glad.c
 
-Core/CMakeFiles/Core.dir/Src/Core/Core.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Core.dir/Src/Core/Core.cpp.i"
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Src/Core/Core.cpp > CMakeFiles/Core.dir/Src/Core/Core.cpp.i
+Core/CMakeFiles/Core.dir/__/External/glad/glad.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Core.dir/__/External/glad/glad.c.i"
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/External/glad/glad.c > CMakeFiles/Core.dir/__/External/glad/glad.c.i
 
-Core/CMakeFiles/Core.dir/Src/Core/Core.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Src/Core/Core.cpp.s"
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Src/Core/Core.cpp -o CMakeFiles/Core.dir/Src/Core/Core.cpp.s
+Core/CMakeFiles/Core.dir/__/External/glad/glad.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Core.dir/__/External/glad/glad.c.s"
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/External/glad/glad.c -o CMakeFiles/Core.dir/__/External/glad/glad.c.s
+
+Core/CMakeFiles/Core.dir/src/Core.cpp.o: Core/CMakeFiles/Core.dir/flags.make
+Core/CMakeFiles/Core.dir/src/Core.cpp.o: /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core.cpp
+Core/CMakeFiles/Core.dir/src/Core.cpp.o: Core/CMakeFiles/Core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Core/CMakeFiles/Core.dir/src/Core.cpp.o"
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/Core.dir/src/Core.cpp.o -MF CMakeFiles/Core.dir/src/Core.cpp.o.d -o CMakeFiles/Core.dir/src/Core.cpp.o -c /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core.cpp
+
+Core/CMakeFiles/Core.dir/src/Core.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Core.dir/src/Core.cpp.i"
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core.cpp > CMakeFiles/Core.dir/src/Core.cpp.i
+
+Core/CMakeFiles/Core.dir/src/Core.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Core.dir/src/Core.cpp.s"
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core.cpp -o CMakeFiles/Core.dir/src/Core.cpp.s
+
+Core/CMakeFiles/Core.dir/src/window/Window.cpp.o: Core/CMakeFiles/Core.dir/flags.make
+Core/CMakeFiles/Core.dir/src/window/Window.cpp.o: /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/window/Window.cpp
+Core/CMakeFiles/Core.dir/src/window/Window.cpp.o: Core/CMakeFiles/Core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Core/CMakeFiles/Core.dir/src/window/Window.cpp.o"
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/Core.dir/src/window/Window.cpp.o -MF CMakeFiles/Core.dir/src/window/Window.cpp.o.d -o CMakeFiles/Core.dir/src/window/Window.cpp.o -c /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/window/Window.cpp
+
+Core/CMakeFiles/Core.dir/src/window/Window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Core.dir/src/window/Window.cpp.i"
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/window/Window.cpp > CMakeFiles/Core.dir/src/window/Window.cpp.i
+
+Core/CMakeFiles/Core.dir/src/window/Window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Core.dir/src/window/Window.cpp.s"
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/window/Window.cpp -o CMakeFiles/Core.dir/src/window/Window.cpp.s
 
 # Object files for target Core
 Core_OBJECTS = \
-"CMakeFiles/Core.dir/Src/Core/Core.cpp.o"
+"CMakeFiles/Core.dir/__/External/glad/glad.c.o" \
+"CMakeFiles/Core.dir/src/Core.cpp.o" \
+"CMakeFiles/Core.dir/src/window/Window.cpp.o"
 
 # External object files for target Core
 Core_EXTERNAL_OBJECTS =
 
-Core/libCore.a: Core/CMakeFiles/Core.dir/Src/Core/Core.cpp.o
+Core/libCore.a: Core/CMakeFiles/Core.dir/__/External/glad/glad.c.o
+Core/libCore.a: Core/CMakeFiles/Core.dir/src/Core.cpp.o
+Core/libCore.a: Core/CMakeFiles/Core.dir/src/window/Window.cpp.o
 Core/libCore.a: Core/CMakeFiles/Core.dir/build.make
 Core/libCore.a: Core/CMakeFiles/Core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libCore.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libCore.a"
 	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core && $(CMAKE_COMMAND) -P CMakeFiles/Core.dir/cmake_clean_target.cmake
 	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Core.dir/link.txt --verbose=$(VERBOSE)
 
