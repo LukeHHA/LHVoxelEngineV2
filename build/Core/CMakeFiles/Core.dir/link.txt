@@ -1,0 +1,2 @@
+/usr/bin/ar qc libCore.a CMakeFiles/Core.dir/Src/Core/Core.cpp.o
+/usr/bin/ranlib libCore.a
