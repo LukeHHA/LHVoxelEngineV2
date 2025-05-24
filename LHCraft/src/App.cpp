@@ -1,4 +1,4 @@
-#include "Core.h"
+#include "LHCraft.h"
 #include <iostream>
 
 class LHCraft : public Core::Application

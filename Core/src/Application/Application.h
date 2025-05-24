@@ -1,16 +1,21 @@
 #pragma once
 
+#include <memory>
+#include "Window/Window.h"
+
 namespace Core
 {
     class Application
     {
     public:
         Application();
-        ~Application();
+        virtual ~Application();
 
-        virtual void Run();
+        void Run();
 
     private:
+        std::unique_ptr<Window> m_Window;
+        bool m_Running = true;
     };
 
     // non-member function in the core namespace that returns

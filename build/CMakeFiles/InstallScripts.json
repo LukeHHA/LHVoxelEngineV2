@@ -1,9 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/cmake_install.cmake",
-		"/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/cmake_install.cmake",
-		"/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/LHCraft/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

@@ -1,3 +1,4 @@
+#include "Core.h"
 #include "Window.h"
 #include <cassert>
 #include <iostream>
@@ -7,14 +8,14 @@ namespace Core
 
     static bool s_GLFWInitialized = false;
 
-    Core::Window *Window::Create(const int &Height, const int &Width, const std::string &Title)
+    Core::Window *Window::Create(const WindowArgs &args)
     {
-        return new Window(Height, Width, Title);
+        return new Window(args);
     }
 
-    Window::Window(const int &Height, const int &Width, const std::string &Title)
+    Window::Window(const WindowArgs &args)
     {
-        Init(Height, Width, Title);
+        Init(args);
     }
 
     Window::~Window()
@@ -22,12 +23,18 @@ namespace Core
         Shutdown();
     }
 
-    void Window::Init(const int &Height, const int &Width, const std::string &Title)
+    void Window::Init(const WindowArgs &args)
     {
+        m_Data.Title = args.Title;
+        m_Data.Height = args.Height;
+        m_Data.Width = args.Width;
+
+        CORE_LOG_INFO("Window {0} created: Width={1}, Heigth={2}", args.Title, args.Width, args.Height);
+
         if (!s_GLFWInitialized)
         {
             int success = glfwInit();
-            assert(success);
+            CORE_ASSERT(success, "glfw Failed to Init");
 
             glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
             glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
@@ -40,8 +47,8 @@ namespace Core
             s_GLFWInitialized = true;
         }
 
-        m_Window = glfwCreateWindow(Width, Height, Title.c_str(), nullptr, nullptr);
-        assert(m_Window != nullptr);
+        m_Window = glfwCreateWindow((int)args.Width, (int)args.Height, m_Data.Title.c_str(), nullptr, nullptr);
+        CORE_ASSERT(m_Window != nullptr, "glfw Failed to create window");
         if (m_Window == NULL)
         {
             std::cout << "Failed to create GLFW window \n";
@@ -50,7 +57,7 @@ namespace Core
         }
 
         glfwMakeContextCurrent(m_Window);
-        glfwSetWindowUserPointer(m_Window, this);
+        glfwSetWindowUserPointer(m_Window, &m_Data);
         glfwSetInputMode(m_Window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
         SetVSync(true);
     }
@@ -77,11 +84,21 @@ namespace Core
             glfwSwapInterval(0);
         }
 
-        m_VSyncEnabled = true;
+        m_Data.VSyncEnabled = true;
     }
 
     bool Window::IsVSync() const
     {
-        return m_VSyncEnabled;
+        return m_Data.VSyncEnabled;
+    }
+
+    unsigned int Window::GetHeight() const
+    {
+        return m_Data.Height;
+    }
+
+    unsigned int Window::GetWidth() const
+    {
+        return m_Data.Width;
     }
 }

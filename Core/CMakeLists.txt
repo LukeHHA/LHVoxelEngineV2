@@ -8,6 +8,10 @@ add_library(Core STATIC
     src/Logging/Logging.cpp
 )
 
+target_compile_definitions(Core PUBLIC
+    LHCRAFT_ENABLE_ASSERTS
+)
+
 # exposes the header PUBLICLY so the compiler can resolve the include
 target_include_directories(Core PUBLIC 
     ${CMAKE_CURRENT_SOURCE_DIR}/src
