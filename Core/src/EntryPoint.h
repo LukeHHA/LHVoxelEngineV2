@@ -13,8 +13,8 @@ int main(int argc, char **argv)
     std::cout << "Core Engine Started \n";
 
     Core::Log::Init();
-    Core::Log::GetCoreLogger()->warn("Initialized Logger");
-    Core::Log::GetAppLogger()->warn("Initialized Logger");
+    CORE_LOG_WARN("Initialized Logger");
+    CORE_LOG_INFO("Initialized Var={0}", 5);
 
     auto app = Core::CreateApplication();
     app->Run();
