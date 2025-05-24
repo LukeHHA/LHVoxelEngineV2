@@ -41,6 +41,7 @@ namespace Core
         }
 
         m_Window = glfwCreateWindow(Width, Height, Title.c_str(), nullptr, nullptr);
+        assert(m_Window != nullptr);
         if (m_Window == NULL)
         {
             std::cout << "Failed to create GLFW window \n";
