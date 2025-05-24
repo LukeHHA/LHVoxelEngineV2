@@ -6,8 +6,15 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 
-- TODO.md
+- `TODO.md`
 - `spdlog` as git submodule
+- `CORE_LOG_` and `APP_LOG_` Macros defined in `Logging.h` with:
+  - `INFO`
+  - `WARN`
+  - `ERROR`
+  - `TRACE`
+  - `CRITICAL`
+    As possible options
 
 ### Changed
 
