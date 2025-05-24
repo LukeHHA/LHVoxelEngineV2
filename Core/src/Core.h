@@ -3,7 +3,8 @@
 #ifdef __APPLE__
 
 #include "Application/Application.h"
-#include "window/Window.h"
+#include "Window/Window.h"
+#include "Logging/Logging.h"
 
 // Entry Point
 

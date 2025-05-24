@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Core.dir/Vendor/glad/glad.c.o.d"
   "CMakeFiles/Core.dir/src/Application/Application.cpp.o"
   "CMakeFiles/Core.dir/src/Application/Application.cpp.o.d"
+  "CMakeFiles/Core.dir/src/Logging/Logging.cpp.o"
+  "CMakeFiles/Core.dir/src/Logging/Logging.cpp.o.d"
   "CMakeFiles/Core.dir/src/window/Window.cpp.o"
   "CMakeFiles/Core.dir/src/window/Window.cpp.o.d"
   "libCore.a"

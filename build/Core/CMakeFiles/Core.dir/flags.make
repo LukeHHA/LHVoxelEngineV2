@@ -5,7 +5,7 @@
 # compile CXX with /usr/bin/c++
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glad -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/khr -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glfw
+C_INCLUDES = -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glad -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/khr -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glfw -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog
 
 C_FLAGSarm64 =  -arch arm64
 
@@ -13,7 +13,7 @@ C_FLAGS =  -arch arm64
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glad -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/khr -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glfw
+CXX_INCLUDES = -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glad -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/khr -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glfw -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog
 
 CXX_FLAGSarm64 = -std=gnu++20 -arch arm64
 

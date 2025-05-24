@@ -185,6 +185,30 @@ src/Application/Application.cpp.s:
 	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Application/Application.cpp.s
 .PHONY : src/Application/Application.cpp.s
 
+src/Logging/Logging.o: src/Logging/Logging.cpp.o
+.PHONY : src/Logging/Logging.o
+
+# target to build an object file
+src/Logging/Logging.cpp.o:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Logging/Logging.cpp.o
+.PHONY : src/Logging/Logging.cpp.o
+
+src/Logging/Logging.i: src/Logging/Logging.cpp.i
+.PHONY : src/Logging/Logging.i
+
+# target to preprocess a source file
+src/Logging/Logging.cpp.i:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Logging/Logging.cpp.i
+.PHONY : src/Logging/Logging.cpp.i
+
+src/Logging/Logging.s: src/Logging/Logging.cpp.s
+.PHONY : src/Logging/Logging.s
+
+# target to generate assembly for a file
+src/Logging/Logging.cpp.s:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Logging/Logging.cpp.s
+.PHONY : src/Logging/Logging.cpp.s
+
 src/window/Window.o: src/window/Window.cpp.o
 .PHONY : src/window/Window.o
 
@@ -225,6 +249,9 @@ help:
 	@echo "... src/Application/Application.o"
 	@echo "... src/Application/Application.i"
 	@echo "... src/Application/Application.s"
+	@echo "... src/Logging/Logging.o"
+	@echo "... src/Logging/Logging.i"
+	@echo "... src/Logging/Logging.s"
 	@echo "... src/window/Window.o"
 	@echo "... src/window/Window.i"
 	@echo "... src/window/Window.s"

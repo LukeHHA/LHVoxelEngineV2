@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glad/glad.c" "Core/CMakeFiles/Core.dir/Vendor/glad/glad.c.o" "gcc" "Core/CMakeFiles/Core.dir/Vendor/glad/glad.c.o.d"
   "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Application/Application.cpp" "Core/CMakeFiles/Core.dir/src/Application/Application.cpp.o" "gcc" "Core/CMakeFiles/Core.dir/src/Application/Application.cpp.o.d"
+  "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Logging/Logging.cpp" "Core/CMakeFiles/Core.dir/src/Logging/Logging.cpp.o" "gcc" "Core/CMakeFiles/Core.dir/src/Logging/Logging.cpp.o.d"
   "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/window/Window.cpp" "Core/CMakeFiles/Core.dir/src/window/Window.cpp.o" "gcc" "Core/CMakeFiles/Core.dir/src/window/Window.cpp.o.d"
   )
 

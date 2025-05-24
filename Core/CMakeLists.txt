@@ -1,25 +1,27 @@
 cmake_minimum_required(VERSION 3.50)
-
 project(LHCraftCoreLib VERSION 1.0)
 
 add_library(Core STATIC
-    ${THIRD_PARTY_DIR}/glad/glad.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/glad/glad.c
     src/Application/Application.cpp
     src/window/Window.cpp
+    src/Logging/Logging.cpp
 )
 
 # exposes the header PUBLICLY so the compiler can resolve the include
 target_include_directories(Core PUBLIC 
     ${CMAKE_CURRENT_SOURCE_DIR}/src
-    ${THIRD_PARTY_DIR}/glm
-    ${THIRD_PARTY_DIR}/glad
-    ${THIRD_PARTY_DIR}/khr
-    ${THIRD_PARTY_DIR}/glfw
+    ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/glm
+    ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/glad
+    ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/khr
+    ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/glfw
+    ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/spdlog/include
+    ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/spdlog/include/spdlog
 )
 
 # Target link libs seems to need to be specified with PUBLIC/PRIVATE/INTERFACE or none at all
 target_link_libraries(Core PUBLIC
-    ${THIRD_PARTY_DIR}/glfw/libglfw3.a
+    ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/glfw/libglfw3.a
 )
 
 if (APPLE)

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glad -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/khr -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glfw
+CXX_INCLUDES = -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glad -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/khr -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glfw -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog
 
 CXX_FLAGSarm64 = -std=gnu++20 -arch arm64
 

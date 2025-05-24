@@ -2,7 +2,11 @@
   "configurations": [
     {
       "name": "LHCraft",
-      "includePath": ["${workspaceFolder}/**", "${workspaceFolder}/Core/Src"],
+      "includePath": [
+        "${workspaceFolder}/**",
+        "${workspaceFolder}/Core/Src",
+        "${workspaceFolder}/Core/Vendor/**"
+      ],
       "defines": [],
       "cStandard": "c17",
       "cppStandard": "c++14",

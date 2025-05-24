@@ -6,8 +6,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-set(THIRD_PARTY_DIR ${CMAKE_SOURCE_DIR}/External)
-
 add_subdirectory(Core)
 add_subdirectory(LHCraft)
 
