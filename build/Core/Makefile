@@ -161,29 +161,29 @@ __/External/glad/glad.c.s:
 	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/__/External/glad/glad.c.s
 .PHONY : __/External/glad/glad.c.s
 
-src/Core.o: src/Core.cpp.o
-.PHONY : src/Core.o
+src/Application/Application.o: src/Application/Application.cpp.o
+.PHONY : src/Application/Application.o
 
 # target to build an object file
-src/Core.cpp.o:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core.cpp.o
-.PHONY : src/Core.cpp.o
+src/Application/Application.cpp.o:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Application/Application.cpp.o
+.PHONY : src/Application/Application.cpp.o
 
-src/Core.i: src/Core.cpp.i
-.PHONY : src/Core.i
+src/Application/Application.i: src/Application/Application.cpp.i
+.PHONY : src/Application/Application.i
 
 # target to preprocess a source file
-src/Core.cpp.i:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core.cpp.i
-.PHONY : src/Core.cpp.i
+src/Application/Application.cpp.i:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Application/Application.cpp.i
+.PHONY : src/Application/Application.cpp.i
 
-src/Core.s: src/Core.cpp.s
-.PHONY : src/Core.s
+src/Application/Application.s: src/Application/Application.cpp.s
+.PHONY : src/Application/Application.s
 
 # target to generate assembly for a file
-src/Core.cpp.s:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core.cpp.s
-.PHONY : src/Core.cpp.s
+src/Application/Application.cpp.s:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Application/Application.cpp.s
+.PHONY : src/Application/Application.cpp.s
 
 src/window/Window.o: src/window/Window.cpp.o
 .PHONY : src/window/Window.o
@@ -222,9 +222,9 @@ help:
 	@echo "... __/External/glad/glad.o"
 	@echo "... __/External/glad/glad.i"
 	@echo "... __/External/glad/glad.s"
-	@echo "... src/Core.o"
-	@echo "... src/Core.i"
-	@echo "... src/Core.s"
+	@echo "... src/Application/Application.o"
+	@echo "... src/Application/Application.i"
+	@echo "... src/Application/Application.s"
 	@echo "... src/window/Window.o"
 	@echo "... src/window/Window.i"
 	@echo "... src/window/Window.s"

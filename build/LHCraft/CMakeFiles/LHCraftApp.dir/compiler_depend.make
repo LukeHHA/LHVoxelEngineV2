@@ -938,12 +938,16 @@ LHCraft/CMakeFiles/LHCraftApp.dir/src/App.cpp.o: /Users/amyalex/Documents/Produc
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdarg.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdint.h \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Application/Application.h \
   /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core.h \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/EntryPoint.h \
   /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/window/Window.h \
   /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/External/glfw/glfw3.h
 
 
 /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/window/Window.h:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/EntryPoint.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdint.h:
 
@@ -2324,6 +2328,8 @@ LHCraft/CMakeFiles/LHCraftApp.dir/src/App.cpp.o: /Users/amyalex/Documents/Produc
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_set_difference.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/generate_n.h:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Application/Application.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_replace_if.h:
 
