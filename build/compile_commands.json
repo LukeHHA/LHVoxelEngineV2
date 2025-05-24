@@ -1,25 +1,25 @@
 [
 {
   "directory": "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core",
-  "command": "/usr/bin/cc  -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/External/glm -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/External/glad -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/External/khr -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/External/glfw  -arch arm64 -o CMakeFiles/Core.dir/__/External/glad/glad.c.o -c /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/External/glad/glad.c",
-  "file": "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/External/glad/glad.c",
-  "output": "Core/CMakeFiles/Core.dir/__/External/glad/glad.c.o"
+  "command": "/usr/bin/cc  -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glad -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/khr -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glfw  -arch arm64 -o CMakeFiles/Core.dir/Vendor/glad/glad.c.o -c /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glad/glad.c",
+  "file": "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glad/glad.c",
+  "output": "Core/CMakeFiles/Core.dir/Vendor/glad/glad.c.o"
 },
 {
   "directory": "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core",
-  "command": "/usr/bin/c++  -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/External/glm -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/External/glad -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/External/khr -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/External/glfw -std=gnu++20 -arch arm64 -o CMakeFiles/Core.dir/src/Application/Application.cpp.o -c /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Application/Application.cpp",
+  "command": "/usr/bin/c++  -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glad -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/khr -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glfw -std=gnu++20 -arch arm64 -o CMakeFiles/Core.dir/src/Application/Application.cpp.o -c /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Application/Application.cpp",
   "file": "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Application/Application.cpp",
   "output": "Core/CMakeFiles/Core.dir/src/Application/Application.cpp.o"
 },
 {
   "directory": "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core",
-  "command": "/usr/bin/c++  -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/External/glm -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/External/glad -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/External/khr -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/External/glfw -std=gnu++20 -arch arm64 -o CMakeFiles/Core.dir/src/window/Window.cpp.o -c /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/window/Window.cpp",
+  "command": "/usr/bin/c++  -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glad -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/khr -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glfw -std=gnu++20 -arch arm64 -o CMakeFiles/Core.dir/src/window/Window.cpp.o -c /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/window/Window.cpp",
   "file": "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/window/Window.cpp",
   "output": "Core/CMakeFiles/Core.dir/src/window/Window.cpp.o"
 },
 {
   "directory": "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/LHCraft",
-  "command": "/usr/bin/c++  -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/External/glm -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/External/glad -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/External/khr -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/External/glfw -std=gnu++20 -arch arm64 -o CMakeFiles/LHCraftApp.dir/src/App.cpp.o -c /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/LHCraft/src/App.cpp",
+  "command": "/usr/bin/c++  -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glad -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/khr -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glfw -std=gnu++20 -arch arm64 -o CMakeFiles/LHCraftApp.dir/src/App.cpp.o -c /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/LHCraft/src/App.cpp",
   "file": "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/LHCraft/src/App.cpp",
   "output": "LHCraft/CMakeFiles/LHCraftApp.dir/src/App.cpp.o"
 }

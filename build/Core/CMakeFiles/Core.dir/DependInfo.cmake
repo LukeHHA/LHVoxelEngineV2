@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/External/glad/glad.c" "Core/CMakeFiles/Core.dir/__/External/glad/glad.c.o" "gcc" "Core/CMakeFiles/Core.dir/__/External/glad/glad.c.o.d"
+  "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glad/glad.c" "Core/CMakeFiles/Core.dir/Vendor/glad/glad.c.o" "gcc" "Core/CMakeFiles/Core.dir/Vendor/glad/glad.c.o.d"
   "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Application/Application.cpp" "Core/CMakeFiles/Core.dir/src/Application/Application.cpp.o" "gcc" "Core/CMakeFiles/Core.dir/src/Application/Application.cpp.o.d"
   "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/window/Window.cpp" "Core/CMakeFiles/Core.dir/src/window/Window.cpp.o" "gcc" "Core/CMakeFiles/Core.dir/src/window/Window.cpp.o.d"
   )

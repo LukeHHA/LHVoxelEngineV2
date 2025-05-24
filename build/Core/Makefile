@@ -137,29 +137,29 @@ Core/fast:
 	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/build
 .PHONY : Core/fast
 
-__/External/glad/glad.o: __/External/glad/glad.c.o
-.PHONY : __/External/glad/glad.o
+Vendor/glad/glad.o: Vendor/glad/glad.c.o
+.PHONY : Vendor/glad/glad.o
 
 # target to build an object file
-__/External/glad/glad.c.o:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/__/External/glad/glad.c.o
-.PHONY : __/External/glad/glad.c.o
+Vendor/glad/glad.c.o:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/Vendor/glad/glad.c.o
+.PHONY : Vendor/glad/glad.c.o
 
-__/External/glad/glad.i: __/External/glad/glad.c.i
-.PHONY : __/External/glad/glad.i
+Vendor/glad/glad.i: Vendor/glad/glad.c.i
+.PHONY : Vendor/glad/glad.i
 
 # target to preprocess a source file
-__/External/glad/glad.c.i:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/__/External/glad/glad.c.i
-.PHONY : __/External/glad/glad.c.i
+Vendor/glad/glad.c.i:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/Vendor/glad/glad.c.i
+.PHONY : Vendor/glad/glad.c.i
 
-__/External/glad/glad.s: __/External/glad/glad.c.s
-.PHONY : __/External/glad/glad.s
+Vendor/glad/glad.s: Vendor/glad/glad.c.s
+.PHONY : Vendor/glad/glad.s
 
 # target to generate assembly for a file
-__/External/glad/glad.c.s:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/__/External/glad/glad.c.s
-.PHONY : __/External/glad/glad.c.s
+Vendor/glad/glad.c.s:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/Vendor/glad/glad.c.s
+.PHONY : Vendor/glad/glad.c.s
 
 src/Application/Application.o: src/Application/Application.cpp.o
 .PHONY : src/Application/Application.o
@@ -219,9 +219,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Core"
-	@echo "... __/External/glad/glad.o"
-	@echo "... __/External/glad/glad.i"
-	@echo "... __/External/glad/glad.s"
+	@echo "... Vendor/glad/glad.o"
+	@echo "... Vendor/glad/glad.i"
+	@echo "... Vendor/glad/glad.s"
 	@echo "... src/Application/Application.o"
 	@echo "... src/Application/Application.i"
 	@echo "... src/Application/Application.s"
