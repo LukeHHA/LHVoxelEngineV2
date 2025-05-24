@@ -4,7 +4,7 @@ project(LHCraftCoreLib VERSION 1.0)
 
 add_library(Core STATIC
     ${THIRD_PARTY_DIR}/glad/glad.c
-    src/Core.cpp
+    src/Application/Application.cpp
     src/window/Window.cpp
 )
 
