@@ -1,6 +1,11 @@
 cmake_minimum_required(VERSION 3.50)
 project(LHCraftCoreLib VERSION 1.0)
 
+configure_file(
+    cmakeConfig.h.in
+    cmakeConfig.h
+)
+
 add_library(Core STATIC
     ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/glad/glad.c
     src/Application/Application.cpp
@@ -14,6 +19,7 @@ target_compile_definitions(Core PUBLIC
 
 # exposes the header PUBLICLY so the compiler can resolve the include
 target_include_directories(Core PUBLIC 
+    ${CMAKE_BINARY_DIR}/Core
     ${CMAKE_CURRENT_SOURCE_DIR}/src
     ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/glm
     ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/glad

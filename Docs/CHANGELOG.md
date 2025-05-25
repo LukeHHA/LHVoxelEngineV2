@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [Unreleased] - 2025-05-25
+
+### Added
+
+- `cmakeConfig.h.in` to allow global configs to be included within source files such as `VERSION_MAJOR` `VERSION_MINOR`
+
+### Changed
+
+### Fixed
+
+### Security
+
 ## [Unreleased] - 2025-05-24
 
 ### Added

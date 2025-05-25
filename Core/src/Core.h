@@ -1,5 +1,6 @@
 #pragma once
 
+#include "cmakeConfig.h"
 #include "Logging/Logging.h"
 
 #ifdef __APPLE__
