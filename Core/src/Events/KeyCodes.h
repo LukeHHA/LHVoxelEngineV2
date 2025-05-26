@@ -1,3 +1,6 @@
+// Modified from Hazel’s Events (Apache 2.0);
+// renamed namespace hz → Core and prefixed macros with CORE_…
+
 #pragma once
 
 #include <cstdint>

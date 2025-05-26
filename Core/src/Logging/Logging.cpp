@@ -1,3 +1,6 @@
+// Modified from Hazel’s Logging (Apache 2.0);
+// renamed namespace hz → Core and prefixed macros with CORE_…
+
 #include "Logging.h"
 #include "spdlog/sinks/stdout_color_sinks.h"
 

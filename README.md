@@ -27,3 +27,40 @@ Currently the cmake file will link to `-OpenGL -Cocoa -IOKit` if detected on app
 ## Goal
 
 Ideally by learning to effectivly abstract the OpenGl pipeline and messy configuration I hope to have some working version of an engine that can quickly be used to spin up a voxel world. How much work from the developer will be needed past getting to that point is yet to be seen, however getting to that point quickly already clears one of the major hurdles when coding a game in c++ without a full fledged engine.
+
+## Acknowledgements
+
+- **Event System**  
+  Adapted from [Hazel Engine](https://github.com/TheCherno/Hazel)’s EventDispatcher subsystem, licensed under Apache 2.0.
+
+  - Original authors: Cherno and Hazel contributors
+  - Modified: renamed namespaces (hz → Core), prefixed macros (HZ* → CORE*), and refactored the dispatch API.
+
+- **EventDispatch System**  
+   Adapted from [Hazel Engine](https://github.com/TheCherno/Hazel)’s EventDispatcher subsystem, licensed under Apache 2.0.
+
+  - Original authors: Cherno and Hazel contributors
+  - Modified: renamed namespaces (hz → Core), prefixed macros (HZ* → CORE*), and refactored the dispatch API.
+
+- **Window System**  
+  Adapted from [Hazel Engine](https://github.com/TheCherno/Hazel)’s Window subsystem, licensed under Apache 2.0.
+
+  - Original authors: Cherno and Hazel contributors
+  - Modified: renamed namespaces (hz → Core), prefixed macros (HZ* → CORE*), and refactored the dispatch API.
+
+- **Layer System**  
+  Adapted from [Hazel Engine](https://github.com/TheCherno/Hazel)’s Layer subsystem, licensed under Apache 2.0.
+
+  - Original authors: Cherno and Hazel contributors
+  - Modified: renamed namespaces (hz → Core), prefixed macros (HZ* → CORE*), and refactored the dispatch API.
+
+- **Logging System**  
+  Adapted from [Hazel Engine](https://github.com/TheCherno/Hazel)’s Logging subsystem, licensed under Apache 2.0.
+
+  - Original authors: Cherno and Hazel contributors
+  - Modified: renamed namespaces (hz → Core), prefixed macros (HZ* → CORE*), and refactored the dispatch API.
+
+- **Application System**  
+  Adapted from [Hazel Engine](https://github.com/TheCherno/Hazel)’s Application subsystem, licensed under Apache 2.0.
+  - Original authors: Cherno and Hazel contributors
+  - Modified: renamed namespaces (hz → Core), prefixed macros (HZ* → CORE*), and refactored the dispatch API.

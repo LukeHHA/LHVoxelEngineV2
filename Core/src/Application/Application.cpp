@@ -1,3 +1,6 @@
+// Modified from Hazel’s Application (Apache 2.0);
+// renamed namespace hz → Core and prefixed macros with CORE_…
+
 #include "Core.h"
 #include "Application.h"
 #include "Events/KeyEvents.h"

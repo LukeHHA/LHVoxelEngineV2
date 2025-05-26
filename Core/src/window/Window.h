@@ -1,3 +1,6 @@
+// Modified from Hazel’s Logging (Apache 2.0);
+// renamed namespace hz → Core and prefixed macros with CORE_…
+
 #pragma once
 
 #include "glfw3.h"

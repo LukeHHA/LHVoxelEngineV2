@@ -1,3 +1,6 @@
+// Modified from Hazel’s Window (Apache 2.0);
+// renamed namespace hz → Core and prefixed macros with CORE_…
+
 #include "LHCpch.h"
 #include "Core.h"
 #include "Window.h"
