@@ -39,8 +39,6 @@ namespace Core
         m_Data.Height = args.Height;
         m_Data.Width = args.Width;
 
-        CORE_LOG_INFO("Window {0} created: Width={1}, Heigth={2}", args.Title, args.Width, args.Height);
-
         if (!s_GLFWInitialized)
         {
             int success = glfwInit();
@@ -59,6 +57,7 @@ namespace Core
 
         m_Window = glfwCreateWindow((int)args.Width, (int)args.Height, m_Data.Title.c_str(), nullptr, nullptr);
         CORE_ASSERT(m_Window != nullptr, "glfw Failed to create window");
+        CORE_LOG_INFO("Window {0} created: Width={1}, Heigth={2}", args.Title, args.Width, args.Height);
         if (m_Window == NULL)
         {
             std::cout << "Failed to create GLFW window \n";
@@ -68,6 +67,10 @@ namespace Core
 
         glfwMakeContextCurrent(m_Window);
         glfwSetWindowUserPointer(m_Window, &m_Data);
+
+        // LOAD GLAD
+        int status = gladLoadGLLoader((GLADloadproc)glfwGetProcAddress);
+        CORE_ASSERT(status, "GLAD failed to load")
         glfwSetInputMode(m_Window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
         SetVSync(true);
 

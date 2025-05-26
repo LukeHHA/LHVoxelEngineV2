@@ -3,6 +3,7 @@
 
 #pragma once
 
+#include "glad/glad.h"
 #include "glfw3.h"
 #include "Events/Events.h"
 #include <functional>
