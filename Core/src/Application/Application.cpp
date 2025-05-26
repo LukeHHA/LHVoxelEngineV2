@@ -3,10 +3,13 @@
 
 #include "Core.h"
 #include "Application.h"
+#include "Input/Input.h"
 #include "glfw3.h"
 
 namespace Core
 {
+    Application *Application::s_Instance = nullptr;
+
     Application::Application()
     {
         m_Window = std::unique_ptr<Window>(Window::Create());
@@ -18,6 +21,8 @@ namespace Core
          * execute and pass the event to the window to say resize ect...
          */
         m_Window->SetEventCallback(std::bind(&Application::OnEvent, this, std::placeholders::_1));
+
+        s_Instance = this;
     }
 
     Application::~Application()
@@ -30,6 +35,9 @@ namespace Core
         {
             glClearColor(0.47f, 0.75f, 0.88f, 1.0f);
             glClear(GL_COLOR_BUFFER_BIT);
+
+            auto pos = Input::GetMousePosition();
+            CORE_LOG_TRACE("{0}, {1}", pos.x, pos.y);
             m_Window->OnUpdate(); // glPollEvents and swap buffer
 
             for (Layer *layer : m_LayerStack)

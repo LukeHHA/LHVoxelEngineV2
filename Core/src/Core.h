@@ -19,12 +19,12 @@
 
 // --- Engine and App specific ASSERT ---
 #ifdef LHCRAFT_ENABLE_ASSERTS
-#define DEBUG_TRACE()                                \
-    do                                               \
-    {                                                \
-        std::fprintf(stderr,                         \
-                     "DEBUG TRACE: %s:%d in %s()\n", \
-                     __FILE__, __LINE__, __func__);  \
+#define DEBUG_TRACE()                                                   \
+    do                                                                  \
+    {                                                                   \
+        std::fprintf(stderr,                                            \
+                     "\033[31;1;4mDEBUG TRACE: %s:%d in %s()\033[0m\n", \
+                     __FILE__, __LINE__, __func__);                     \
     } while (0)
 #pragma message("Asserts are ENABLED")
 #define CORE_ASSERT(x, ...)                                       \

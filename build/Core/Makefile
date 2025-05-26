@@ -200,6 +200,30 @@ src/Application/Application.cpp.s:
 	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Application/Application.cpp.s
 .PHONY : src/Application/Application.cpp.s
 
+src/Input/Input.o: src/Input/Input.cpp.o
+.PHONY : src/Input/Input.o
+
+# target to build an object file
+src/Input/Input.cpp.o:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Input/Input.cpp.o
+.PHONY : src/Input/Input.cpp.o
+
+src/Input/Input.i: src/Input/Input.cpp.i
+.PHONY : src/Input/Input.i
+
+# target to preprocess a source file
+src/Input/Input.cpp.i:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Input/Input.cpp.i
+.PHONY : src/Input/Input.cpp.i
+
+src/Input/Input.s: src/Input/Input.cpp.s
+.PHONY : src/Input/Input.s
+
+# target to generate assembly for a file
+src/Input/Input.cpp.s:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Input/Input.cpp.s
+.PHONY : src/Input/Input.cpp.s
+
 src/Layers/Layer.o: src/Layers/Layer.cpp.o
 .PHONY : src/Layers/Layer.o
 
@@ -315,6 +339,9 @@ help:
 	@echo "... src/Application/Application.o"
 	@echo "... src/Application/Application.i"
 	@echo "... src/Application/Application.s"
+	@echo "... src/Input/Input.o"
+	@echo "... src/Input/Input.i"
+	@echo "... src/Input/Input.s"
 	@echo "... src/Layers/Layer.o"
 	@echo "... src/Layers/Layer.i"
 	@echo "... src/Layers/Layer.s"

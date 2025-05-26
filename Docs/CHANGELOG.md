@@ -11,6 +11,7 @@ All notable changes to this project will be documented in this file.
 - KeyCode and Mouse codes in `Events`
 
 - `Layer` system
+- `GLAD` was included and initilized
 
 ## [Unreleased] - 2025-05-25
 

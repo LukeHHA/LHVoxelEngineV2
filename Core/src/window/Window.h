@@ -40,6 +40,8 @@ namespace Core
         unsigned int GetHeight() const;
         unsigned int GetWidth() const;
 
+        void *GetNativeWindow() const { return m_Window; }
+
     private:
         void Init(const WindowArgs &args);
         void Shutdown();

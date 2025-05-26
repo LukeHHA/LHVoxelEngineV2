@@ -13,6 +13,7 @@ add_library(Core STATIC
     src/Logging/Logging.cpp
     src/Layers/Layer.cpp
     src/Layers/LayerStack.cpp
+    src/Input/Input.cpp
 )
 
 target_compile_definitions(Core PUBLIC

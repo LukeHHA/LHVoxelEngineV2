@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Core.dir/cmake_pch.hxx.pch.d"
   "CMakeFiles/Core.dir/src/Application/Application.cpp.o"
   "CMakeFiles/Core.dir/src/Application/Application.cpp.o.d"
+  "CMakeFiles/Core.dir/src/Input/Input.cpp.o"
+  "CMakeFiles/Core.dir/src/Input/Input.cpp.o.d"
   "CMakeFiles/Core.dir/src/Layers/Layer.cpp.o"
   "CMakeFiles/Core.dir/src/Layers/Layer.cpp.o.d"
   "CMakeFiles/Core.dir/src/Layers/LayerStack.cpp.o"
