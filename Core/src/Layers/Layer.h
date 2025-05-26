@@ -2,3 +2,26 @@
 // renamed namespace hz → Core and prefixed macros with CORE_…
 
 #pragma once
+
+#include "Events/Events.h"
+
+namespace Core
+{
+    class Layer
+    {
+    public:
+        Layer(const std::string &name = "Layer");
+        virtual ~Layer() = default;
+
+        virtual void OnAttach() {}
+        virtual void OnDetach() {}
+        virtual void OnUpdate(/*Timestep ts*/) {}
+        virtual void OnImGuiRender() {} // unused for now
+        virtual void OnEvent(Event &event) {}
+
+        const std::string &GetName() const { return m_DebugName; }
+
+    protected:
+        std::string m_DebugName;
+    };
+}

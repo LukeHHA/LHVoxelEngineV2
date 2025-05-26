@@ -137,29 +137,29 @@ Core/fast:
 	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/build
 .PHONY : Core/fast
 
-Vendor/glad/glad.o: Vendor/glad/glad.c.o
-.PHONY : Vendor/glad/glad.o
+Vendor/glad/src/glad.o: Vendor/glad/src/glad.c.o
+.PHONY : Vendor/glad/src/glad.o
 
 # target to build an object file
-Vendor/glad/glad.c.o:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/Vendor/glad/glad.c.o
-.PHONY : Vendor/glad/glad.c.o
+Vendor/glad/src/glad.c.o:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/Vendor/glad/src/glad.c.o
+.PHONY : Vendor/glad/src/glad.c.o
 
-Vendor/glad/glad.i: Vendor/glad/glad.c.i
-.PHONY : Vendor/glad/glad.i
+Vendor/glad/src/glad.i: Vendor/glad/src/glad.c.i
+.PHONY : Vendor/glad/src/glad.i
 
 # target to preprocess a source file
-Vendor/glad/glad.c.i:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/Vendor/glad/glad.c.i
-.PHONY : Vendor/glad/glad.c.i
+Vendor/glad/src/glad.c.i:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/Vendor/glad/src/glad.c.i
+.PHONY : Vendor/glad/src/glad.c.i
 
-Vendor/glad/glad.s: Vendor/glad/glad.c.s
-.PHONY : Vendor/glad/glad.s
+Vendor/glad/src/glad.s: Vendor/glad/src/glad.c.s
+.PHONY : Vendor/glad/src/glad.s
 
 # target to generate assembly for a file
-Vendor/glad/glad.c.s:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/Vendor/glad/glad.c.s
-.PHONY : Vendor/glad/glad.c.s
+Vendor/glad/src/glad.c.s:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/Vendor/glad/src/glad.c.s
+.PHONY : Vendor/glad/src/glad.c.s
 
 # target to build an object file
 cmake_pch.hxx.pch:
@@ -199,6 +199,54 @@ src/Application/Application.s: src/Application/Application.cpp.s
 src/Application/Application.cpp.s:
 	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Application/Application.cpp.s
 .PHONY : src/Application/Application.cpp.s
+
+src/Layers/Layer.o: src/Layers/Layer.cpp.o
+.PHONY : src/Layers/Layer.o
+
+# target to build an object file
+src/Layers/Layer.cpp.o:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Layers/Layer.cpp.o
+.PHONY : src/Layers/Layer.cpp.o
+
+src/Layers/Layer.i: src/Layers/Layer.cpp.i
+.PHONY : src/Layers/Layer.i
+
+# target to preprocess a source file
+src/Layers/Layer.cpp.i:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Layers/Layer.cpp.i
+.PHONY : src/Layers/Layer.cpp.i
+
+src/Layers/Layer.s: src/Layers/Layer.cpp.s
+.PHONY : src/Layers/Layer.s
+
+# target to generate assembly for a file
+src/Layers/Layer.cpp.s:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Layers/Layer.cpp.s
+.PHONY : src/Layers/Layer.cpp.s
+
+src/Layers/LayerStack.o: src/Layers/LayerStack.cpp.o
+.PHONY : src/Layers/LayerStack.o
+
+# target to build an object file
+src/Layers/LayerStack.cpp.o:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Layers/LayerStack.cpp.o
+.PHONY : src/Layers/LayerStack.cpp.o
+
+src/Layers/LayerStack.i: src/Layers/LayerStack.cpp.i
+.PHONY : src/Layers/LayerStack.i
+
+# target to preprocess a source file
+src/Layers/LayerStack.cpp.i:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Layers/LayerStack.cpp.i
+.PHONY : src/Layers/LayerStack.cpp.i
+
+src/Layers/LayerStack.s: src/Layers/LayerStack.cpp.s
+.PHONY : src/Layers/LayerStack.s
+
+# target to generate assembly for a file
+src/Layers/LayerStack.cpp.s:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Layers/LayerStack.cpp.s
+.PHONY : src/Layers/LayerStack.cpp.s
 
 src/Logging/Logging.o: src/Logging/Logging.cpp.o
 .PHONY : src/Logging/Logging.o
@@ -258,15 +306,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Core"
-	@echo "... Vendor/glad/glad.o"
-	@echo "... Vendor/glad/glad.i"
-	@echo "... Vendor/glad/glad.s"
+	@echo "... Vendor/glad/src/glad.o"
+	@echo "... Vendor/glad/src/glad.i"
+	@echo "... Vendor/glad/src/glad.s"
 	@echo "... cmake_pch.hxx.pch"
 	@echo "... cmake_pch.hxx.i"
 	@echo "... cmake_pch.hxx.s"
 	@echo "... src/Application/Application.o"
 	@echo "... src/Application/Application.i"
 	@echo "... src/Application/Application.s"
+	@echo "... src/Layers/Layer.o"
+	@echo "... src/Layers/Layer.i"
+	@echo "... src/Layers/Layer.s"
+	@echo "... src/Layers/LayerStack.o"
+	@echo "... src/Layers/LayerStack.i"
+	@echo "... src/Layers/LayerStack.s"
 	@echo "... src/Logging/Logging.o"
 	@echo "... src/Logging/Logging.i"
 	@echo "... src/Logging/Logging.s"

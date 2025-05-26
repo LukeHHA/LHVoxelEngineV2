@@ -3,7 +3,6 @@
 
 #include "Core.h"
 #include "Application.h"
-#include "Events/KeyEvents.h"
 #include "glfw3.h"
 
 namespace Core
@@ -32,6 +31,9 @@ namespace Core
             glClearColor(0.47f, 0.75f, 0.88f, 1.0f);
             glClear(GL_COLOR_BUFFER_BIT);
             m_Window->OnUpdate(); // glPollEvents and swap buffer
+
+            for (Layer *layer : m_LayerStack)
+                layer->OnUpdate(/*timestep*/);
         }
     }
 
@@ -42,7 +44,13 @@ namespace Core
         // it will run the function
         dispatcher.Dispatch<WindowCloseEvent>(std::bind(&Application::OnWindowClose, this, std::placeholders::_1));
         dispatcher.Dispatch<KeyPressedEvent>(std::bind(&Application::OnESCKeyPress, this, std::placeholders::_1));
-        CORE_LOG_INFO("{0}", event.ToString());
+
+        for (auto it = m_LayerStack.rbegin(); it != m_LayerStack.rend(); ++it)
+        {
+            if (event.Handled)
+                break;
+            (*it)->OnEvent(event);
+        }
     }
 
     bool Application::OnWindowClose(WindowCloseEvent &e)
@@ -59,6 +67,16 @@ namespace Core
             return true;
         }
         return false;
+    }
+
+    void Application::PushLayer(Layer *layer)
+    {
+        m_LayerStack.PushLayer(layer);
+    }
+
+    void Application::PushOverlay(Layer *layer)
+    {
+        m_LayerStack.PushOverlay(layer);
     }
 
 }

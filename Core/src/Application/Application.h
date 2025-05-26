@@ -7,6 +7,8 @@
 #include "Window/Window.h"
 #include "Events/ApplicationEvents.h"
 #include "Events/KeyEvents.h"
+#include "Layers/Layer.h"
+#include "Layers/LayerStack.h"
 
 namespace Core
 {
@@ -20,13 +22,18 @@ namespace Core
 
         void OnEvent(Event &event);
 
+        void PushLayer(Layer *layer);
+        void PushOverlay(Layer *layer);
+
     private:
-        bool OnWindowClose(WindowCloseEvent &event);
+        bool
+        OnWindowClose(WindowCloseEvent &event);
         bool OnESCKeyPress(KeyPressedEvent &e);
 
     private:
         std::unique_ptr<Window> m_Window;
         bool m_Running = true;
+        LayerStack m_LayerStack;
     };
 
     // non-member function in the core namespace that returns

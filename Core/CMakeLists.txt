@@ -7,10 +7,12 @@ configure_file(
 )
 
 add_library(Core STATIC
-    ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/glad/glad.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/glad/src/glad.c
     src/Application/Application.cpp
     src/window/Window.cpp
     src/Logging/Logging.cpp
+    src/Layers/Layer.cpp
+    src/Layers/LayerStack.cpp
 )
 
 target_compile_definitions(Core PUBLIC
@@ -22,8 +24,7 @@ target_include_directories(Core PUBLIC
     ${CMAKE_BINARY_DIR}/Core
     ${CMAKE_CURRENT_SOURCE_DIR}/src
     ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/glm
-    ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/glad
-    ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/khr
+    ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/glad/include
     ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/glfw
     ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/spdlog/include
     ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/spdlog/include/spdlog
