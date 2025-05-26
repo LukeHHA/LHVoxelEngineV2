@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Core.dir/Vendor/glad/glad.c.o"
   "CMakeFiles/Core.dir/Vendor/glad/glad.c.o.d"
+  "CMakeFiles/Core.dir/cmake_pch.hxx.pch"
+  "CMakeFiles/Core.dir/cmake_pch.hxx.pch.d"
   "CMakeFiles/Core.dir/src/Application/Application.cpp.o"
   "CMakeFiles/Core.dir/src/Application/Application.cpp.o.d"
   "CMakeFiles/Core.dir/src/Logging/Logging.cpp.o"

@@ -161,6 +161,21 @@ Vendor/glad/glad.c.s:
 	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/Vendor/glad/glad.c.s
 .PHONY : Vendor/glad/glad.c.s
 
+# target to build an object file
+cmake_pch.hxx.pch:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch
+.PHONY : cmake_pch.hxx.pch
+
+# target to preprocess a source file
+cmake_pch.hxx.i:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/cmake_pch.hxx.i
+.PHONY : cmake_pch.hxx.i
+
+# target to generate assembly for a file
+cmake_pch.hxx.s:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/cmake_pch.hxx.s
+.PHONY : cmake_pch.hxx.s
+
 src/Application/Application.o: src/Application/Application.cpp.o
 .PHONY : src/Application/Application.o
 
@@ -246,6 +261,9 @@ help:
 	@echo "... Vendor/glad/glad.o"
 	@echo "... Vendor/glad/glad.i"
 	@echo "... Vendor/glad/glad.s"
+	@echo "... cmake_pch.hxx.pch"
+	@echo "... cmake_pch.hxx.i"
+	@echo "... cmake_pch.hxx.s"
 	@echo "... src/Application/Application.o"
 	@echo "... src/Application/Application.i"
 	@echo "... src/Application/Application.s"

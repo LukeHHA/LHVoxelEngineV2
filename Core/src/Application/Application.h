@@ -2,6 +2,8 @@
 
 #include <memory>
 #include "Window/Window.h"
+#include "Events/ApplicationEvents.h"
+#include "Events/KeyEvents.h"
 
 namespace Core
 {
@@ -12,6 +14,12 @@ namespace Core
         virtual ~Application();
 
         void Run();
+
+        void OnEvent(Event &event);
+
+    private:
+        bool OnWindowClose(WindowCloseEvent &event);
+        bool OnESCKeyPress(KeyPressedEvent &e);
 
     private:
         std::unique_ptr<Window> m_Window;

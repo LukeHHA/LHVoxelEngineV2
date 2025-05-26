@@ -72,19 +72,36 @@ include LHCraft/CMakeFiles/LHCraftApp.dir/flags.make
 LHCraft/CMakeFiles/LHCraftApp.dir/codegen:
 .PHONY : LHCraft/CMakeFiles/LHCraftApp.dir/codegen
 
+LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.pch: LHCraft/CMakeFiles/LHCraftApp.dir/flags.make
+LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.pch: LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.cxx
+LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.pch: LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx
+LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.pch: LHCraft/CMakeFiles/LHCraftApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.pch"
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/LHCraft && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -emit-pch -Xclang -include -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx -x c++-header -MD -MT LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.pch -MF CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.pch.d -o CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.pch -c /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.cxx
+
+LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.i"
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/LHCraft && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -emit-pch -Xclang -include -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx -x c++-header -E /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.cxx > CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.i
+
+LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.s"
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/LHCraft && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -emit-pch -Xclang -include -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx -x c++-header -S /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.cxx -o CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.s
+
 LHCraft/CMakeFiles/LHCraftApp.dir/src/App.cpp.o: LHCraft/CMakeFiles/LHCraftApp.dir/flags.make
 LHCraft/CMakeFiles/LHCraftApp.dir/src/App.cpp.o: /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/LHCraft/src/App.cpp
+LHCraft/CMakeFiles/LHCraftApp.dir/src/App.cpp.o: LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx
+LHCraft/CMakeFiles/LHCraftApp.dir/src/App.cpp.o: LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.pch
 LHCraft/CMakeFiles/LHCraftApp.dir/src/App.cpp.o: LHCraft/CMakeFiles/LHCraftApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object LHCraft/CMakeFiles/LHCraftApp.dir/src/App.cpp.o"
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/LHCraft && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT LHCraft/CMakeFiles/LHCraftApp.dir/src/App.cpp.o -MF CMakeFiles/LHCraftApp.dir/src/App.cpp.o.d -o CMakeFiles/LHCraftApp.dir/src/App.cpp.o -c /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/LHCraft/src/App.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object LHCraft/CMakeFiles/LHCraftApp.dir/src/App.cpp.o"
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/LHCraft && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx -MD -MT LHCraft/CMakeFiles/LHCraftApp.dir/src/App.cpp.o -MF CMakeFiles/LHCraftApp.dir/src/App.cpp.o.d -o CMakeFiles/LHCraftApp.dir/src/App.cpp.o -c /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/LHCraft/src/App.cpp
 
 LHCraft/CMakeFiles/LHCraftApp.dir/src/App.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LHCraftApp.dir/src/App.cpp.i"
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/LHCraft && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/LHCraft/src/App.cpp > CMakeFiles/LHCraftApp.dir/src/App.cpp.i
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/LHCraft && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx -E /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/LHCraft/src/App.cpp > CMakeFiles/LHCraftApp.dir/src/App.cpp.i
 
 LHCraft/CMakeFiles/LHCraftApp.dir/src/App.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LHCraftApp.dir/src/App.cpp.s"
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/LHCraft && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/LHCraft/src/App.cpp -o CMakeFiles/LHCraftApp.dir/src/App.cpp.s
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/LHCraft && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx -S /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/LHCraft/src/App.cpp -o CMakeFiles/LHCraftApp.dir/src/App.cpp.s
 
 # Object files for target LHCraftApp
 LHCraftApp_OBJECTS = \
@@ -93,12 +110,13 @@ LHCraftApp_OBJECTS = \
 # External object files for target LHCraftApp
 LHCraftApp_EXTERNAL_OBJECTS =
 
+LHCraft/LHCraftApp: LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.pch
 LHCraft/LHCraftApp: LHCraft/CMakeFiles/LHCraftApp.dir/src/App.cpp.o
 LHCraft/LHCraftApp: LHCraft/CMakeFiles/LHCraftApp.dir/build.make
 LHCraft/LHCraftApp: Core/libCore.a
 LHCraft/LHCraftApp: /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glfw/libglfw3.a
 LHCraft/LHCraftApp: LHCraft/CMakeFiles/LHCraftApp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable LHCraftApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable LHCraftApp"
 	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/LHCraft && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LHCraftApp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -29,6 +29,10 @@ target_include_directories(Core PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/spdlog/include/spdlog
 )
 
+target_precompile_headers(Core PUBLIC
+    $<$<COMPILE_LANGUAGE:CXX>:${CMAKE_CURRENT_SOURCE_DIR}/src/LHCpch.h>
+)
+
 # Target link libs seems to need to be specified with PUBLIC/PRIVATE/INTERFACE or none at all
 target_link_libraries(Core PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/glfw/libglfw3.a

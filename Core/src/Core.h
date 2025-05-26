@@ -15,6 +15,8 @@
 #define DEBUG_BREAK() __builtin_trap()
 #endif
 
+#define BIT(x) (1 << x)
+
 // --- Engine and App specific ASSERT ---
 #ifdef LHCRAFT_ENABLE_ASSERTS
 #pragma message("Asserts are ENABLED")

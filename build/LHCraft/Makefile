@@ -137,6 +137,21 @@ LHCraftApp/fast:
 	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f LHCraft/CMakeFiles/LHCraftApp.dir/build.make LHCraft/CMakeFiles/LHCraftApp.dir/build
 .PHONY : LHCraftApp/fast
 
+# target to build an object file
+cmake_pch.hxx.pch:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f LHCraft/CMakeFiles/LHCraftApp.dir/build.make LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.pch
+.PHONY : cmake_pch.hxx.pch
+
+# target to preprocess a source file
+cmake_pch.hxx.i:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f LHCraft/CMakeFiles/LHCraftApp.dir/build.make LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.i
+.PHONY : cmake_pch.hxx.i
+
+# target to generate assembly for a file
+cmake_pch.hxx.s:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f LHCraft/CMakeFiles/LHCraftApp.dir/build.make LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.s
+.PHONY : cmake_pch.hxx.s
+
 src/App.o: src/App.cpp.o
 .PHONY : src/App.o
 
@@ -171,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... LHCraftApp"
+	@echo "... cmake_pch.hxx.pch"
+	@echo "... cmake_pch.hxx.i"
+	@echo "... cmake_pch.hxx.s"
 	@echo "... src/App.o"
 	@echo "... src/App.i"
 	@echo "... src/App.s"

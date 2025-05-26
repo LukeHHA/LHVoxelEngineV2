@@ -1,12 +1,12 @@
 #pragma once
 
 #include "glfw3.h"
+#include "Events/Events.h"
 #include <functional>
 #include <string>
 
 namespace Core
 {
-    class Event; // FORWARD DEC FOR INCOMPLETE EVENT --- REMOVE WHEN EVENT IS DEFINED ----
 
     struct WindowArgs
     {
@@ -29,7 +29,7 @@ namespace Core
         ~Window();
 
         void OnUpdate();
-        void SetEventCallback(const EventCallbackFn &callback);
+        void SetEventCallback(const EventCallbackFn &callback) { m_Data.EventCallback = callback; };
         void SetVSync(bool enabled);
         bool IsVSync() const;
 

@@ -10,3 +10,7 @@ CXX_FLAGSarm64 = -g -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic
 
 CXX_FLAGS = -g -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic
 
+# PCH options: LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.pch_OPTIONS = -Winvalid-pch;-Xclang;-emit-pch;-Xclang;-include;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx;-x;c++-header
+
+# PCH options: LHCraft/CMakeFiles/LHCraftApp.dir/src/App.cpp.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.pch;-Xclang;-include;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx
+
