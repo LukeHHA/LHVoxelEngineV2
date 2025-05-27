@@ -50,7 +50,7 @@
 					"jsonFile" : "directory-Core.Vendor.FastNoise2-Debug-f2fc6476e63735d7e0dd.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.7.1"
+						"string" : "3.10"
 					},
 					"parentIndex" : 1,
 					"projectIndex" : 2,
@@ -61,7 +61,7 @@
 					"jsonFile" : "directory-Core.Vendor.FastNoise2.src-Debug-9d9c106f8e5a039fee66.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.7.1"
+						"string" : "3.10"
 					},
 					"parentIndex" : 2,
 					"projectIndex" : 2,

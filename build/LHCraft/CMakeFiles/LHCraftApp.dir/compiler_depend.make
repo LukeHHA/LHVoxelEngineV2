@@ -939,6 +939,9 @@ LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.pch: LHCraft/CMakeFiles/LHCraftA
   LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.cxx
 
 LHCraft/CMakeFiles/LHCraftApp.dir/src/App.cpp.o: LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h \
@@ -1793,6 +1796,7 @@ LHCraft/CMakeFiles/LHCraftApp.dir/src/App.cpp.o: LHCraft/CMakeFiles/LHCraftApp.d
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/malloc/_ptrcheck.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/math.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/nl_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/os/availability.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/pthread.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/pthread/pthread_impl.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/pthread/qos.h \
@@ -1934,8 +1938,6 @@ LHCraft/CMakeFiles/LHCraftApp.dir/src/App.cpp.o: LHCraft/CMakeFiles/LHCraftApp.d
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdarg.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdint.h \
-  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glad/include/KHR/khrplatform.h \
-  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glad/include/glad/glad.h \
   /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glfw/glfw3.h \
   /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog/common-inl.h \
   /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog/common.h \
@@ -1986,6 +1988,8 @@ LHCraft/CMakeFiles/LHCraftApp.dir/src/App.cpp.o: LHCraft/CMakeFiles/LHCraftApp.d
   /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Layers/Layer.h \
   /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Layers/LayerStack.h \
   /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Logging/Logging.h \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Renderer/Context/GraphicsContext.h \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Renderer/Platform/OpenGLContext.h \
   /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Window/Window.h \
   /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/LHCraft/src/App.cpp \
   Core/cmakeConfig.h \
@@ -2017,6 +2021,8 @@ Core/cmakeConfig.h:
 /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog/pattern_formatter-inl.h:
 
 /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog/mdc.h:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Renderer/Context/GraphicsContext.h:
 
 /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog/logger-inl.h:
 
@@ -2109,6 +2115,12 @@ Core/cmakeConfig.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/assert.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdint.h:
 
@@ -3226,6 +3238,8 @@ LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.cxx:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/weak_order.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/os/availability.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/array.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/boyer_moore_searcher.h:
@@ -3361,6 +3375,8 @@ LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.cxx:
 /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Events/ApplicationEvents.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/movable.h:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Renderer/Platform/OpenGLContext.h:
 
 /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Layers/Layer.h:
 
@@ -3724,8 +3740,6 @@ LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.cxx:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/minmax_element.h:
 
-/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glad/include/glad/glad.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/semiregular.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/push_heap.h:
@@ -4015,8 +4029,6 @@ LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.cxx:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdint.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_string.h:
-
-/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glad/include/KHR/khrplatform.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cctype:
 

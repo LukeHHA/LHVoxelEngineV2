@@ -2,7 +2,7 @@
 
 #include "Renderer/Context/GraphicsContext.h"
 
-class GLFWwindow;
+struct GLFWwindow;
 
 namespace Core
 {
