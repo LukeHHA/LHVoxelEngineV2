@@ -1,4 +1,5 @@
 #include "OpenGLShader.h"
+#include <filesystem>
 
 namespace Core
 {
@@ -8,6 +9,10 @@ namespace Core
     OpenGLShader::OpenGLShader(const char *vertexPath, const char *fragmentPath)
     {
         // 1. retrieve the vertex/fragment source code from filePath
+        std::string vertexPathStr(vertexPath);
+        std::string fragmentPathStr(fragmentPath);
+        std::string vertexPathFull = std::filesystem::current_path().string() + "/" + std::string(vertexPathStr);
+        std::string fragmentPathFull = std::filesystem::current_path().string() + "/" + std::string(fragmentPathStr);
         std::string vertexCode;
         std::string fragmentCode;
         std::ifstream vShaderFile;
@@ -18,8 +23,8 @@ namespace Core
         try
         {
             // open files
-            vShaderFile.open(vertexPath);
-            fShaderFile.open(fragmentPath);
+            vShaderFile.open(vertexPathFull);
+            fShaderFile.open(fragmentPathFull);
             std::stringstream vShaderStream, fShaderStream;
             // read file's buffer contents into streams
             vShaderStream << vShaderFile.rdbuf();
