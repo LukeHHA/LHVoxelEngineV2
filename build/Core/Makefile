@@ -341,6 +341,54 @@ src/Logging/Logging.cpp.s:
 	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Logging/Logging.cpp.s
 .PHONY : src/Logging/Logging.cpp.s
 
+src/Renderer/Context/GraphicsContext.o: src/Renderer/Context/GraphicsContext.cpp.o
+.PHONY : src/Renderer/Context/GraphicsContext.o
+
+# target to build an object file
+src/Renderer/Context/GraphicsContext.cpp.o:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Renderer/Context/GraphicsContext.cpp.o
+.PHONY : src/Renderer/Context/GraphicsContext.cpp.o
+
+src/Renderer/Context/GraphicsContext.i: src/Renderer/Context/GraphicsContext.cpp.i
+.PHONY : src/Renderer/Context/GraphicsContext.i
+
+# target to preprocess a source file
+src/Renderer/Context/GraphicsContext.cpp.i:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Renderer/Context/GraphicsContext.cpp.i
+.PHONY : src/Renderer/Context/GraphicsContext.cpp.i
+
+src/Renderer/Context/GraphicsContext.s: src/Renderer/Context/GraphicsContext.cpp.s
+.PHONY : src/Renderer/Context/GraphicsContext.s
+
+# target to generate assembly for a file
+src/Renderer/Context/GraphicsContext.cpp.s:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Renderer/Context/GraphicsContext.cpp.s
+.PHONY : src/Renderer/Context/GraphicsContext.cpp.s
+
+src/Renderer/Platform/OpenGLContext.o: src/Renderer/Platform/OpenGLContext.cpp.o
+.PHONY : src/Renderer/Platform/OpenGLContext.o
+
+# target to build an object file
+src/Renderer/Platform/OpenGLContext.cpp.o:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Renderer/Platform/OpenGLContext.cpp.o
+.PHONY : src/Renderer/Platform/OpenGLContext.cpp.o
+
+src/Renderer/Platform/OpenGLContext.i: src/Renderer/Platform/OpenGLContext.cpp.i
+.PHONY : src/Renderer/Platform/OpenGLContext.i
+
+# target to preprocess a source file
+src/Renderer/Platform/OpenGLContext.cpp.i:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Renderer/Platform/OpenGLContext.cpp.i
+.PHONY : src/Renderer/Platform/OpenGLContext.cpp.i
+
+src/Renderer/Platform/OpenGLContext.s: src/Renderer/Platform/OpenGLContext.cpp.s
+.PHONY : src/Renderer/Platform/OpenGLContext.s
+
+# target to generate assembly for a file
+src/Renderer/Platform/OpenGLContext.cpp.s:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Renderer/Platform/OpenGLContext.cpp.s
+.PHONY : src/Renderer/Platform/OpenGLContext.cpp.s
+
 src/window/Window.o: src/window/Window.cpp.o
 .PHONY : src/window/Window.o
 
@@ -400,6 +448,12 @@ help:
 	@echo "... src/Logging/Logging.o"
 	@echo "... src/Logging/Logging.i"
 	@echo "... src/Logging/Logging.s"
+	@echo "... src/Renderer/Context/GraphicsContext.o"
+	@echo "... src/Renderer/Context/GraphicsContext.i"
+	@echo "... src/Renderer/Context/GraphicsContext.s"
+	@echo "... src/Renderer/Platform/OpenGLContext.o"
+	@echo "... src/Renderer/Platform/OpenGLContext.i"
+	@echo "... src/Renderer/Platform/OpenGLContext.s"
 	@echo "... src/window/Window.o"
 	@echo "... src/window/Window.i"
 	@echo "... src/window/Window.s"

@@ -6,6 +6,8 @@ configure_file(
     cmakeConfig.h
 )
 
+add_subdirectory(Vendor/FastNoise2)
+
 add_library(Core STATIC
     ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/glad/src/glad.c
     src/Application/Application.cpp
@@ -14,6 +16,8 @@ add_library(Core STATIC
     src/Layers/Layer.cpp
     src/Layers/LayerStack.cpp
     src/Input/Input.cpp
+    src/Renderer/Context/GraphicsContext.cpp
+    src/Renderer/Platform/OpenGLContext.cpp
 )
 
 target_compile_definitions(Core PUBLIC
@@ -38,6 +42,7 @@ target_precompile_headers(Core PUBLIC
 # Target link libs seems to need to be specified with PUBLIC/PRIVATE/INTERFACE or none at all
 target_link_libraries(Core PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/glfw/libglfw3.a
+    FastNoise
 )
 
 if (APPLE)

@@ -1,0 +1,184 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.50"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "Core",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Core-Debug-611b2c2e495e6cca7ce5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.50"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Core",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Core/Vendor/FastNoise2",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Core.Vendor.FastNoise2-Debug-f2fc6476e63735d7e0dd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "Core/Vendor/FastNoise2"
+				},
+				{
+					"build" : "Core/Vendor/FastNoise2/src",
+					"jsonFile" : "directory-Core.Vendor.FastNoise2.src-Debug-9d9c106f8e5a039fee66.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.1"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "Core/Vendor/FastNoise2/src",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "LHCraft",
+					"jsonFile" : "directory-LHCraft-Debug-3580013302878cdcd462.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.50"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "LHCraft",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "LHCraft"
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "LHCraftCoreLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3
+					],
+					"name" : "FastNoise2",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "LHCraftApp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Core::@94795ff35dabbbd3a8ca",
+					"jsonFile" : "target-Core-Debug-93b298dd4c9742ab6462.json",
+					"name" : "Core",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "FastNoise::@dae9b14b1bba61099e34",
+					"jsonFile" : "target-FastNoise-Debug-35de6ef53a4a2aeeaa01.json",
+					"name" : "FastNoise",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "LHCraftApp::@8e41550d2fe1761a45fc",
+					"jsonFile" : "target-LHCraftApp-Debug-1cf70fffdfd85481483b.json",
+					"name" : "LHCraftApp",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build",
+		"source" : "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

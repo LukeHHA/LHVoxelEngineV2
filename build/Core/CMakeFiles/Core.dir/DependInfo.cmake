@@ -21,6 +21,10 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx" "Core/CMakeFiles/Core.dir/src/Layers/LayerStack.cpp.o" "gcc" "Core/CMakeFiles/Core.dir/src/Layers/LayerStack.cpp.o.d"
   "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Logging/Logging.cpp" "Core/CMakeFiles/Core.dir/src/Logging/Logging.cpp.o" "gcc" "Core/CMakeFiles/Core.dir/src/Logging/Logging.cpp.o.d"
   "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx" "Core/CMakeFiles/Core.dir/src/Logging/Logging.cpp.o" "gcc" "Core/CMakeFiles/Core.dir/src/Logging/Logging.cpp.o.d"
+  "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Renderer/Context/GraphicsContext.cpp" "Core/CMakeFiles/Core.dir/src/Renderer/Context/GraphicsContext.cpp.o" "gcc" "Core/CMakeFiles/Core.dir/src/Renderer/Context/GraphicsContext.cpp.o.d"
+  "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx" "Core/CMakeFiles/Core.dir/src/Renderer/Context/GraphicsContext.cpp.o" "gcc" "Core/CMakeFiles/Core.dir/src/Renderer/Context/GraphicsContext.cpp.o.d"
+  "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Renderer/Platform/OpenGLContext.cpp" "Core/CMakeFiles/Core.dir/src/Renderer/Platform/OpenGLContext.cpp.o" "gcc" "Core/CMakeFiles/Core.dir/src/Renderer/Platform/OpenGLContext.cpp.o.d"
+  "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx" "Core/CMakeFiles/Core.dir/src/Renderer/Platform/OpenGLContext.cpp.o" "gcc" "Core/CMakeFiles/Core.dir/src/Renderer/Platform/OpenGLContext.cpp.o.d"
   "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/window/Window.cpp" "Core/CMakeFiles/Core.dir/src/window/Window.cpp.o" "gcc" "Core/CMakeFiles/Core.dir/src/window/Window.cpp.o.d"
   "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx" "Core/CMakeFiles/Core.dir/src/window/Window.cpp.o" "gcc" "Core/CMakeFiles/Core.dir/src/window/Window.cpp.o.d"
   )

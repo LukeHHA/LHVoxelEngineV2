@@ -7,6 +7,7 @@
 #include "Events/ApplicationEvents.h"
 #include "Events/KeyEvents.h"
 #include "Events/MouseEvents.h"
+#include "Renderer/Platform/OpenGLContext.h"
 
 namespace Core
 {
@@ -57,20 +58,12 @@ namespace Core
 
         m_Window = glfwCreateWindow((int)args.Width, (int)args.Height, m_Data.Title.c_str(), nullptr, nullptr);
         CORE_ASSERT(m_Window != nullptr, "glfw Failed to create window");
+
+        m_Context = std::make_unique<OpenGLContext>(m_Window);
+        m_Context->Init();
         CORE_LOG_INFO("Window {0} created: Width={1}, Heigth={2}", args.Title, args.Width, args.Height);
-        if (m_Window == NULL)
-        {
-            std::cout << "Failed to create GLFW window \n";
-            glfwTerminate();
-            return;
-        }
 
-        glfwMakeContextCurrent(m_Window);
         glfwSetWindowUserPointer(m_Window, &m_Data);
-
-        // LOAD GLAD
-        int status = gladLoadGLLoader((GLADloadproc)glfwGetProcAddress);
-        CORE_ASSERT(status, "GLAD failed to load")
         glfwSetInputMode(m_Window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
         SetVSync(true);
 
@@ -199,7 +192,7 @@ namespace Core
     void Window::OnUpdate()
     {
         glfwPollEvents();
-        glfwSwapBuffers(m_Window);
+        m_Context->SwapBuffers();
     }
 
     void Window::SetVSync(bool enabled)

@@ -3,9 +3,9 @@
 
 #pragma once
 
-#include "glad/glad.h"
 #include "glfw3.h"
 #include "Events/Events.h"
+#include "Renderer/Platform/OpenGLContext.h"
 #include <functional>
 #include <string>
 
@@ -48,6 +48,7 @@ namespace Core
 
     private:
         GLFWwindow *m_Window;
+        std::unique_ptr<GraphicsContext> m_Context;
 
         struct WindowData
         {
