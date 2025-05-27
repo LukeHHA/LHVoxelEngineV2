@@ -16,6 +16,8 @@ namespace Core
         glfwMakeContextCurrent(m_WindowHandle);
         int status = gladLoadGLLoader((GLADloadproc)glfwGetProcAddress);
         CORE_ASSERT(status, "GLAD failed to load")
+
+        CORE_LOG_INFO("OpenGL Renderer: {0}", (const char *)glGetString(GL_VENDOR));
     }
 
     void OpenGLContext::SwapBuffers()

@@ -43,13 +43,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 43,
-				"parent" : 3
-			},
-			{
-				"command" : 1,
-				"file" : 1,
-				"line" : 49,
+				"line" : 44,
 				"parent" : 3
 			},
 			{
@@ -62,6 +56,12 @@
 				"command" : 1,
 				"file" : 1,
 				"line" : 51,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 52,
 				"parent" : 3
 			},
 			{
@@ -131,6 +131,10 @@
 				{
 					"backtrace" : 2,
 					"path" : "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glfw"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog"
 				},
 				{
 					"backtrace" : 2,
@@ -220,6 +224,10 @@
 				{
 					"backtrace" : 2,
 					"path" : "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glfw"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog"
 				},
 				{
 					"backtrace" : 2,

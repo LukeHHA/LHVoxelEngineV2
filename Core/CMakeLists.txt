@@ -31,6 +31,7 @@ target_include_directories(Core PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/glm
     ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/glad/include
     ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/glfw
+    ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/spdlog
     ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/spdlog/include
     ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/spdlog/include/spdlog
 )
