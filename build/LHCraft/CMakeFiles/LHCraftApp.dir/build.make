@@ -115,6 +115,7 @@ LHCraft/LHCraftApp: LHCraft/CMakeFiles/LHCraftApp.dir/src/App.cpp.o
 LHCraft/LHCraftApp: LHCraft/CMakeFiles/LHCraftApp.dir/build.make
 LHCraft/LHCraftApp: Core/libCore.a
 LHCraft/LHCraftApp: /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glfw/libglfw3.a
+LHCraft/LHCraftApp: Core/Vendor/FastNoise2/src/libFastNoiseD.a
 LHCraft/LHCraftApp: LHCraft/CMakeFiles/LHCraftApp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable LHCraftApp"
 	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/LHCraft && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LHCraftApp.dir/link.txt --verbose=$(VERBOSE)

@@ -3,17 +3,17 @@
 
 # compile C with /usr/bin/cc
 # compile CXX with /usr/bin/c++
-C_DEFINES = -DLHCRAFT_ENABLE_ASSERTS
+C_DEFINES = -DFASTNOISE_STATIC_LIB -DLHCRAFT_ENABLE_ASSERTS
 
-C_INCLUDES = -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glad/include -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glfw -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog
+C_INCLUDES = -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glad/include -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glfw -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/FastNoise2/include
 
 C_FLAGSarm64 = -g -arch arm64 -Wall -Wextra -Wpedantic
 
 C_FLAGS = -g -arch arm64 -Wall -Wextra -Wpedantic
 
-CXX_DEFINES = -DLHCRAFT_ENABLE_ASSERTS
+CXX_DEFINES = -DFASTNOISE_STATIC_LIB -DLHCRAFT_ENABLE_ASSERTS
 
-CXX_INCLUDES = -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glad/include -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glfw -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog
+CXX_INCLUDES = -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glad/include -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glfw -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/FastNoise2/include
 
 CXX_FLAGSarm64 = -g -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic
 

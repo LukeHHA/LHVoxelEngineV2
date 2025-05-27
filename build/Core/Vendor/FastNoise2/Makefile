@@ -132,21 +132,21 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/Vendor/FastNoise2//CMakeFiles/progress.marks
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Core/Vendor/FastNoise2/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles 0
 .PHONY : all
 
 # The main codegen target
 codegen: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 codegen
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/Vendor/FastNoise2//CMakeFiles/progress.marks
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Core/Vendor/FastNoise2/codegen
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles 0
 .PHONY : codegen
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Core/Vendor/FastNoise2/clean
 .PHONY : clean
 
 # The main clean target
@@ -155,57 +155,18 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Core/Vendor/FastNoise2/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Core/Vendor/FastNoise2/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
-
-#=============================================================================
-# Target rules for targets named Core
-
-# Build rule for target.
-Core: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Core
-.PHONY : Core
-
-# fast build rule for target.
-Core/fast:
-	$(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/build
-.PHONY : Core/fast
-
-#=============================================================================
-# Target rules for targets named FastNoise
-
-# Build rule for target.
-FastNoise: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FastNoise
-.PHONY : FastNoise
-
-# fast build rule for target.
-FastNoise/fast:
-	$(MAKE) $(MAKESILENT) -f Core/Vendor/FastNoise2/src/CMakeFiles/FastNoise.dir/build.make Core/Vendor/FastNoise2/src/CMakeFiles/FastNoise.dir/build
-.PHONY : FastNoise/fast
-
-#=============================================================================
-# Target rules for targets named LHCraftApp
-
-# Build rule for target.
-LHCraftApp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LHCraftApp
-.PHONY : LHCraftApp
-
-# fast build rule for target.
-LHCraftApp/fast:
-	$(MAKE) $(MAKESILENT) -f LHCraft/CMakeFiles/LHCraftApp.dir/build.make LHCraft/CMakeFiles/LHCraftApp.dir/build
-.PHONY : LHCraftApp/fast
 
 # Help Target
 help:
@@ -220,9 +181,6 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... Core"
-	@echo "... FastNoise"
-	@echo "... LHCraftApp"
 .PHONY : help
 
 
@@ -234,6 +192,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
