@@ -18,6 +18,7 @@ add_library(Core STATIC
     src/Input/Input.cpp
     src/Renderer/Context/GraphicsContext.cpp
     src/Renderer/Platform/OpenGLContext.cpp
+    src/Renderer/Platform/OpenGLShader.cpp
 )
 
 target_compile_definitions(Core PUBLIC

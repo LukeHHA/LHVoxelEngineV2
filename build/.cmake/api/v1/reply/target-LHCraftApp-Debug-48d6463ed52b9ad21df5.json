@@ -43,13 +43,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 44,
-				"parent" : 3
-			},
-			{
-				"command" : 1,
-				"file" : 1,
-				"line" : 50,
+				"line" : 45,
 				"parent" : 3
 			},
 			{
@@ -62,6 +56,12 @@
 				"command" : 1,
 				"file" : 1,
 				"line" : 52,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 53,
 				"parent" : 3
 			},
 			{

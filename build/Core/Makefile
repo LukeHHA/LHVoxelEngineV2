@@ -389,6 +389,30 @@ src/Renderer/Platform/OpenGLContext.cpp.s:
 	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Renderer/Platform/OpenGLContext.cpp.s
 .PHONY : src/Renderer/Platform/OpenGLContext.cpp.s
 
+src/Renderer/Platform/OpenGLShader.o: src/Renderer/Platform/OpenGLShader.cpp.o
+.PHONY : src/Renderer/Platform/OpenGLShader.o
+
+# target to build an object file
+src/Renderer/Platform/OpenGLShader.cpp.o:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Renderer/Platform/OpenGLShader.cpp.o
+.PHONY : src/Renderer/Platform/OpenGLShader.cpp.o
+
+src/Renderer/Platform/OpenGLShader.i: src/Renderer/Platform/OpenGLShader.cpp.i
+.PHONY : src/Renderer/Platform/OpenGLShader.i
+
+# target to preprocess a source file
+src/Renderer/Platform/OpenGLShader.cpp.i:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Renderer/Platform/OpenGLShader.cpp.i
+.PHONY : src/Renderer/Platform/OpenGLShader.cpp.i
+
+src/Renderer/Platform/OpenGLShader.s: src/Renderer/Platform/OpenGLShader.cpp.s
+.PHONY : src/Renderer/Platform/OpenGLShader.s
+
+# target to generate assembly for a file
+src/Renderer/Platform/OpenGLShader.cpp.s:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Renderer/Platform/OpenGLShader.cpp.s
+.PHONY : src/Renderer/Platform/OpenGLShader.cpp.s
+
 src/window/Window.o: src/window/Window.cpp.o
 .PHONY : src/window/Window.o
 
@@ -454,6 +478,9 @@ help:
 	@echo "... src/Renderer/Platform/OpenGLContext.o"
 	@echo "... src/Renderer/Platform/OpenGLContext.i"
 	@echo "... src/Renderer/Platform/OpenGLContext.s"
+	@echo "... src/Renderer/Platform/OpenGLShader.o"
+	@echo "... src/Renderer/Platform/OpenGLShader.i"
+	@echo "... src/Renderer/Platform/OpenGLShader.s"
 	@echo "... src/window/Window.o"
 	@echo "... src/window/Window.i"
 	@echo "... src/window/Window.s"

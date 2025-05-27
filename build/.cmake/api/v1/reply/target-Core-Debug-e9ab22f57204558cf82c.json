@@ -37,7 +37,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 44,
+				"line" : 45,
 				"parent" : 0
 			},
 			{
@@ -52,19 +52,19 @@
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 23,
+				"line" : 24,
 				"parent" : 0
 			},
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 28,
+				"line" : 29,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 39,
+				"line" : 40,
 				"parent" : 0
 			}
 		]
@@ -336,7 +336,8 @@
 				6,
 				7,
 				8,
-				9
+				9,
+				10
 			]
 		}
 	],
@@ -370,14 +371,15 @@
 				6,
 				7,
 				8,
-				9
+				9,
+				10
 			]
 		},
 		{
 			"name" : "Precompile Header File",
 			"sourceIndexes" : 
 			[
-				10
+				11
 			]
 		}
 	],
@@ -441,6 +443,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 2,
 			"path" : "Core/src/Renderer/Platform/OpenGLContext.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "Core/src/Renderer/Platform/OpenGLShader.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

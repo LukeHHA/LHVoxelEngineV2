@@ -17,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Core.dir/src/Renderer/Context/GraphicsContext.cpp.o.d"
   "CMakeFiles/Core.dir/src/Renderer/Platform/OpenGLContext.cpp.o"
   "CMakeFiles/Core.dir/src/Renderer/Platform/OpenGLContext.cpp.o.d"
+  "CMakeFiles/Core.dir/src/Renderer/Platform/OpenGLShader.cpp.o"
+  "CMakeFiles/Core.dir/src/Renderer/Platform/OpenGLShader.cpp.o.d"
   "CMakeFiles/Core.dir/src/window/Window.cpp.o"
   "CMakeFiles/Core.dir/src/window/Window.cpp.o.d"
   "libCore.a"
