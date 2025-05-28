@@ -4,11 +4,11 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DFASTNOISE_STATIC_LIB -DGL_SILENCE_DEPRECATION -DLHCRAFT_ENABLE_ASSERTS
 
-CXX_INCLUDES = -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glad/include -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glfw -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/FastNoise2/include
+CXX_INCLUDES = -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glfw -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glad/include -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/FastNoise2/include
 
-CXX_FLAGSarm64 = -g -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic
+CXX_FLAGSarm64 = -g -std=gnu++20 -arch arm64 -Wall -Wextra
 
-CXX_FLAGS = -g -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic
+CXX_FLAGS = -g -std=gnu++20 -arch arm64 -Wall -Wextra
 
 # PCH options: LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.pch_OPTIONS = -Winvalid-pch;-Xclang;-emit-pch;-Xclang;-include;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx;-x;c++-header
 

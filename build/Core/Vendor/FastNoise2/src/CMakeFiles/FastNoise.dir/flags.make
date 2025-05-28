@@ -6,7 +6,7 @@ CXX_DEFINES = -DFASTNOISE_STATIC_LIB
 
 CXX_INCLUDES = -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/FastNoise2/include
 
-CXX_FLAGSarm64 = -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -ffast-math -fno-stack-protector
+CXX_FLAGSarm64 = -g -std=gnu++17 -arch arm64 -Wall -Wextra -ffast-math -fno-stack-protector
 
-CXX_FLAGS = -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -ffast-math -fno-stack-protector
+CXX_FLAGS = -g -std=gnu++17 -arch arm64 -Wall -Wextra -ffast-math -fno-stack-protector
 

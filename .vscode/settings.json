@@ -64,5 +64,6 @@
     "filesystem": "cpp",
     "*.in": "cpp"
   },
-  "C_Cpp.default.compilerPath": "/usr/bin/c++"
+  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+  "editor.fontFamily": "'Fira Code', Monaco, 'Courier New', monospace"
 }

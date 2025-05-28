@@ -235,221 +235,221 @@ cmake_pch.hxx.s:
 	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/cmake_pch.hxx.s
 .PHONY : cmake_pch.hxx.s
 
-src/Application/Application.o: src/Application/Application.cpp.o
-.PHONY : src/Application/Application.o
+src/Core/Application/Application.o: src/Core/Application/Application.cpp.o
+.PHONY : src/Core/Application/Application.o
 
 # target to build an object file
-src/Application/Application.cpp.o:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Application/Application.cpp.o
-.PHONY : src/Application/Application.cpp.o
+src/Core/Application/Application.cpp.o:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Application/Application.cpp.o
+.PHONY : src/Core/Application/Application.cpp.o
 
-src/Application/Application.i: src/Application/Application.cpp.i
-.PHONY : src/Application/Application.i
+src/Core/Application/Application.i: src/Core/Application/Application.cpp.i
+.PHONY : src/Core/Application/Application.i
 
 # target to preprocess a source file
-src/Application/Application.cpp.i:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Application/Application.cpp.i
-.PHONY : src/Application/Application.cpp.i
+src/Core/Application/Application.cpp.i:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Application/Application.cpp.i
+.PHONY : src/Core/Application/Application.cpp.i
 
-src/Application/Application.s: src/Application/Application.cpp.s
-.PHONY : src/Application/Application.s
+src/Core/Application/Application.s: src/Core/Application/Application.cpp.s
+.PHONY : src/Core/Application/Application.s
 
 # target to generate assembly for a file
-src/Application/Application.cpp.s:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Application/Application.cpp.s
-.PHONY : src/Application/Application.cpp.s
+src/Core/Application/Application.cpp.s:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Application/Application.cpp.s
+.PHONY : src/Core/Application/Application.cpp.s
 
-src/Input/Input.o: src/Input/Input.cpp.o
-.PHONY : src/Input/Input.o
+src/Core/Input/Input.o: src/Core/Input/Input.cpp.o
+.PHONY : src/Core/Input/Input.o
 
 # target to build an object file
-src/Input/Input.cpp.o:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Input/Input.cpp.o
-.PHONY : src/Input/Input.cpp.o
+src/Core/Input/Input.cpp.o:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Input/Input.cpp.o
+.PHONY : src/Core/Input/Input.cpp.o
 
-src/Input/Input.i: src/Input/Input.cpp.i
-.PHONY : src/Input/Input.i
+src/Core/Input/Input.i: src/Core/Input/Input.cpp.i
+.PHONY : src/Core/Input/Input.i
 
 # target to preprocess a source file
-src/Input/Input.cpp.i:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Input/Input.cpp.i
-.PHONY : src/Input/Input.cpp.i
+src/Core/Input/Input.cpp.i:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Input/Input.cpp.i
+.PHONY : src/Core/Input/Input.cpp.i
 
-src/Input/Input.s: src/Input/Input.cpp.s
-.PHONY : src/Input/Input.s
+src/Core/Input/Input.s: src/Core/Input/Input.cpp.s
+.PHONY : src/Core/Input/Input.s
 
 # target to generate assembly for a file
-src/Input/Input.cpp.s:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Input/Input.cpp.s
-.PHONY : src/Input/Input.cpp.s
+src/Core/Input/Input.cpp.s:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Input/Input.cpp.s
+.PHONY : src/Core/Input/Input.cpp.s
 
-src/Layers/Layer.o: src/Layers/Layer.cpp.o
-.PHONY : src/Layers/Layer.o
+src/Core/Layers/Layer.o: src/Core/Layers/Layer.cpp.o
+.PHONY : src/Core/Layers/Layer.o
 
 # target to build an object file
-src/Layers/Layer.cpp.o:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Layers/Layer.cpp.o
-.PHONY : src/Layers/Layer.cpp.o
+src/Core/Layers/Layer.cpp.o:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Layers/Layer.cpp.o
+.PHONY : src/Core/Layers/Layer.cpp.o
 
-src/Layers/Layer.i: src/Layers/Layer.cpp.i
-.PHONY : src/Layers/Layer.i
+src/Core/Layers/Layer.i: src/Core/Layers/Layer.cpp.i
+.PHONY : src/Core/Layers/Layer.i
 
 # target to preprocess a source file
-src/Layers/Layer.cpp.i:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Layers/Layer.cpp.i
-.PHONY : src/Layers/Layer.cpp.i
+src/Core/Layers/Layer.cpp.i:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Layers/Layer.cpp.i
+.PHONY : src/Core/Layers/Layer.cpp.i
 
-src/Layers/Layer.s: src/Layers/Layer.cpp.s
-.PHONY : src/Layers/Layer.s
+src/Core/Layers/Layer.s: src/Core/Layers/Layer.cpp.s
+.PHONY : src/Core/Layers/Layer.s
 
 # target to generate assembly for a file
-src/Layers/Layer.cpp.s:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Layers/Layer.cpp.s
-.PHONY : src/Layers/Layer.cpp.s
+src/Core/Layers/Layer.cpp.s:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Layers/Layer.cpp.s
+.PHONY : src/Core/Layers/Layer.cpp.s
 
-src/Layers/LayerStack.o: src/Layers/LayerStack.cpp.o
-.PHONY : src/Layers/LayerStack.o
+src/Core/Layers/LayerStack.o: src/Core/Layers/LayerStack.cpp.o
+.PHONY : src/Core/Layers/LayerStack.o
 
 # target to build an object file
-src/Layers/LayerStack.cpp.o:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Layers/LayerStack.cpp.o
-.PHONY : src/Layers/LayerStack.cpp.o
+src/Core/Layers/LayerStack.cpp.o:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Layers/LayerStack.cpp.o
+.PHONY : src/Core/Layers/LayerStack.cpp.o
 
-src/Layers/LayerStack.i: src/Layers/LayerStack.cpp.i
-.PHONY : src/Layers/LayerStack.i
+src/Core/Layers/LayerStack.i: src/Core/Layers/LayerStack.cpp.i
+.PHONY : src/Core/Layers/LayerStack.i
 
 # target to preprocess a source file
-src/Layers/LayerStack.cpp.i:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Layers/LayerStack.cpp.i
-.PHONY : src/Layers/LayerStack.cpp.i
+src/Core/Layers/LayerStack.cpp.i:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Layers/LayerStack.cpp.i
+.PHONY : src/Core/Layers/LayerStack.cpp.i
 
-src/Layers/LayerStack.s: src/Layers/LayerStack.cpp.s
-.PHONY : src/Layers/LayerStack.s
+src/Core/Layers/LayerStack.s: src/Core/Layers/LayerStack.cpp.s
+.PHONY : src/Core/Layers/LayerStack.s
 
 # target to generate assembly for a file
-src/Layers/LayerStack.cpp.s:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Layers/LayerStack.cpp.s
-.PHONY : src/Layers/LayerStack.cpp.s
+src/Core/Layers/LayerStack.cpp.s:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Layers/LayerStack.cpp.s
+.PHONY : src/Core/Layers/LayerStack.cpp.s
 
-src/Logging/Logging.o: src/Logging/Logging.cpp.o
-.PHONY : src/Logging/Logging.o
+src/Core/Logging/Logging.o: src/Core/Logging/Logging.cpp.o
+.PHONY : src/Core/Logging/Logging.o
 
 # target to build an object file
-src/Logging/Logging.cpp.o:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Logging/Logging.cpp.o
-.PHONY : src/Logging/Logging.cpp.o
+src/Core/Logging/Logging.cpp.o:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Logging/Logging.cpp.o
+.PHONY : src/Core/Logging/Logging.cpp.o
 
-src/Logging/Logging.i: src/Logging/Logging.cpp.i
-.PHONY : src/Logging/Logging.i
+src/Core/Logging/Logging.i: src/Core/Logging/Logging.cpp.i
+.PHONY : src/Core/Logging/Logging.i
 
 # target to preprocess a source file
-src/Logging/Logging.cpp.i:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Logging/Logging.cpp.i
-.PHONY : src/Logging/Logging.cpp.i
+src/Core/Logging/Logging.cpp.i:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Logging/Logging.cpp.i
+.PHONY : src/Core/Logging/Logging.cpp.i
 
-src/Logging/Logging.s: src/Logging/Logging.cpp.s
-.PHONY : src/Logging/Logging.s
+src/Core/Logging/Logging.s: src/Core/Logging/Logging.cpp.s
+.PHONY : src/Core/Logging/Logging.s
 
 # target to generate assembly for a file
-src/Logging/Logging.cpp.s:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Logging/Logging.cpp.s
-.PHONY : src/Logging/Logging.cpp.s
+src/Core/Logging/Logging.cpp.s:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Logging/Logging.cpp.s
+.PHONY : src/Core/Logging/Logging.cpp.s
 
-src/Renderer/Context/GraphicsContext.o: src/Renderer/Context/GraphicsContext.cpp.o
-.PHONY : src/Renderer/Context/GraphicsContext.o
+src/Core/Renderer/Context/GraphicsContext.o: src/Core/Renderer/Context/GraphicsContext.cpp.o
+.PHONY : src/Core/Renderer/Context/GraphicsContext.o
 
 # target to build an object file
-src/Renderer/Context/GraphicsContext.cpp.o:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Renderer/Context/GraphicsContext.cpp.o
-.PHONY : src/Renderer/Context/GraphicsContext.cpp.o
+src/Core/Renderer/Context/GraphicsContext.cpp.o:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Renderer/Context/GraphicsContext.cpp.o
+.PHONY : src/Core/Renderer/Context/GraphicsContext.cpp.o
 
-src/Renderer/Context/GraphicsContext.i: src/Renderer/Context/GraphicsContext.cpp.i
-.PHONY : src/Renderer/Context/GraphicsContext.i
+src/Core/Renderer/Context/GraphicsContext.i: src/Core/Renderer/Context/GraphicsContext.cpp.i
+.PHONY : src/Core/Renderer/Context/GraphicsContext.i
 
 # target to preprocess a source file
-src/Renderer/Context/GraphicsContext.cpp.i:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Renderer/Context/GraphicsContext.cpp.i
-.PHONY : src/Renderer/Context/GraphicsContext.cpp.i
+src/Core/Renderer/Context/GraphicsContext.cpp.i:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Renderer/Context/GraphicsContext.cpp.i
+.PHONY : src/Core/Renderer/Context/GraphicsContext.cpp.i
 
-src/Renderer/Context/GraphicsContext.s: src/Renderer/Context/GraphicsContext.cpp.s
-.PHONY : src/Renderer/Context/GraphicsContext.s
+src/Core/Renderer/Context/GraphicsContext.s: src/Core/Renderer/Context/GraphicsContext.cpp.s
+.PHONY : src/Core/Renderer/Context/GraphicsContext.s
 
 # target to generate assembly for a file
-src/Renderer/Context/GraphicsContext.cpp.s:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Renderer/Context/GraphicsContext.cpp.s
-.PHONY : src/Renderer/Context/GraphicsContext.cpp.s
+src/Core/Renderer/Context/GraphicsContext.cpp.s:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Renderer/Context/GraphicsContext.cpp.s
+.PHONY : src/Core/Renderer/Context/GraphicsContext.cpp.s
 
-src/Renderer/Platform/OpenGLContext.o: src/Renderer/Platform/OpenGLContext.cpp.o
-.PHONY : src/Renderer/Platform/OpenGLContext.o
+src/Core/Renderer/Platform/OpenGLContext.o: src/Core/Renderer/Platform/OpenGLContext.cpp.o
+.PHONY : src/Core/Renderer/Platform/OpenGLContext.o
 
 # target to build an object file
-src/Renderer/Platform/OpenGLContext.cpp.o:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Renderer/Platform/OpenGLContext.cpp.o
-.PHONY : src/Renderer/Platform/OpenGLContext.cpp.o
+src/Core/Renderer/Platform/OpenGLContext.cpp.o:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Renderer/Platform/OpenGLContext.cpp.o
+.PHONY : src/Core/Renderer/Platform/OpenGLContext.cpp.o
 
-src/Renderer/Platform/OpenGLContext.i: src/Renderer/Platform/OpenGLContext.cpp.i
-.PHONY : src/Renderer/Platform/OpenGLContext.i
+src/Core/Renderer/Platform/OpenGLContext.i: src/Core/Renderer/Platform/OpenGLContext.cpp.i
+.PHONY : src/Core/Renderer/Platform/OpenGLContext.i
 
 # target to preprocess a source file
-src/Renderer/Platform/OpenGLContext.cpp.i:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Renderer/Platform/OpenGLContext.cpp.i
-.PHONY : src/Renderer/Platform/OpenGLContext.cpp.i
+src/Core/Renderer/Platform/OpenGLContext.cpp.i:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Renderer/Platform/OpenGLContext.cpp.i
+.PHONY : src/Core/Renderer/Platform/OpenGLContext.cpp.i
 
-src/Renderer/Platform/OpenGLContext.s: src/Renderer/Platform/OpenGLContext.cpp.s
-.PHONY : src/Renderer/Platform/OpenGLContext.s
+src/Core/Renderer/Platform/OpenGLContext.s: src/Core/Renderer/Platform/OpenGLContext.cpp.s
+.PHONY : src/Core/Renderer/Platform/OpenGLContext.s
 
 # target to generate assembly for a file
-src/Renderer/Platform/OpenGLContext.cpp.s:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Renderer/Platform/OpenGLContext.cpp.s
-.PHONY : src/Renderer/Platform/OpenGLContext.cpp.s
+src/Core/Renderer/Platform/OpenGLContext.cpp.s:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Renderer/Platform/OpenGLContext.cpp.s
+.PHONY : src/Core/Renderer/Platform/OpenGLContext.cpp.s
 
-src/Renderer/Platform/OpenGLShader.o: src/Renderer/Platform/OpenGLShader.cpp.o
-.PHONY : src/Renderer/Platform/OpenGLShader.o
+src/Core/Renderer/Platform/OpenGLShader.o: src/Core/Renderer/Platform/OpenGLShader.cpp.o
+.PHONY : src/Core/Renderer/Platform/OpenGLShader.o
 
 # target to build an object file
-src/Renderer/Platform/OpenGLShader.cpp.o:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Renderer/Platform/OpenGLShader.cpp.o
-.PHONY : src/Renderer/Platform/OpenGLShader.cpp.o
+src/Core/Renderer/Platform/OpenGLShader.cpp.o:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Renderer/Platform/OpenGLShader.cpp.o
+.PHONY : src/Core/Renderer/Platform/OpenGLShader.cpp.o
 
-src/Renderer/Platform/OpenGLShader.i: src/Renderer/Platform/OpenGLShader.cpp.i
-.PHONY : src/Renderer/Platform/OpenGLShader.i
+src/Core/Renderer/Platform/OpenGLShader.i: src/Core/Renderer/Platform/OpenGLShader.cpp.i
+.PHONY : src/Core/Renderer/Platform/OpenGLShader.i
 
 # target to preprocess a source file
-src/Renderer/Platform/OpenGLShader.cpp.i:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Renderer/Platform/OpenGLShader.cpp.i
-.PHONY : src/Renderer/Platform/OpenGLShader.cpp.i
+src/Core/Renderer/Platform/OpenGLShader.cpp.i:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Renderer/Platform/OpenGLShader.cpp.i
+.PHONY : src/Core/Renderer/Platform/OpenGLShader.cpp.i
 
-src/Renderer/Platform/OpenGLShader.s: src/Renderer/Platform/OpenGLShader.cpp.s
-.PHONY : src/Renderer/Platform/OpenGLShader.s
+src/Core/Renderer/Platform/OpenGLShader.s: src/Core/Renderer/Platform/OpenGLShader.cpp.s
+.PHONY : src/Core/Renderer/Platform/OpenGLShader.s
 
 # target to generate assembly for a file
-src/Renderer/Platform/OpenGLShader.cpp.s:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Renderer/Platform/OpenGLShader.cpp.s
-.PHONY : src/Renderer/Platform/OpenGLShader.cpp.s
+src/Core/Renderer/Platform/OpenGLShader.cpp.s:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Renderer/Platform/OpenGLShader.cpp.s
+.PHONY : src/Core/Renderer/Platform/OpenGLShader.cpp.s
 
-src/window/Window.o: src/window/Window.cpp.o
-.PHONY : src/window/Window.o
+src/Core/window/Window.o: src/Core/window/Window.cpp.o
+.PHONY : src/Core/window/Window.o
 
 # target to build an object file
-src/window/Window.cpp.o:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/window/Window.cpp.o
-.PHONY : src/window/Window.cpp.o
+src/Core/window/Window.cpp.o:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/window/Window.cpp.o
+.PHONY : src/Core/window/Window.cpp.o
 
-src/window/Window.i: src/window/Window.cpp.i
-.PHONY : src/window/Window.i
+src/Core/window/Window.i: src/Core/window/Window.cpp.i
+.PHONY : src/Core/window/Window.i
 
 # target to preprocess a source file
-src/window/Window.cpp.i:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/window/Window.cpp.i
-.PHONY : src/window/Window.cpp.i
+src/Core/window/Window.cpp.i:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/window/Window.cpp.i
+.PHONY : src/Core/window/Window.cpp.i
 
-src/window/Window.s: src/window/Window.cpp.s
-.PHONY : src/window/Window.s
+src/Core/window/Window.s: src/Core/window/Window.cpp.s
+.PHONY : src/Core/window/Window.s
 
 # target to generate assembly for a file
-src/window/Window.cpp.s:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/window/Window.cpp.s
-.PHONY : src/window/Window.cpp.s
+src/Core/window/Window.cpp.s:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/window/Window.cpp.s
+.PHONY : src/Core/window/Window.cpp.s
 
 # Help Target
 help:
@@ -472,33 +472,33 @@ help:
 	@echo "... cmake_pch.hxx.pch"
 	@echo "... cmake_pch.hxx.i"
 	@echo "... cmake_pch.hxx.s"
-	@echo "... src/Application/Application.o"
-	@echo "... src/Application/Application.i"
-	@echo "... src/Application/Application.s"
-	@echo "... src/Input/Input.o"
-	@echo "... src/Input/Input.i"
-	@echo "... src/Input/Input.s"
-	@echo "... src/Layers/Layer.o"
-	@echo "... src/Layers/Layer.i"
-	@echo "... src/Layers/Layer.s"
-	@echo "... src/Layers/LayerStack.o"
-	@echo "... src/Layers/LayerStack.i"
-	@echo "... src/Layers/LayerStack.s"
-	@echo "... src/Logging/Logging.o"
-	@echo "... src/Logging/Logging.i"
-	@echo "... src/Logging/Logging.s"
-	@echo "... src/Renderer/Context/GraphicsContext.o"
-	@echo "... src/Renderer/Context/GraphicsContext.i"
-	@echo "... src/Renderer/Context/GraphicsContext.s"
-	@echo "... src/Renderer/Platform/OpenGLContext.o"
-	@echo "... src/Renderer/Platform/OpenGLContext.i"
-	@echo "... src/Renderer/Platform/OpenGLContext.s"
-	@echo "... src/Renderer/Platform/OpenGLShader.o"
-	@echo "... src/Renderer/Platform/OpenGLShader.i"
-	@echo "... src/Renderer/Platform/OpenGLShader.s"
-	@echo "... src/window/Window.o"
-	@echo "... src/window/Window.i"
-	@echo "... src/window/Window.s"
+	@echo "... src/Core/Application/Application.o"
+	@echo "... src/Core/Application/Application.i"
+	@echo "... src/Core/Application/Application.s"
+	@echo "... src/Core/Input/Input.o"
+	@echo "... src/Core/Input/Input.i"
+	@echo "... src/Core/Input/Input.s"
+	@echo "... src/Core/Layers/Layer.o"
+	@echo "... src/Core/Layers/Layer.i"
+	@echo "... src/Core/Layers/Layer.s"
+	@echo "... src/Core/Layers/LayerStack.o"
+	@echo "... src/Core/Layers/LayerStack.i"
+	@echo "... src/Core/Layers/LayerStack.s"
+	@echo "... src/Core/Logging/Logging.o"
+	@echo "... src/Core/Logging/Logging.i"
+	@echo "... src/Core/Logging/Logging.s"
+	@echo "... src/Core/Renderer/Context/GraphicsContext.o"
+	@echo "... src/Core/Renderer/Context/GraphicsContext.i"
+	@echo "... src/Core/Renderer/Context/GraphicsContext.s"
+	@echo "... src/Core/Renderer/Platform/OpenGLContext.o"
+	@echo "... src/Core/Renderer/Platform/OpenGLContext.i"
+	@echo "... src/Core/Renderer/Platform/OpenGLContext.s"
+	@echo "... src/Core/Renderer/Platform/OpenGLShader.o"
+	@echo "... src/Core/Renderer/Platform/OpenGLShader.i"
+	@echo "... src/Core/Renderer/Platform/OpenGLShader.s"
+	@echo "... src/Core/window/Window.o"
+	@echo "... src/Core/window/Window.i"
+	@echo "... src/Core/window/Window.s"
 .PHONY : help
 
 

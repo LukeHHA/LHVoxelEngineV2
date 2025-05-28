@@ -5,37 +5,37 @@
 # compile CXX with /usr/bin/c++
 C_DEFINES = -DFASTNOISE_STATIC_LIB -DGL_SILENCE_DEPRECATION -DLHCRAFT_ENABLE_ASSERTS
 
-C_INCLUDES = -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glad/include -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glfw -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/FastNoise2/include
+C_INCLUDES = -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glfw -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glad/include -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/FastNoise2/include
 
-C_FLAGSarm64 = -g -arch arm64 -Wall -Wextra -Wpedantic
+C_FLAGSarm64 = -g -arch arm64 -Wall -Wextra
 
-C_FLAGS = -g -arch arm64 -Wall -Wextra -Wpedantic
+C_FLAGS = -g -arch arm64 -Wall -Wextra
 
 CXX_DEFINES = -DFASTNOISE_STATIC_LIB -DGL_SILENCE_DEPRECATION -DLHCRAFT_ENABLE_ASSERTS
 
-CXX_INCLUDES = -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glad/include -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glfw -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/FastNoise2/include
+CXX_INCLUDES = -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glfw -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glad/include -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include -I/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/FastNoise2/include
 
-CXX_FLAGSarm64 = -g -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic
+CXX_FLAGSarm64 = -g -std=gnu++20 -arch arm64 -Wall -Wextra
 
-CXX_FLAGS = -g -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic
+CXX_FLAGS = -g -std=gnu++20 -arch arm64 -Wall -Wextra
 
 # PCH options: Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch_OPTIONS = -Winvalid-pch;-Xclang;-emit-pch;-Xclang;-include;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx;-x;c++-header
 
-# PCH options: Core/CMakeFiles/Core.dir/src/Application/Application.cpp.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch;-Xclang;-include;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx
+# PCH options: Core/CMakeFiles/Core.dir/src/Core/Application/Application.cpp.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch;-Xclang;-include;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx
 
-# PCH options: Core/CMakeFiles/Core.dir/src/window/Window.cpp.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch;-Xclang;-include;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx
+# PCH options: Core/CMakeFiles/Core.dir/src/Core/window/Window.cpp.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch;-Xclang;-include;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx
 
-# PCH options: Core/CMakeFiles/Core.dir/src/Logging/Logging.cpp.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch;-Xclang;-include;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx
+# PCH options: Core/CMakeFiles/Core.dir/src/Core/Logging/Logging.cpp.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch;-Xclang;-include;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx
 
-# PCH options: Core/CMakeFiles/Core.dir/src/Layers/Layer.cpp.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch;-Xclang;-include;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx
+# PCH options: Core/CMakeFiles/Core.dir/src/Core/Layers/Layer.cpp.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch;-Xclang;-include;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx
 
-# PCH options: Core/CMakeFiles/Core.dir/src/Layers/LayerStack.cpp.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch;-Xclang;-include;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx
+# PCH options: Core/CMakeFiles/Core.dir/src/Core/Layers/LayerStack.cpp.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch;-Xclang;-include;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx
 
-# PCH options: Core/CMakeFiles/Core.dir/src/Input/Input.cpp.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch;-Xclang;-include;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx
+# PCH options: Core/CMakeFiles/Core.dir/src/Core/Input/Input.cpp.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch;-Xclang;-include;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx
 
-# PCH options: Core/CMakeFiles/Core.dir/src/Renderer/Context/GraphicsContext.cpp.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch;-Xclang;-include;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx
+# PCH options: Core/CMakeFiles/Core.dir/src/Core/Renderer/Context/GraphicsContext.cpp.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch;-Xclang;-include;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx
 
-# PCH options: Core/CMakeFiles/Core.dir/src/Renderer/Platform/OpenGLContext.cpp.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch;-Xclang;-include;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx
+# PCH options: Core/CMakeFiles/Core.dir/src/Core/Renderer/Platform/OpenGLContext.cpp.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch;-Xclang;-include;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx
 
-# PCH options: Core/CMakeFiles/Core.dir/src/Renderer/Platform/OpenGLShader.cpp.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch;-Xclang;-include;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx
+# PCH options: Core/CMakeFiles/Core.dir/src/Core/Renderer/Platform/OpenGLShader.cpp.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch;-Xclang;-include;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx
 
