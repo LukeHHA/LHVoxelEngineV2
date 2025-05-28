@@ -63,7 +63,7 @@
 				"Core/Vendor/FastNoise2/src/libFastNoiseD.a"
 			],
 			"targetId" : "FastNoise::@dae9b14b1bba61099e34",
-			"targetIndex" : 1,
+			"targetIndex" : 2,
 			"type" : "target"
 		},
 		{
@@ -136,7 +136,7 @@
 			[
 				{
 					"id" : "FastNoise::@dae9b14b1bba61099e34",
-					"index" : 1
+					"index" : 2
 				}
 			],
 			"paths" : 

@@ -61,7 +61,8 @@
     "source_location": "cpp",
     "span": "cpp",
     "unordered_set": "cpp",
-    "filesystem": "cpp"
+    "filesystem": "cpp",
+    "*.in": "cpp"
   },
   "C_Cpp.default.compilerPath": "/usr/bin/c++"
 }

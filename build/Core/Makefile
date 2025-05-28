@@ -182,6 +182,20 @@ Core/fast:
 	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/build
 .PHONY : Core/fast
 
+# Convenience name for target.
+Core/CMakeFiles/CopyShaders.dir/rule:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Core/CMakeFiles/CopyShaders.dir/rule
+.PHONY : Core/CMakeFiles/CopyShaders.dir/rule
+
+# Convenience name for target.
+CopyShaders: Core/CMakeFiles/CopyShaders.dir/rule
+.PHONY : CopyShaders
+
+# fast build rule for target.
+CopyShaders/fast:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/CopyShaders.dir/build.make Core/CMakeFiles/CopyShaders.dir/build
+.PHONY : CopyShaders/fast
+
 Vendor/glad/src/glad.o: Vendor/glad/src/glad.c.o
 .PHONY : Vendor/glad/src/glad.o
 
@@ -450,6 +464,7 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... CopyShaders"
 	@echo "... Core"
 	@echo "... Vendor/glad/src/glad.o"
 	@echo "... Vendor/glad/src/glad.i"

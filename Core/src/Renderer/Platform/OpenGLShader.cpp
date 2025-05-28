@@ -1,4 +1,5 @@
 #include "OpenGLShader.h"
+#include "Core.h"
 #include <filesystem>
 
 namespace Core
@@ -13,6 +14,8 @@ namespace Core
         std::string fragmentPathStr(fragmentPath);
         std::string vertexPathFull = std::filesystem::current_path().string() + "/" + std::string(vertexPathStr);
         std::string fragmentPathFull = std::filesystem::current_path().string() + "/" + std::string(fragmentPathStr);
+        CORE_LOG_TRACE("({0})", vertexPathFull);
+        CORE_LOG_TRACE("({0})", fragmentPathFull);
         std::string vertexCode;
         std::string fragmentCode;
         std::ifstream vShaderFile;
@@ -64,6 +67,11 @@ namespace Core
         glDeleteShader(vertex);
         glDeleteShader(fragment);
     }
+
+    OpenGLShader::~OpenGLShader()
+    {
+        glDeleteProgram(ID);
+    }
     // activate the shader
     // ------------------------------------------------------------------------
     void OpenGLShader::Use()
@@ -99,8 +107,10 @@ namespace Core
             if (!success)
             {
                 glGetShaderInfoLog(shader, 1024, NULL, infoLog);
-                std::cout << "ERROR::SHADER_COMPILATION_ERROR of type: " << type << "\n"
-                          << infoLog << "\n -- --------------------------------------------------- -- " << std::endl;
+                CORE_LOG_ERROR(
+                    "ERROR::SHADER_COMPILATION_ERROR of type: {0} \n {1} \n -- --------------------------------------------------- -- ",
+                    type, infoLog);
+                CORE_ASSERT(false, "SHADER ERROR")
             }
         }
         else
@@ -109,8 +119,10 @@ namespace Core
             if (!success)
             {
                 glGetProgramInfoLog(shader, 1024, NULL, infoLog);
-                std::cout << "ERROR::PROGRAM_LINKING_ERROR of type: " << type << "\n"
-                          << infoLog << "\n -- --------------------------------------------------- -- " << std::endl;
+                CORE_LOG_ERROR(
+                    "ERROR::PROGRAM_LINKING_ERROR of type: {0} \n {1} \n -- --------------------------------------------------- -- ",
+                    type, infoLog);
+                CORE_ASSERT(false, "SHADER ERROR")
             }
         }
     }

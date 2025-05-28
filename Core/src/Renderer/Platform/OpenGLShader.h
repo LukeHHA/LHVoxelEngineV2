@@ -8,6 +8,7 @@ namespace Core
     {
     public:
         OpenGLShader(const char *vertexPath, const char *fragmetnPath);
+        ~OpenGLShader();
 
         void Use() override;
         void SetBool(const std::string &name, bool value) const;

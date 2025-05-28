@@ -12,6 +12,7 @@
 		"commands" : 
 		[
 			"add_library",
+			"add_dependencies",
 			"target_link_libraries",
 			"add_compile_options",
 			"target_compile_definitions",
@@ -31,40 +32,46 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 11,
+				"line" : 20,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 45,
+				"line" : 73,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 55,
 				"parent" : 0
 			},
 			{
 				"file" : 1
 			},
 			{
-				"command" : 2,
+				"command" : 3,
 				"file" : 1,
 				"line" : 9,
-				"parent" : 3
-			},
-			{
-				"command" : 3,
-				"file" : 0,
-				"line" : 24,
-				"parent" : 0
+				"parent" : 4
 			},
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 29,
+				"line" : 33,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 40,
+				"line" : 39,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 50,
 				"parent" : 0
 			}
 		]
@@ -78,15 +85,15 @@
 					"fragment" : "-g -std=gnu++20 -arch arm64"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 5,
 					"fragment" : "-Wall"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 5,
 					"fragment" : "-Wextra"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 5,
 					"fragment" : "-Wpedantic"
 				},
 				{
@@ -96,50 +103,54 @@
 			"defines" : 
 			[
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"define" : "FASTNOISE_STATIC_LIB"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
+					"define" : "GL_SILENCE_DEPRECATION"
+				},
+				{
+					"backtrace" : 6,
 					"define" : "LHCRAFT_ENABLE_ASSERTS"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
 					"path" : "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
 					"path" : "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
 					"path" : "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
 					"path" : "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glad/include"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
 					"path" : "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glfw"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
 					"path" : "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
 					"path" : "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
 					"path" : "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"path" : "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/FastNoise2/include"
 				}
 			],
@@ -155,7 +166,7 @@
 			"precompileHeaders" : 
 			[
 				{
-					"backtrace" : 7,
+					"backtrace" : 8,
 					"header" : "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/LHCpch.h"
 				}
 			],
@@ -171,65 +182,69 @@
 					"fragment" : "-g -arch arm64"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 5,
 					"fragment" : "-Wall"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 5,
 					"fragment" : "-Wextra"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 5,
 					"fragment" : "-Wpedantic"
 				}
 			],
 			"defines" : 
 			[
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"define" : "FASTNOISE_STATIC_LIB"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
+					"define" : "GL_SILENCE_DEPRECATION"
+				},
+				{
+					"backtrace" : 6,
 					"define" : "LHCRAFT_ENABLE_ASSERTS"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
 					"path" : "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
 					"path" : "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
 					"path" : "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
 					"path" : "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glad/include"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
 					"path" : "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glfw"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
 					"path" : "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
 					"path" : "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
 					"path" : "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"path" : "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/FastNoise2/include"
 				}
 			],
@@ -246,15 +261,15 @@
 					"fragment" : "-g -std=gnu++20 -arch arm64"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 5,
 					"fragment" : "-Wall"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 5,
 					"fragment" : "-Wextra"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 5,
 					"fragment" : "-Wpedantic"
 				},
 				{
@@ -264,50 +279,54 @@
 			"defines" : 
 			[
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"define" : "FASTNOISE_STATIC_LIB"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
+					"define" : "GL_SILENCE_DEPRECATION"
+				},
+				{
+					"backtrace" : 6,
 					"define" : "LHCRAFT_ENABLE_ASSERTS"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
 					"path" : "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
 					"path" : "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
 					"path" : "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
 					"path" : "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glad/include"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
 					"path" : "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glfw"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
 					"path" : "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
 					"path" : "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
 					"path" : "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"path" : "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/FastNoise2/include"
 				}
 			],
@@ -323,7 +342,7 @@
 			"precompileHeaders" : 
 			[
 				{
-					"backtrace" : 7,
+					"backtrace" : 8,
 					"header" : "/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/LHCpch.h"
 				}
 			],
@@ -345,6 +364,10 @@
 	[
 		{
 			"backtrace" : 2,
+			"id" : "CopyShaders::@94795ff35dabbbd3a8ca"
+		},
+		{
+			"backtrace" : 3,
 			"id" : "FastNoise::@dae9b14b1bba61099e34"
 		}
 	],

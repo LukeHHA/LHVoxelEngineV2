@@ -43,25 +43,25 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 45,
+				"line" : 55,
 				"parent" : 3
 			},
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 51,
+				"line" : 61,
 				"parent" : 3
 			},
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 52,
+				"line" : 62,
 				"parent" : 3
 			},
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 53,
+				"line" : 63,
 				"parent" : 3
 			},
 			{
@@ -104,6 +104,10 @@
 				{
 					"backtrace" : 2,
 					"define" : "FASTNOISE_STATIC_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "GL_SILENCE_DEPRECATION"
 				},
 				{
 					"backtrace" : 2,
@@ -197,6 +201,10 @@
 				{
 					"backtrace" : 2,
 					"define" : "FASTNOISE_STATIC_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "GL_SILENCE_DEPRECATION"
 				},
 				{
 					"backtrace" : 2,

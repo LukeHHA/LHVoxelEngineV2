@@ -1,6 +1,15 @@
 cmake_minimum_required(VERSION 3.50)
 project(LHCraftCoreLib VERSION 1.0)
 
+if(APPLE)
+set(OPENGL_VERSION_MAJOR 4)
+set(OPENGL_VERSION_MINOR 1)
+else() # to be set when trying other platfroms
+set(OPENGL_VERSION_MAJOR 4)
+set(OPENGL_VERSION_MINOR 1)
+endif()
+
+
 configure_file(
     cmakeConfig.h.in
     cmakeConfig.h
@@ -23,6 +32,7 @@ add_library(Core STATIC
 
 target_compile_definitions(Core PUBLIC
     LHCRAFT_ENABLE_ASSERTS
+    GL_SILENCE_DEPRECATION
 )
 
 # exposes the header PUBLICLY so the compiler can resolve the include
@@ -52,4 +62,13 @@ if (APPLE)
     target_link_libraries(Core PUBLIC "-framework Cocoa")
     target_link_libraries(Core PUBLIC "-framework OpenGL")
 endif()
+
+add_custom_target(CopyShaders ALL
+  COMMENT "Copying Shaders → ${CMAKE_BINARY_DIR}/Shaders"
+  COMMAND ${CMAKE_COMMAND} -E copy_directory
+    "${CMAKE_CURRENT_SOURCE_DIR}/Shaders"
+    "${CMAKE_BINARY_DIR}/Core/Shaders"
+)
+
+add_dependencies(Core CopyShaders)
 

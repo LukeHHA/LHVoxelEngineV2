@@ -182,6 +182,19 @@ Core/fast:
 .PHONY : Core/fast
 
 #=============================================================================
+# Target rules for targets named CopyShaders
+
+# Build rule for target.
+CopyShaders: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CopyShaders
+.PHONY : CopyShaders
+
+# fast build rule for target.
+CopyShaders/fast:
+	$(MAKE) $(MAKESILENT) -f Core/CMakeFiles/CopyShaders.dir/build.make Core/CMakeFiles/CopyShaders.dir/build
+.PHONY : CopyShaders/fast
+
+#=============================================================================
 # Target rules for targets named FastNoise
 
 # Build rule for target.
@@ -220,6 +233,7 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... CopyShaders"
 	@echo "... Core"
 	@echo "... FastNoise"
 	@echo "... LHCraftApp"

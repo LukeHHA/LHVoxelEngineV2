@@ -3,9 +3,11 @@
 
 #pragma once
 
-#include "glfw3.h"
 #include "Events/Events.h"
 #include "Renderer/Platform/OpenGLContext.h"
+#include "glad/glad.h"
+#include "glfw3.h"
+
 #include <functional>
 #include <string>
 

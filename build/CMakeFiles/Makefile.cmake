@@ -74,6 +74,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "Core/CMakeFiles/Core.dir/DependInfo.cmake"
+  "Core/CMakeFiles/CopyShaders.dir/DependInfo.cmake"
   "Core/Vendor/FastNoise2/src/CMakeFiles/FastNoise.dir/DependInfo.cmake"
   "LHCraft/CMakeFiles/LHCraftApp.dir/DependInfo.cmake"
   )

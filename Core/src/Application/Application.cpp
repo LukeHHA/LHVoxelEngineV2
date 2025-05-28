@@ -4,7 +4,8 @@
 #include "Core.h"
 #include "Application.h"
 #include "Input/Input.h"
-#include "glfw3.h"
+#include "Events/KeyCodes.h"
+#include "glad/glad.h"
 
 namespace Core
 {
@@ -23,6 +24,30 @@ namespace Core
 		s_Instance = this;
 		m_Window = std::unique_ptr<Window>(Window::Create());
 		m_Window->SetEventCallback(std::bind(&Application::OnEvent, this, std::placeholders::_1));
+
+		glGenVertexArrays(1, &vertexArray);
+		glBindVertexArray(vertexArray);
+
+		glGenBuffers(1, &vertexBuffer);
+		glBindBuffer(GL_ARRAY_BUFFER, vertexBuffer);
+
+		float verticies[3 * 3]{
+			-0.5, -0.5, 0.0,
+			0.5, -0.5, 0.0,
+			0.0, 0.5, 0.0};
+
+		glBufferData(GL_ARRAY_BUFFER, sizeof(verticies), verticies, GL_STATIC_DRAW);
+
+		glEnableVertexAttribArray(0);
+		glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), nullptr);
+
+		glGenBuffers(1, &indexBuffer);
+		glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, indexBuffer);
+
+		unsigned int indicies[3] = {0, 1, 2};
+		glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indicies), indicies, GL_STATIC_DRAW);
+
+		shader = std::make_unique<OpenGLShader>("Core/Shaders/vertex.vs", "Core/Shaders/fragment.fs");
 	}
 
 	Application::~Application()
@@ -33,11 +58,14 @@ namespace Core
 	{
 		while (m_Running)
 		{
-			glClearColor(0.47f, 0.75f, 0.88f, 1.0f);
+			glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
 			glClear(GL_COLOR_BUFFER_BIT);
 
-			auto pos = Input::GetMousePosition();
-			CORE_LOG_TRACE("{0}, {1}", pos.x, pos.y);
+			shader->Use();
+
+			glBindVertexArray(vertexArray);
+			glDrawElements(GL_TRIANGLES, 3, GL_UNSIGNED_INT, nullptr);
+
 			m_Window->OnUpdate(); // glPollEvents and swap buffer
 
 			for (Layer *layer : m_LayerStack)
@@ -69,7 +97,7 @@ namespace Core
 
 	bool Application::OnESCKeyPress(KeyPressedEvent &e)
 	{
-		if (e.GetKeyCode() == GLFW_KEY_ESCAPE)
+		if (e.GetKeyCode() == Key::Escape)
 		{
 			m_Running = false;
 			return true;

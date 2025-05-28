@@ -18,6 +18,7 @@ namespace Core
         CORE_ASSERT(status, "GLAD failed to load")
 
         CORE_LOG_INFO("OpenGL Renderer: {0}", (const char *)glGetString(GL_VENDOR));
+        CORE_LOG_INFO("OpenGL Version: {0}", (const char *)glGetString(GL_VERSION));
     }
 
     void OpenGLContext::SwapBuffers()

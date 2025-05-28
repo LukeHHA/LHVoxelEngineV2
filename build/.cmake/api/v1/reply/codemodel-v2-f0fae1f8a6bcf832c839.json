@@ -37,7 +37,8 @@
 					"source" : "Core",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				},
 				{
@@ -47,7 +48,7 @@
 						3
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-Core.Vendor.FastNoise2-Debug-f2fc6476e63735d7e0dd.json",
+					"jsonFile" : "directory-Core.Vendor.FastNoise2-Debug-a57ce8444ac9c192e572.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -68,7 +69,7 @@
 					"source" : "Core/Vendor/FastNoise2/src",
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				},
 				{
@@ -83,7 +84,7 @@
 					"source" : "LHCraft",
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				}
 			],
@@ -115,7 +116,8 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				},
 				{
@@ -128,7 +130,7 @@
 					"parentIndex" : 1,
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				},
 				{
@@ -140,7 +142,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				}
 			],
@@ -148,8 +150,15 @@
 			[
 				{
 					"directoryIndex" : 1,
+					"id" : "CopyShaders::@94795ff35dabbbd3a8ca",
+					"jsonFile" : "target-CopyShaders-Debug-251218700afa4ef018eb.json",
+					"name" : "CopyShaders",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
 					"id" : "Core::@94795ff35dabbbd3a8ca",
-					"jsonFile" : "target-Core-Debug-e9ab22f57204558cf82c.json",
+					"jsonFile" : "target-Core-Debug-2e0f6de1938685f4c554.json",
 					"name" : "Core",
 					"projectIndex" : 1
 				},
@@ -163,7 +172,7 @@
 				{
 					"directoryIndex" : 4,
 					"id" : "LHCraftApp::@8e41550d2fe1761a45fc",
-					"jsonFile" : "target-LHCraftApp-Debug-48d6463ed52b9ad21df5.json",
+					"jsonFile" : "target-LHCraftApp-Debug-2cb9172bd174d7897e7d.json",
 					"name" : "LHCraftApp",
 					"projectIndex" : 3
 				}

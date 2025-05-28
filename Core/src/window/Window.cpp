@@ -3,6 +3,7 @@
 
 #include "LHCpch.h"
 #include "Core.h"
+#include "cmakeConfig.h"
 #include "Window.h"
 #include "Events/ApplicationEvents.h"
 #include "Events/KeyEvents.h"
@@ -45,8 +46,8 @@ namespace Core
             int success = glfwInit();
             CORE_ASSERT(success, "glfw Failed to Init");
             glfwSetErrorCallback(GLFWErrorCallback);
-            glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
-            glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
+            glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, OPENGL_VERSION_MAJOR);
+            glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, OPENGL_VERSION_MINOR);
             glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
 #ifdef __APPLE__
