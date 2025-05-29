@@ -6,6 +6,7 @@
 #include "Core/Application/Application.h"
 #include "Core/Input/Input.h"
 #include "Core/Events/KeyCodes.h"
+
 #include "glad/glad.h"
 
 namespace Core
@@ -19,6 +20,25 @@ namespace Core
 		s_Instance = this;
 		m_Window = std::unique_ptr<Window>(Window::Create());
 		m_Window->SetEventCallback(std::bind(&Application::OnEvent, this, std::placeholders::_1));
+
+		glGenVertexArrays(1, &m_VertexArray);
+		glBindVertexArray(m_VertexArray);
+
+		float verticies[3 * 3] = {
+			-0.5, -0.5, 0.0,
+			0.5, -0.5, 0.0,
+			0.0, 0.5, 0.0};
+
+		m_VertexBuffer = VertexBuffer::Create(verticies, sizeof(verticies));
+
+		glEnableVertexAttribArray(0);
+		glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), nullptr);
+
+		std::array<unsigned int, 3> indicies = {0, 1, 2};
+
+		m_IndexBuffer = IndexBuffer::Create(indicies.data(), indicies.size());
+
+		m_Shader = Shader::Create("Core/Shaders/vertex.vs", "Core/Shaders/fragment.fs");
 	}
 
 	Application::~Application()
@@ -31,6 +51,10 @@ namespace Core
 		{
 			glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
 			glClear(GL_COLOR_BUFFER_BIT);
+
+			m_Shader->Use();
+			glBindVertexArray(m_VertexArray);
+			glDrawElements(GL_TRIANGLES, m_IndexBuffer->GetCount(), GL_UNSIGNED_INT, nullptr);
 
 			m_Window->OnUpdate(); // glPollEvents and swap buffer
 

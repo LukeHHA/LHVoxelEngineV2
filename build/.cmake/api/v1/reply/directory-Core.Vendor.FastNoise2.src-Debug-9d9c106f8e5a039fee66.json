@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "Core/Vendor/FastNoise2/src",
+		"source" : "Core/Vendor/FastNoise2/src"
+	}
+}

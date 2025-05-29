@@ -4,16 +4,13 @@
 
 namespace Core
 {
-    unsigned int ID;
     // constructor generates the shader on the fly
     // ------------------------------------------------------------------------
-    OpenGLShader::OpenGLShader(const char *vertexPath, const char *fragmentPath)
+    OpenGLShader::OpenGLShader(std::string vertexPath, std::string fragmetnPath)
     {
         // 1. retrieve the vertex/fragment source code from filePath
-        std::string vertexPathStr(vertexPath);
-        std::string fragmentPathStr(fragmentPath);
-        std::string vertexPathFull = std::filesystem::current_path().string() + "/" + std::string(vertexPathStr);
-        std::string fragmentPathFull = std::filesystem::current_path().string() + "/" + std::string(fragmentPathStr);
+        std::string vertexPathFull = std::filesystem::current_path().string() + "/" + vertexPath;
+        std::string fragmentPathFull = std::filesystem::current_path().string() + "/" + fragmetnPath;
         CORE_LOG_TRACE("({0})", vertexPathFull);
         CORE_LOG_TRACE("({0})", fragmentPathFull);
         std::string vertexCode;

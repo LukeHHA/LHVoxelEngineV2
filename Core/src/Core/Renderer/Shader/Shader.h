@@ -15,5 +15,7 @@ namespace Core
         virtual ~Shader() = default;
 
         virtual void Use() = 0;
+
+        static std::unique_ptr<Shader> Create(std::string vertexPath, std::string fragmetnPath);
     };
 }

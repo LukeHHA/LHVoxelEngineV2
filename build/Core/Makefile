@@ -355,6 +355,30 @@ src/Core/Logging/Logging.cpp.s:
 	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Logging/Logging.cpp.s
 .PHONY : src/Core/Logging/Logging.cpp.s
 
+src/Core/Renderer/Buffers.o: src/Core/Renderer/Buffers.cpp.o
+.PHONY : src/Core/Renderer/Buffers.o
+
+# target to build an object file
+src/Core/Renderer/Buffers.cpp.o:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Renderer/Buffers.cpp.o
+.PHONY : src/Core/Renderer/Buffers.cpp.o
+
+src/Core/Renderer/Buffers.i: src/Core/Renderer/Buffers.cpp.i
+.PHONY : src/Core/Renderer/Buffers.i
+
+# target to preprocess a source file
+src/Core/Renderer/Buffers.cpp.i:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Renderer/Buffers.cpp.i
+.PHONY : src/Core/Renderer/Buffers.cpp.i
+
+src/Core/Renderer/Buffers.s: src/Core/Renderer/Buffers.cpp.s
+.PHONY : src/Core/Renderer/Buffers.s
+
+# target to generate assembly for a file
+src/Core/Renderer/Buffers.cpp.s:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Renderer/Buffers.cpp.s
+.PHONY : src/Core/Renderer/Buffers.cpp.s
+
 src/Core/Renderer/Context/GraphicsContext.o: src/Core/Renderer/Context/GraphicsContext.cpp.o
 .PHONY : src/Core/Renderer/Context/GraphicsContext.o
 
@@ -378,6 +402,30 @@ src/Core/Renderer/Context/GraphicsContext.s: src/Core/Renderer/Context/GraphicsC
 src/Core/Renderer/Context/GraphicsContext.cpp.s:
 	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Renderer/Context/GraphicsContext.cpp.s
 .PHONY : src/Core/Renderer/Context/GraphicsContext.cpp.s
+
+src/Core/Renderer/Platform/OpenGLBuffers.o: src/Core/Renderer/Platform/OpenGLBuffers.cpp.o
+.PHONY : src/Core/Renderer/Platform/OpenGLBuffers.o
+
+# target to build an object file
+src/Core/Renderer/Platform/OpenGLBuffers.cpp.o:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Renderer/Platform/OpenGLBuffers.cpp.o
+.PHONY : src/Core/Renderer/Platform/OpenGLBuffers.cpp.o
+
+src/Core/Renderer/Platform/OpenGLBuffers.i: src/Core/Renderer/Platform/OpenGLBuffers.cpp.i
+.PHONY : src/Core/Renderer/Platform/OpenGLBuffers.i
+
+# target to preprocess a source file
+src/Core/Renderer/Platform/OpenGLBuffers.cpp.i:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Renderer/Platform/OpenGLBuffers.cpp.i
+.PHONY : src/Core/Renderer/Platform/OpenGLBuffers.cpp.i
+
+src/Core/Renderer/Platform/OpenGLBuffers.s: src/Core/Renderer/Platform/OpenGLBuffers.cpp.s
+.PHONY : src/Core/Renderer/Platform/OpenGLBuffers.s
+
+# target to generate assembly for a file
+src/Core/Renderer/Platform/OpenGLBuffers.cpp.s:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Renderer/Platform/OpenGLBuffers.cpp.s
+.PHONY : src/Core/Renderer/Platform/OpenGLBuffers.cpp.s
 
 src/Core/Renderer/Platform/OpenGLContext.o: src/Core/Renderer/Platform/OpenGLContext.cpp.o
 .PHONY : src/Core/Renderer/Platform/OpenGLContext.o
@@ -426,6 +474,30 @@ src/Core/Renderer/Platform/OpenGLShader.s: src/Core/Renderer/Platform/OpenGLShad
 src/Core/Renderer/Platform/OpenGLShader.cpp.s:
 	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Renderer/Platform/OpenGLShader.cpp.s
 .PHONY : src/Core/Renderer/Platform/OpenGLShader.cpp.s
+
+src/Core/Renderer/Shader/Shader.o: src/Core/Renderer/Shader/Shader.cpp.o
+.PHONY : src/Core/Renderer/Shader/Shader.o
+
+# target to build an object file
+src/Core/Renderer/Shader/Shader.cpp.o:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Renderer/Shader/Shader.cpp.o
+.PHONY : src/Core/Renderer/Shader/Shader.cpp.o
+
+src/Core/Renderer/Shader/Shader.i: src/Core/Renderer/Shader/Shader.cpp.i
+.PHONY : src/Core/Renderer/Shader/Shader.i
+
+# target to preprocess a source file
+src/Core/Renderer/Shader/Shader.cpp.i:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Renderer/Shader/Shader.cpp.i
+.PHONY : src/Core/Renderer/Shader/Shader.cpp.i
+
+src/Core/Renderer/Shader/Shader.s: src/Core/Renderer/Shader/Shader.cpp.s
+.PHONY : src/Core/Renderer/Shader/Shader.s
+
+# target to generate assembly for a file
+src/Core/Renderer/Shader/Shader.cpp.s:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Renderer/Shader/Shader.cpp.s
+.PHONY : src/Core/Renderer/Shader/Shader.cpp.s
 
 src/Core/window/Window.o: src/Core/window/Window.cpp.o
 .PHONY : src/Core/window/Window.o
@@ -487,15 +559,24 @@ help:
 	@echo "... src/Core/Logging/Logging.o"
 	@echo "... src/Core/Logging/Logging.i"
 	@echo "... src/Core/Logging/Logging.s"
+	@echo "... src/Core/Renderer/Buffers.o"
+	@echo "... src/Core/Renderer/Buffers.i"
+	@echo "... src/Core/Renderer/Buffers.s"
 	@echo "... src/Core/Renderer/Context/GraphicsContext.o"
 	@echo "... src/Core/Renderer/Context/GraphicsContext.i"
 	@echo "... src/Core/Renderer/Context/GraphicsContext.s"
+	@echo "... src/Core/Renderer/Platform/OpenGLBuffers.o"
+	@echo "... src/Core/Renderer/Platform/OpenGLBuffers.i"
+	@echo "... src/Core/Renderer/Platform/OpenGLBuffers.s"
 	@echo "... src/Core/Renderer/Platform/OpenGLContext.o"
 	@echo "... src/Core/Renderer/Platform/OpenGLContext.i"
 	@echo "... src/Core/Renderer/Platform/OpenGLContext.s"
 	@echo "... src/Core/Renderer/Platform/OpenGLShader.o"
 	@echo "... src/Core/Renderer/Platform/OpenGLShader.i"
 	@echo "... src/Core/Renderer/Platform/OpenGLShader.s"
+	@echo "... src/Core/Renderer/Shader/Shader.o"
+	@echo "... src/Core/Renderer/Shader/Shader.i"
+	@echo "... src/Core/Renderer/Shader/Shader.s"
 	@echo "... src/Core/window/Window.o"
 	@echo "... src/Core/window/Window.i"
 	@echo "... src/Core/window/Window.s"

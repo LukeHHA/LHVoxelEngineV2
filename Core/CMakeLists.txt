@@ -28,6 +28,9 @@ add_library(Core STATIC
     src/Core/Renderer/Context/GraphicsContext.cpp
     src/Core/Renderer/Platform/OpenGLContext.cpp
     src/Core/Renderer/Platform/OpenGLShader.cpp
+    src/Core/Renderer/Platform/OpenGLBuffers.cpp
+    src/Core/Renderer/Shader/Shader.cpp
+    src/Core/Renderer/Buffers.cpp
 )
 
 target_compile_definitions(Core PUBLIC

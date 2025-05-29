@@ -172,12 +172,12 @@ Core/CMakeFiles/Core.dir/all: Core/CMakeFiles/CopyShaders.dir/all
 Core/CMakeFiles/Core.dir/all: Core/Vendor/FastNoise2/src/CMakeFiles/FastNoise.dir/all
 	$(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/depend
 	$(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles --progress-num=2,3,4,5,6,7,8,9,10,11,12,13 "Built target Core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles --progress-num=2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 "Built target Core"
 .PHONY : Core/CMakeFiles/Core.dir/all
 
 # Build rule for subdir invocation for target.
 Core/CMakeFiles/Core.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Core/CMakeFiles/Core.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles 0
 .PHONY : Core/CMakeFiles/Core.dir/rule
@@ -189,7 +189,7 @@ Core: Core/CMakeFiles/Core.dir/rule
 # codegen rule for target.
 Core/CMakeFiles/Core.dir/codegen: Core/CMakeFiles/CopyShaders.dir/all
 	$(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles --progress-num=2,3,4,5,6,7,8,9,10,11,12,13 "Finished codegen for target Core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles --progress-num=2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 "Finished codegen for target Core"
 .PHONY : Core/CMakeFiles/Core.dir/codegen
 
 # clean rule for target.
@@ -236,7 +236,7 @@ Core/CMakeFiles/CopyShaders.dir/clean:
 Core/Vendor/FastNoise2/src/CMakeFiles/FastNoise.dir/all:
 	$(MAKE) $(MAKESILENT) -f Core/Vendor/FastNoise2/src/CMakeFiles/FastNoise.dir/build.make Core/Vendor/FastNoise2/src/CMakeFiles/FastNoise.dir/depend
 	$(MAKE) $(MAKESILENT) -f Core/Vendor/FastNoise2/src/CMakeFiles/FastNoise.dir/build.make Core/Vendor/FastNoise2/src/CMakeFiles/FastNoise.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles --progress-num=14,15,16,17,18,19,20 "Built target FastNoise"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles --progress-num=17,18,19,20,21,22,23 "Built target FastNoise"
 .PHONY : Core/Vendor/FastNoise2/src/CMakeFiles/FastNoise.dir/all
 
 # Build rule for subdir invocation for target.
@@ -253,7 +253,7 @@ FastNoise: Core/Vendor/FastNoise2/src/CMakeFiles/FastNoise.dir/rule
 # codegen rule for target.
 Core/Vendor/FastNoise2/src/CMakeFiles/FastNoise.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f Core/Vendor/FastNoise2/src/CMakeFiles/FastNoise.dir/build.make Core/Vendor/FastNoise2/src/CMakeFiles/FastNoise.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles --progress-num=14,15,16,17,18,19,20 "Finished codegen for target FastNoise"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles --progress-num=17,18,19,20,21,22,23 "Finished codegen for target FastNoise"
 .PHONY : Core/Vendor/FastNoise2/src/CMakeFiles/FastNoise.dir/codegen
 
 # clean rule for target.
@@ -269,12 +269,12 @@ LHCraft/CMakeFiles/LHCraftApp.dir/all: Core/CMakeFiles/Core.dir/all
 LHCraft/CMakeFiles/LHCraftApp.dir/all: Core/Vendor/FastNoise2/src/CMakeFiles/FastNoise.dir/all
 	$(MAKE) $(MAKESILENT) -f LHCraft/CMakeFiles/LHCraftApp.dir/build.make LHCraft/CMakeFiles/LHCraftApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f LHCraft/CMakeFiles/LHCraftApp.dir/build.make LHCraft/CMakeFiles/LHCraftApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles --progress-num=21,22,23 "Built target LHCraftApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles --progress-num=24,25,26 "Built target LHCraftApp"
 .PHONY : LHCraft/CMakeFiles/LHCraftApp.dir/all
 
 # Build rule for subdir invocation for target.
 LHCraft/CMakeFiles/LHCraftApp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LHCraft/CMakeFiles/LHCraftApp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles 0
 .PHONY : LHCraft/CMakeFiles/LHCraftApp.dir/rule
@@ -286,7 +286,7 @@ LHCraftApp: LHCraft/CMakeFiles/LHCraftApp.dir/rule
 # codegen rule for target.
 LHCraft/CMakeFiles/LHCraftApp.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f LHCraft/CMakeFiles/LHCraftApp.dir/build.make LHCraft/CMakeFiles/LHCraftApp.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles --progress-num=21,22,23 "Finished codegen for target LHCraftApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles --progress-num=24,25,26 "Finished codegen for target LHCraftApp"
 .PHONY : LHCraft/CMakeFiles/LHCraftApp.dir/codegen
 
 # clean rule for target.
