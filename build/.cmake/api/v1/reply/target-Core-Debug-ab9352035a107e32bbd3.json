@@ -38,13 +38,13 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 74,
+				"line" : 76,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 56,
+				"line" : 58,
 				"parent" : 0
 			},
 			{
@@ -59,19 +59,19 @@
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 36,
+				"line" : 38,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 42,
+				"line" : 44,
 				"parent" : 0
 			},
 			{
 				"command" : 6,
 				"file" : 0,
-				"line" : 51,
+				"line" : 53,
 				"parent" : 0
 			}
 		]
@@ -323,7 +323,9 @@
 				10,
 				11,
 				12,
-				13
+				13,
+				14,
+				15
 			]
 		}
 	],
@@ -365,14 +367,16 @@
 				10,
 				11,
 				12,
-				13
+				13,
+				14,
+				15
 			]
 		},
 		{
 			"name" : "Precompile Header File",
 			"sourceIndexes" : 
 			[
-				14
+				16
 			]
 		}
 	],
@@ -453,6 +457,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 2,
+			"path" : "Core/src/Core/Renderer/Platform/OpenGLVertexArray.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
 			"path" : "Core/src/Core/Renderer/Shader/Shader.cpp",
 			"sourceGroupIndex" : 0
 		},
@@ -460,6 +470,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 2,
 			"path" : "Core/src/Core/Renderer/Buffers.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "Core/src/Core/Renderer/VertexArray.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

@@ -5,12 +5,12 @@
 
 namespace Core
 {
-	std::unique_ptr<VertexBuffer> VertexBuffer::Create(float *verticies, size_t size)
+	std::shared_ptr<VertexBuffer> VertexBuffer::Create(float *Vertex, size_t size)
 	{
-		return std::make_unique<OpenGLVertexBuffer>(verticies, size);
+		return std::make_unique<OpenGLVertexBuffer>(Vertex, size);
 	}
 
-	std::unique_ptr<IndexBuffer> IndexBuffer::Create(unsigned int *verticies, size_t size)
+	std::shared_ptr<IndexBuffer> IndexBuffer::Create(unsigned int *verticies, size_t size)
 	{
 		return std::make_unique<OpenGLIndexBuffer>(verticies, size);
 	}

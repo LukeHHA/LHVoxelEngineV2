@@ -10,11 +10,11 @@ namespace Core
 	 * VertexBuffers
 	 *************************************************************************/
 
-	OpenGLVertexBuffer::OpenGLVertexBuffer(float *verticies, size_t size)
+	OpenGLVertexBuffer::OpenGLVertexBuffer(float *Vertex, size_t size)
 	{
 		glGenBuffers(1, &m_ID);
 		glBindBuffer(GL_ARRAY_BUFFER, m_ID);
-		glBufferData(GL_ARRAY_BUFFER, size, verticies, GL_STATIC_DRAW);
+		glBufferData(GL_ARRAY_BUFFER, size, Vertex, GL_STATIC_DRAW);
 	}
 
 	OpenGLVertexBuffer::~OpenGLVertexBuffer()

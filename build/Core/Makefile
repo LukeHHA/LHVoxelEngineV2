@@ -475,6 +475,30 @@ src/Core/Renderer/Platform/OpenGLShader.cpp.s:
 	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Renderer/Platform/OpenGLShader.cpp.s
 .PHONY : src/Core/Renderer/Platform/OpenGLShader.cpp.s
 
+src/Core/Renderer/Platform/OpenGLVertexArray.o: src/Core/Renderer/Platform/OpenGLVertexArray.cpp.o
+.PHONY : src/Core/Renderer/Platform/OpenGLVertexArray.o
+
+# target to build an object file
+src/Core/Renderer/Platform/OpenGLVertexArray.cpp.o:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Renderer/Platform/OpenGLVertexArray.cpp.o
+.PHONY : src/Core/Renderer/Platform/OpenGLVertexArray.cpp.o
+
+src/Core/Renderer/Platform/OpenGLVertexArray.i: src/Core/Renderer/Platform/OpenGLVertexArray.cpp.i
+.PHONY : src/Core/Renderer/Platform/OpenGLVertexArray.i
+
+# target to preprocess a source file
+src/Core/Renderer/Platform/OpenGLVertexArray.cpp.i:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Renderer/Platform/OpenGLVertexArray.cpp.i
+.PHONY : src/Core/Renderer/Platform/OpenGLVertexArray.cpp.i
+
+src/Core/Renderer/Platform/OpenGLVertexArray.s: src/Core/Renderer/Platform/OpenGLVertexArray.cpp.s
+.PHONY : src/Core/Renderer/Platform/OpenGLVertexArray.s
+
+# target to generate assembly for a file
+src/Core/Renderer/Platform/OpenGLVertexArray.cpp.s:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Renderer/Platform/OpenGLVertexArray.cpp.s
+.PHONY : src/Core/Renderer/Platform/OpenGLVertexArray.cpp.s
+
 src/Core/Renderer/Shader/Shader.o: src/Core/Renderer/Shader/Shader.cpp.o
 .PHONY : src/Core/Renderer/Shader/Shader.o
 
@@ -498,6 +522,30 @@ src/Core/Renderer/Shader/Shader.s: src/Core/Renderer/Shader/Shader.cpp.s
 src/Core/Renderer/Shader/Shader.cpp.s:
 	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Renderer/Shader/Shader.cpp.s
 .PHONY : src/Core/Renderer/Shader/Shader.cpp.s
+
+src/Core/Renderer/VertexArray.o: src/Core/Renderer/VertexArray.cpp.o
+.PHONY : src/Core/Renderer/VertexArray.o
+
+# target to build an object file
+src/Core/Renderer/VertexArray.cpp.o:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Renderer/VertexArray.cpp.o
+.PHONY : src/Core/Renderer/VertexArray.cpp.o
+
+src/Core/Renderer/VertexArray.i: src/Core/Renderer/VertexArray.cpp.i
+.PHONY : src/Core/Renderer/VertexArray.i
+
+# target to preprocess a source file
+src/Core/Renderer/VertexArray.cpp.i:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Renderer/VertexArray.cpp.i
+.PHONY : src/Core/Renderer/VertexArray.cpp.i
+
+src/Core/Renderer/VertexArray.s: src/Core/Renderer/VertexArray.cpp.s
+.PHONY : src/Core/Renderer/VertexArray.s
+
+# target to generate assembly for a file
+src/Core/Renderer/VertexArray.cpp.s:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Renderer/VertexArray.cpp.s
+.PHONY : src/Core/Renderer/VertexArray.cpp.s
 
 src/Core/window/Window.o: src/Core/window/Window.cpp.o
 .PHONY : src/Core/window/Window.o
@@ -574,9 +622,15 @@ help:
 	@echo "... src/Core/Renderer/Platform/OpenGLShader.o"
 	@echo "... src/Core/Renderer/Platform/OpenGLShader.i"
 	@echo "... src/Core/Renderer/Platform/OpenGLShader.s"
+	@echo "... src/Core/Renderer/Platform/OpenGLVertexArray.o"
+	@echo "... src/Core/Renderer/Platform/OpenGLVertexArray.i"
+	@echo "... src/Core/Renderer/Platform/OpenGLVertexArray.s"
 	@echo "... src/Core/Renderer/Shader/Shader.o"
 	@echo "... src/Core/Renderer/Shader/Shader.i"
 	@echo "... src/Core/Renderer/Shader/Shader.s"
+	@echo "... src/Core/Renderer/VertexArray.o"
+	@echo "... src/Core/Renderer/VertexArray.i"
+	@echo "... src/Core/Renderer/VertexArray.s"
 	@echo "... src/Core/window/Window.o"
 	@echo "... src/Core/window/Window.i"
 	@echo "... src/Core/window/Window.s"

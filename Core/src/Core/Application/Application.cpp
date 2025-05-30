@@ -21,22 +21,26 @@ namespace Core
 		m_Window = std::unique_ptr<Window>(Window::Create());
 		m_Window->SetEventCallback(std::bind(&Application::OnEvent, this, std::placeholders::_1));
 
-		glGenVertexArrays(1, &m_VertexArray);
-		glBindVertexArray(m_VertexArray);
-
-		float verticies[3 * 3] = {
-			-0.5, -0.5, 0.0,
-			0.5, -0.5, 0.0,
-			0.0, 0.5, 0.0};
+		float verticies[3 * 7] = {
+			-0.5, -0.5, 0.0, 0.8, 0.2, 1.0, 0.5,
+			0.5, -0.5, 0.0, 0.2, 1.0, 0.0, 0.5,
+			0.0, 0.5, 0.0, 1.0, 1.0, 0.0, 0.5};
 
 		m_VertexBuffer = VertexBuffer::Create(verticies, sizeof(verticies));
+		m_VertexArray = VertexArray::Create();
 
-		glEnableVertexAttribArray(0);
-		glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), nullptr);
+		BufferLayout layout = {
+			{ShaderDataType::Float3, "a_Position"},
+			{ShaderDataType::Float4, "a_Color"}};
+
+		m_VertexBuffer->SetLayout(layout);
+
+		m_VertexArray->AddVertexBuffer(m_VertexBuffer);
 
 		std::array<unsigned int, 3> indicies = {0, 1, 2};
 
 		m_IndexBuffer = IndexBuffer::Create(indicies.data(), indicies.size());
+		m_VertexArray->SetIndexBuffer(m_IndexBuffer);
 
 		m_Shader = Shader::Create("Core/Shaders/vertex.vs", "Core/Shaders/fragment.fs");
 	}
@@ -53,7 +57,7 @@ namespace Core
 			glClear(GL_COLOR_BUFFER_BIT);
 
 			m_Shader->Use();
-			glBindVertexArray(m_VertexArray);
+			m_VertexArray->Bind();
 			glDrawElements(GL_TRIANGLES, m_IndexBuffer->GetCount(), GL_UNSIGNED_INT, nullptr);
 
 			m_Window->OnUpdate(); // glPollEvents and swap buffer
