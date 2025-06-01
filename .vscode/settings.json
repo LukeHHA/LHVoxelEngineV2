@@ -65,5 +65,7 @@
     "*.in": "cpp"
   },
   "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
-  "editor.fontFamily": "'Fira Code', Monaco, 'Courier New', monospace"
+  "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true
 }

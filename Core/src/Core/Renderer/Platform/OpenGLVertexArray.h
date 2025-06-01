@@ -16,6 +16,8 @@ namespace Core
 		virtual void AddVertexBuffer(const std::shared_ptr<VertexBuffer> &vertexBuffer) override;
 		virtual void SetIndexBuffer(const std::shared_ptr<IndexBuffer> &indexBuffer) override;
 
+		virtual std::shared_ptr<IndexBuffer> GetIndexBuffer() override { return m_IndexBuffer; }
+
 	private:
 		std::vector<std::shared_ptr<VertexBuffer>> m_VertexBuffers;
 		std::shared_ptr<IndexBuffer> m_IndexBuffer;

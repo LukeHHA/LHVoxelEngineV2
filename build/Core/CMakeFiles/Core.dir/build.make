@@ -325,6 +325,70 @@ Core/CMakeFiles/Core.dir/src/Core/Renderer/VertexArray.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Core.dir/src/Core/Renderer/VertexArray.cpp.s"
 	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx -S /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Renderer/VertexArray.cpp -o CMakeFiles/Core.dir/src/Core/Renderer/VertexArray.cpp.s
 
+Core/CMakeFiles/Core.dir/src/Core/Renderer/RendererAPI.cpp.o: Core/CMakeFiles/Core.dir/flags.make
+Core/CMakeFiles/Core.dir/src/Core/Renderer/RendererAPI.cpp.o: /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Renderer/RendererAPI.cpp
+Core/CMakeFiles/Core.dir/src/Core/Renderer/RendererAPI.cpp.o: Core/CMakeFiles/Core.dir/cmake_pch.hxx
+Core/CMakeFiles/Core.dir/src/Core/Renderer/RendererAPI.cpp.o: Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch
+Core/CMakeFiles/Core.dir/src/Core/Renderer/RendererAPI.cpp.o: Core/CMakeFiles/Core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object Core/CMakeFiles/Core.dir/src/Core/Renderer/RendererAPI.cpp.o"
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx -MD -MT Core/CMakeFiles/Core.dir/src/Core/Renderer/RendererAPI.cpp.o -MF CMakeFiles/Core.dir/src/Core/Renderer/RendererAPI.cpp.o.d -o CMakeFiles/Core.dir/src/Core/Renderer/RendererAPI.cpp.o -c /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Renderer/RendererAPI.cpp
+
+Core/CMakeFiles/Core.dir/src/Core/Renderer/RendererAPI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Core.dir/src/Core/Renderer/RendererAPI.cpp.i"
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx -E /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Renderer/RendererAPI.cpp > CMakeFiles/Core.dir/src/Core/Renderer/RendererAPI.cpp.i
+
+Core/CMakeFiles/Core.dir/src/Core/Renderer/RendererAPI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Core.dir/src/Core/Renderer/RendererAPI.cpp.s"
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx -S /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Renderer/RendererAPI.cpp -o CMakeFiles/Core.dir/src/Core/Renderer/RendererAPI.cpp.s
+
+Core/CMakeFiles/Core.dir/src/Core/Renderer/Renderer.cpp.o: Core/CMakeFiles/Core.dir/flags.make
+Core/CMakeFiles/Core.dir/src/Core/Renderer/Renderer.cpp.o: /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Renderer/Renderer.cpp
+Core/CMakeFiles/Core.dir/src/Core/Renderer/Renderer.cpp.o: Core/CMakeFiles/Core.dir/cmake_pch.hxx
+Core/CMakeFiles/Core.dir/src/Core/Renderer/Renderer.cpp.o: Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch
+Core/CMakeFiles/Core.dir/src/Core/Renderer/Renderer.cpp.o: Core/CMakeFiles/Core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object Core/CMakeFiles/Core.dir/src/Core/Renderer/Renderer.cpp.o"
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx -MD -MT Core/CMakeFiles/Core.dir/src/Core/Renderer/Renderer.cpp.o -MF CMakeFiles/Core.dir/src/Core/Renderer/Renderer.cpp.o.d -o CMakeFiles/Core.dir/src/Core/Renderer/Renderer.cpp.o -c /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Renderer/Renderer.cpp
+
+Core/CMakeFiles/Core.dir/src/Core/Renderer/Renderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Core.dir/src/Core/Renderer/Renderer.cpp.i"
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx -E /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Renderer/Renderer.cpp > CMakeFiles/Core.dir/src/Core/Renderer/Renderer.cpp.i
+
+Core/CMakeFiles/Core.dir/src/Core/Renderer/Renderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Core.dir/src/Core/Renderer/Renderer.cpp.s"
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx -S /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Renderer/Renderer.cpp -o CMakeFiles/Core.dir/src/Core/Renderer/Renderer.cpp.s
+
+Core/CMakeFiles/Core.dir/src/Core/Renderer/RenderCommands.cpp.o: Core/CMakeFiles/Core.dir/flags.make
+Core/CMakeFiles/Core.dir/src/Core/Renderer/RenderCommands.cpp.o: /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Renderer/RenderCommands.cpp
+Core/CMakeFiles/Core.dir/src/Core/Renderer/RenderCommands.cpp.o: Core/CMakeFiles/Core.dir/cmake_pch.hxx
+Core/CMakeFiles/Core.dir/src/Core/Renderer/RenderCommands.cpp.o: Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch
+Core/CMakeFiles/Core.dir/src/Core/Renderer/RenderCommands.cpp.o: Core/CMakeFiles/Core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object Core/CMakeFiles/Core.dir/src/Core/Renderer/RenderCommands.cpp.o"
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx -MD -MT Core/CMakeFiles/Core.dir/src/Core/Renderer/RenderCommands.cpp.o -MF CMakeFiles/Core.dir/src/Core/Renderer/RenderCommands.cpp.o.d -o CMakeFiles/Core.dir/src/Core/Renderer/RenderCommands.cpp.o -c /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Renderer/RenderCommands.cpp
+
+Core/CMakeFiles/Core.dir/src/Core/Renderer/RenderCommands.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Core.dir/src/Core/Renderer/RenderCommands.cpp.i"
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx -E /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Renderer/RenderCommands.cpp > CMakeFiles/Core.dir/src/Core/Renderer/RenderCommands.cpp.i
+
+Core/CMakeFiles/Core.dir/src/Core/Renderer/RenderCommands.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Core.dir/src/Core/Renderer/RenderCommands.cpp.s"
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx -S /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Renderer/RenderCommands.cpp -o CMakeFiles/Core.dir/src/Core/Renderer/RenderCommands.cpp.s
+
+Core/CMakeFiles/Core.dir/src/Core/Renderer/Platform/OpenGLRendererAPI.cpp.o: Core/CMakeFiles/Core.dir/flags.make
+Core/CMakeFiles/Core.dir/src/Core/Renderer/Platform/OpenGLRendererAPI.cpp.o: /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Renderer/Platform/OpenGLRendererAPI.cpp
+Core/CMakeFiles/Core.dir/src/Core/Renderer/Platform/OpenGLRendererAPI.cpp.o: Core/CMakeFiles/Core.dir/cmake_pch.hxx
+Core/CMakeFiles/Core.dir/src/Core/Renderer/Platform/OpenGLRendererAPI.cpp.o: Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch
+Core/CMakeFiles/Core.dir/src/Core/Renderer/Platform/OpenGLRendererAPI.cpp.o: Core/CMakeFiles/Core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object Core/CMakeFiles/Core.dir/src/Core/Renderer/Platform/OpenGLRendererAPI.cpp.o"
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx -MD -MT Core/CMakeFiles/Core.dir/src/Core/Renderer/Platform/OpenGLRendererAPI.cpp.o -MF CMakeFiles/Core.dir/src/Core/Renderer/Platform/OpenGLRendererAPI.cpp.o.d -o CMakeFiles/Core.dir/src/Core/Renderer/Platform/OpenGLRendererAPI.cpp.o -c /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Renderer/Platform/OpenGLRendererAPI.cpp
+
+Core/CMakeFiles/Core.dir/src/Core/Renderer/Platform/OpenGLRendererAPI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Core.dir/src/Core/Renderer/Platform/OpenGLRendererAPI.cpp.i"
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx -E /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Renderer/Platform/OpenGLRendererAPI.cpp > CMakeFiles/Core.dir/src/Core/Renderer/Platform/OpenGLRendererAPI.cpp.i
+
+Core/CMakeFiles/Core.dir/src/Core/Renderer/Platform/OpenGLRendererAPI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Core.dir/src/Core/Renderer/Platform/OpenGLRendererAPI.cpp.s"
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx -S /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Renderer/Platform/OpenGLRendererAPI.cpp -o CMakeFiles/Core.dir/src/Core/Renderer/Platform/OpenGLRendererAPI.cpp.s
+
 # Object files for target Core
 Core_OBJECTS = \
 "CMakeFiles/Core.dir/Vendor/glad/src/glad.c.o" \
@@ -341,7 +405,11 @@ Core_OBJECTS = \
 "CMakeFiles/Core.dir/src/Core/Renderer/Platform/OpenGLVertexArray.cpp.o" \
 "CMakeFiles/Core.dir/src/Core/Renderer/Shader/Shader.cpp.o" \
 "CMakeFiles/Core.dir/src/Core/Renderer/Buffers.cpp.o" \
-"CMakeFiles/Core.dir/src/Core/Renderer/VertexArray.cpp.o"
+"CMakeFiles/Core.dir/src/Core/Renderer/VertexArray.cpp.o" \
+"CMakeFiles/Core.dir/src/Core/Renderer/RendererAPI.cpp.o" \
+"CMakeFiles/Core.dir/src/Core/Renderer/Renderer.cpp.o" \
+"CMakeFiles/Core.dir/src/Core/Renderer/RenderCommands.cpp.o" \
+"CMakeFiles/Core.dir/src/Core/Renderer/Platform/OpenGLRendererAPI.cpp.o"
 
 # External object files for target Core
 Core_EXTERNAL_OBJECTS =
@@ -362,9 +430,13 @@ Core/libCore.a: Core/CMakeFiles/Core.dir/src/Core/Renderer/Platform/OpenGLVertex
 Core/libCore.a: Core/CMakeFiles/Core.dir/src/Core/Renderer/Shader/Shader.cpp.o
 Core/libCore.a: Core/CMakeFiles/Core.dir/src/Core/Renderer/Buffers.cpp.o
 Core/libCore.a: Core/CMakeFiles/Core.dir/src/Core/Renderer/VertexArray.cpp.o
+Core/libCore.a: Core/CMakeFiles/Core.dir/src/Core/Renderer/RendererAPI.cpp.o
+Core/libCore.a: Core/CMakeFiles/Core.dir/src/Core/Renderer/Renderer.cpp.o
+Core/libCore.a: Core/CMakeFiles/Core.dir/src/Core/Renderer/RenderCommands.cpp.o
+Core/libCore.a: Core/CMakeFiles/Core.dir/src/Core/Renderer/Platform/OpenGLRendererAPI.cpp.o
 Core/libCore.a: Core/CMakeFiles/Core.dir/build.make
 Core/libCore.a: Core/CMakeFiles/Core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX static library libCore.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX static library libCore.a"
 	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core && $(CMAKE_COMMAND) -P CMakeFiles/Core.dir/cmake_clean_target.cmake
 	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Core.dir/link.txt --verbose=$(VERBOSE)
 

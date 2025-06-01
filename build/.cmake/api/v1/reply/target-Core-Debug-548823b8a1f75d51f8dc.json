@@ -38,13 +38,13 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 76,
+				"line" : 80,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 58,
+				"line" : 62,
 				"parent" : 0
 			},
 			{
@@ -59,19 +59,19 @@
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 38,
+				"line" : 42,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 44,
+				"line" : 48,
 				"parent" : 0
 			},
 			{
 				"command" : 6,
 				"file" : 0,
-				"line" : 53,
+				"line" : 57,
 				"parent" : 0
 			}
 		]
@@ -325,7 +325,11 @@
 				12,
 				13,
 				14,
-				15
+				15,
+				16,
+				17,
+				18,
+				19
 			]
 		}
 	],
@@ -369,14 +373,18 @@
 				12,
 				13,
 				14,
-				15
+				15,
+				16,
+				17,
+				18,
+				19
 			]
 		},
 		{
 			"name" : "Precompile Header File",
 			"sourceIndexes" : 
 			[
-				16
+				20
 			]
 		}
 	],
@@ -476,6 +484,30 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 2,
 			"path" : "Core/src/Core/Renderer/VertexArray.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "Core/src/Core/Renderer/RendererAPI.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "Core/src/Core/Renderer/Renderer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "Core/src/Core/Renderer/RenderCommands.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "Core/src/Core/Renderer/Platform/OpenGLRendererAPI.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

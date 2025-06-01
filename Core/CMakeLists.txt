@@ -33,6 +33,10 @@ add_library(Core STATIC
     src/Core/Renderer/Shader/Shader.cpp
     src/Core/Renderer/Buffers.cpp
     src/Core/Renderer/VertexArray.cpp
+    src/Core/Renderer/RendererAPI.cpp
+    src/Core/Renderer/Renderer.cpp
+    src/Core/Renderer/RenderCommands.cpp
+    src/Core/Renderer/Platform/OpenGLRendererAPI.cpp
 )
 
 target_compile_definitions(Core PUBLIC

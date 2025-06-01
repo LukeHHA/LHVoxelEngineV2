@@ -3,8 +3,8 @@
 
 namespace Core
 {
-	std::unique_ptr<Shader> Shader::Create(std::string vertexPath, std::string fragmetnPath)
+	std::shared_ptr<Shader> Shader::Create(std::string vertexPath, std::string fragmetnPath)
 	{
-		return std::make_unique<OpenGLShader>(vertexPath, fragmetnPath);
+		return std::make_shared<OpenGLShader>(vertexPath, fragmetnPath);
 	}
 }

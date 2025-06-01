@@ -7,11 +7,11 @@ namespace Core
 {
 	std::shared_ptr<VertexBuffer> VertexBuffer::Create(float *Vertex, size_t size)
 	{
-		return std::make_unique<OpenGLVertexBuffer>(Vertex, size);
+		return std::make_shared<OpenGLVertexBuffer>(Vertex, size);
 	}
 
 	std::shared_ptr<IndexBuffer> IndexBuffer::Create(unsigned int *verticies, size_t size)
 	{
-		return std::make_unique<OpenGLIndexBuffer>(verticies, size);
+		return std::make_shared<OpenGLIndexBuffer>(verticies, size);
 	}
 }

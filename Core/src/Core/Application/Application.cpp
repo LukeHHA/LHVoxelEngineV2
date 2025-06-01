@@ -7,7 +7,7 @@
 #include "Core/Input/Input.h"
 #include "Core/Events/KeyCodes.h"
 
-#include "glad/glad.h"
+#include "Core/Renderer/Renderer.h"
 
 namespace Core
 {
@@ -15,16 +15,16 @@ namespace Core
 
 	Application::Application()
 	{
-
 		CORE_ASSERT(!s_Instance, "Application already exists")
 		s_Instance = this;
 		m_Window = std::unique_ptr<Window>(Window::Create());
 		m_Window->SetEventCallback(std::bind(&Application::OnEvent, this, std::placeholders::_1));
 
-		float verticies[3 * 7] = {
-			-0.5, -0.5, 0.0, 0.8, 0.2, 1.0, 0.5,
+		float verticies[4 * 7] = {
+			0.0, -0.5, 0.0, 0.8, 0.2, 1.0, 0.5,
 			0.5, -0.5, 0.0, 0.2, 1.0, 0.0, 0.5,
-			0.0, 0.5, 0.0, 1.0, 1.0, 0.0, 0.5};
+			0.0, 0.5, 0.0, 1.0, 1.0, 0.0, 0.5,
+			0.5, 0.5, 0.0, 1.0, 1.0, 0.0, 0.5};
 
 		m_VertexBuffer = VertexBuffer::Create(verticies, sizeof(verticies));
 		m_VertexArray = VertexArray::Create();
@@ -37,7 +37,7 @@ namespace Core
 
 		m_VertexArray->AddVertexBuffer(m_VertexBuffer);
 
-		std::array<unsigned int, 3> indicies = {0, 1, 2};
+		std::array<unsigned int, 6> indicies = {0, 1, 2, 1, 3, 2};
 
 		m_IndexBuffer = IndexBuffer::Create(indicies.data(), indicies.size());
 		m_VertexArray->SetIndexBuffer(m_IndexBuffer);
@@ -53,12 +53,13 @@ namespace Core
 	{
 		while (m_Running)
 		{
-			glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
-			glClear(GL_COLOR_BUFFER_BIT);
+			RenderCommands::SetClearColor({0.1, 0.1, 0.1, 0.1});
+			RenderCommands::Clear();
 
-			m_Shader->Use();
-			m_VertexArray->Bind();
-			glDrawElements(GL_TRIANGLES, m_IndexBuffer->GetCount(), GL_UNSIGNED_INT, nullptr);
+			Renderer::BeginScene();
+
+			Renderer::Submit(m_Shader, m_VertexArray);
+			Renderer::EndScene();
 
 			m_Window->OnUpdate(); // glPollEvents and swap buffer
 
