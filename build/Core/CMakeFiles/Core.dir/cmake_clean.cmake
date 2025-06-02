@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Core.dir/cmake_pch.hxx.pch.d"
   "CMakeFiles/Core.dir/src/Core/Application/Application.cpp.o"
   "CMakeFiles/Core.dir/src/Core/Application/Application.cpp.o.d"
+  "CMakeFiles/Core.dir/src/Core/Camera/ProjectionCamera.cpp.o"
+  "CMakeFiles/Core.dir/src/Core/Camera/ProjectionCamera.cpp.o.d"
   "CMakeFiles/Core.dir/src/Core/Input/Input.cpp.o"
   "CMakeFiles/Core.dir/src/Core/Input/Input.cpp.o.d"
   "CMakeFiles/Core.dir/src/Core/Layers/Layer.cpp.o"

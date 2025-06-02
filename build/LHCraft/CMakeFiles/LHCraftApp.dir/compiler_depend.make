@@ -954,6 +954,7 @@ LHCraft/CMakeFiles/LHCraftApp.dir/src/App.cpp.o: LHCraft/CMakeFiles/LHCraftApp.d
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_rsize_t.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_size_t.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_wchar_t.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/float.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/limits.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/ptrcheck.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdarg.h \
@@ -1741,6 +1742,7 @@ LHCraft/CMakeFiles/LHCraftApp.dir/src/App.cpp.o: LHCraft/CMakeFiles/LHCraftApp.d
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cctype \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cerrno \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cfloat \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/charconv \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/climits \
@@ -1763,6 +1765,7 @@ LHCraft/CMakeFiles/LHCraftApp.dir/src/App.cpp.o: LHCraft/CMakeFiles/LHCraftApp.d
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/exception \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/format \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
@@ -1813,6 +1816,7 @@ LHCraft/CMakeFiles/LHCraftApp.dir/src/App.cpp.o: LHCraft/CMakeFiles/LHCraftApp.d
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/fcntl.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/gethostuuid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
@@ -1956,6 +1960,210 @@ LHCraft/CMakeFiles/LHCraftApp.dir/src/App.cpp.o: LHCraft/CMakeFiles/LHCraftApp.d
   /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glad/include/KHR/khrplatform.h \
   /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glad/include/glad/glad.h \
   /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glfw/glfw/glfw3.h \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/matrix.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat2x2.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat2x3.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat2x3.inl \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat2x4.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat2x4.inl \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat3x2.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat3x2.inl \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat3x3.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat3x3.inl \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat3x4.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat3x4.inl \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat4x2.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat4x2.inl \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat4x3.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat4x3.inl \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat4x4.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat4x4.inl \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_vec2.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_vec3.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_vec4.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double2x3.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double2x3_precision.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double2x4.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double2x4_precision.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double3x2.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double3x2_precision.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double3x3.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double3x3_precision.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double3x4.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double3x4_precision.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double4x2.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double4x2_precision.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double4x3.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double4x3_precision.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double4x4.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double4x4_precision.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float2x3.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float2x3_precision.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float2x4.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float2x4_precision.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float3x2.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float3x2_precision.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float3x3.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float3x3_precision.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float3x4.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float3x4_precision.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float4x2.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float4x2_precision.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float4x3.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float4x3_precision.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float4x4.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float4x4_precision.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/common.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/func_vector_relational.inl \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/qualifier.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/setup.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/vector_relational.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/compute_vector_relational.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/_fixes.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/_vectorize.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/compute_common.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/func_common.inl \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/func_exponential.inl \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/qualifier.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/setup.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_vec1.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_vec1.inl \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_vec2.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_vec3.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_vec4.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/exponential.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/func_geometric.inl \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_vec3.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/geometric.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/func_matrix.inl \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/qualifier.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/setup.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat2x2.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat2x3.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat2x4.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat3x2.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat3x3.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat3x4.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat4x2.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat4x3.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat4x4.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/matrix.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/vec2.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/vec3.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/vec4.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/compute_vector_relational.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/setup.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/compute_vector_relational.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/qualifier.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/setup.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat2x2.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat2x2.inl \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_vec2.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_vec2.inl \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_vec3.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_vec3.inl \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_vec4.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_vec4.inl \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/setup.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/scalar_int_sized.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/scalar_uint_sized.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_int2.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_int3.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_int4.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_uint2.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_uint3.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_uint4.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double2x2.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double2x2_precision.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float2x2.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float2x2_precision.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_bool2.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_bool2_precision.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_bool3.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_bool3_precision.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_bool4.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_bool4_precision.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_double2.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_double2_precision.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_double3.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_double3_precision.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_double4.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_double4_precision.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_float2.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_float2_precision.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_float3.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_float3_precision.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_float4.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_float4_precision.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_int2.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_int2_sized.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_int3.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_int3_sized.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_int4.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_int4_sized.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_uint2.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_uint2_sized.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_uint3.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_uint3_sized.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_uint4.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_uint4_sized.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/common.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/common.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/simd/platform.h \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/_fixes.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/_vectorize.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/func_integer.inl \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/func_packing.inl \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/func_trigonometric.inl \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/qualifier.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/setup.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_half.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_half.inl \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/exponential.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/fwd.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/geometric.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/glm.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/scalar_constants.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/geometric.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/setup.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/scalar_constants.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/scalar_constants.inl \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/gtc/constants.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/gtc/constants.inl \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/matrix.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/trigonometric.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_clip_space.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_clip_space.inl \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_projection.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_projection.inl \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_transform.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_transform.inl \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/geometric.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat4x4.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/matrix.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/trigonometric.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/vec2.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/vec3.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/vec4.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/gtc/matrix_transform.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/gtc/matrix_transform.inl \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/integer.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat2x2.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat2x3.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat2x4.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat3x2.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat3x3.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat3x4.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat4x2.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat4x3.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat4x4.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/matrix.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/packing.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/trigonometric.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/vec2.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/vec3.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/vec4.hpp \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/vector_relational.hpp \
   /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog/common-inl.h \
   /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog/common.h \
   /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog/details/backtracer-inl.h \
@@ -1994,12 +2202,16 @@ LHCraft/CMakeFiles/LHCraftApp.dir/src/App.cpp.o: LHCraft/CMakeFiles/LHCraftApp.d
   /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog/tweakme.h \
   /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog/version.h \
   /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Application/Application.h \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Camera/Camera.h \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Camera/ProjectionCamera.h \
   /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Core.h \
   /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/EntryPoint.h \
   /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Events/ApplicationEvents.h \
   /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Events/Events.h \
   /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Events/KeyCodes.h \
   /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Events/KeyEvents.h \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Events/MouseCodes.h \
+  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Events/MouseEvents.h \
   /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/LHCpch.h \
   /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/LHCraft.h \
   /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Layers/Layer.h \
@@ -2026,11 +2238,17 @@ Core/cmakeConfig.h:
 
 /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Renderer/Buffers.h:
 
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Events/MouseEvents.h:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Events/MouseCodes.h:
+
 /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Events/KeyEvents.h:
 
 /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Events/KeyCodes.h:
 
 /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Events/ApplicationEvents.h:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Camera/Camera.h:
 
 /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog/version.h:
 
@@ -2048,8 +2266,6 @@ Core/cmakeConfig.h:
 
 /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog/logger-inl.h:
 
-/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog/fmt/bundled/format.h:
-
 /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog/fmt/bundled/format-inl.h:
 
 /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog/fmt/bundled/base.h:
@@ -2057,8 +2273,6 @@ Core/cmakeConfig.h:
 /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog/details/synchronous_factory.h:
 
 /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog/details/registry-inl.h:
-
-/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog/details/periodic_worker-inl.h:
 
 /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog/details/os.h:
 
@@ -2080,7 +2294,171 @@ Core/cmakeConfig.h:
 
 /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog/details/backtracer-inl.h:
 
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/gtc/matrix_transform.inl:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/gtc/matrix_transform.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_transform.inl:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_transform.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/trigonometric.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/gtc/constants.inl:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/glm.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/fwd.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/func_integer.inl:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/simd/platform.h:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog/details/periodic_worker-inl.h:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_uint4_sized.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_uint2_sized.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/scalar_constants.inl:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_int4_sized.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_float3.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_float2_precision.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_double4.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_double3_precision.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_double2_precision.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_double2.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_bool3_precision.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_bool3.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_bool2.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float2x2_precision.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float2x2.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_uint4.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_uint3.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_int4.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_vec4.inl:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_vec2.inl:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat2x2.inl:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/vec4.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/vec3.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/vec2.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat4x4.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat4x3.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat4x2.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat3x4.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat2x4.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/func_matrix.inl:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/exponential.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/func_exponential.inl:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/func_common.inl:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/compute_common.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_clip_space.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/_vectorize.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/compute_vector_relational.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/vector_relational.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/setup.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/qualifier.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/func_vector_relational.inl:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float4x4_precision.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float4x4.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float4x3_precision.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float4x3.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float4x2_precision.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float3x3.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float3x2_precision.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float2x4_precision.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float2x4.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float2x3.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double4x4_precision.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double3x4.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double2x4.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double2x3.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_vec4.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_vec2.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog/fmt/bundled/format.h:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat4x4.inl:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat4x3.inl:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat4x3.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat4x2.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat3x4.inl:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat3x4.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat3x3.inl:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat3x3.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat2x4.hpp:
+
 /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog/common-inl.h:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat2x3.inl:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat3x2.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat2x2.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/matrix.hpp:
 
 /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glfw/glfw/glfw3.h:
 
@@ -2098,11 +2476,15 @@ Core/cmakeConfig.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_o_sync.h:
 
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double4x2_precision.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_o_dsync.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/signal.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/gethostuuid.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/thread:
 
@@ -2111,6 +2493,10 @@ Core/cmakeConfig.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_int3_sized.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cfloat:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree:
 
@@ -2124,17 +2510,19 @@ Core/cmakeConfig.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perms.h:
 
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double2x2.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float3x4_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_type.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_entry.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/year.h:
 
@@ -2164,6 +2552,10 @@ Core/cmakeConfig.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/float.h:
+
 /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog/details/circular_q.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h:
@@ -2185,6 +2577,8 @@ Core/cmakeConfig.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_select.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat2x3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/stdio.h:
 
@@ -2220,6 +2614,8 @@ Core/cmakeConfig.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_sigaltstack.h:
 
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Camera/ProjectionCamera.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rune_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_pid_t.h:
@@ -2246,6 +2642,8 @@ Core/cmakeConfig.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_id_t.h:
 
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_bool2_precision.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsblkcnt_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_zero.h:
@@ -2266,11 +2664,17 @@ Core/cmakeConfig.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_clock_t.h:
 
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double4x3.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_caddr_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_blkcnt_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_float3_precision.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/geometric.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h:
 
@@ -2293,6 +2697,8 @@ Core/cmakeConfig.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_state.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdlib.h:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat4x4.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/runetype.h:
 
@@ -2428,6 +2834,8 @@ Core/cmakeConfig.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/underlying_type.h:
 
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat2x4.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_fill_n.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iterator:
@@ -2452,11 +2860,19 @@ Core/cmakeConfig.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_unsigned_integer.h:
 
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double2x4_precision.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_relocatable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_rotate_copy.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_lexicographically_comparable.h:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_double3.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_vec1.inl:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float3x4.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/iterator.h:
 
@@ -2482,11 +2898,15 @@ Core/cmakeConfig.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_reference.h:
 
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/gtc/constants.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max_element.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_polymorphic.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_pointer.h:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat3x3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/regular.h:
 
@@ -2522,9 +2942,15 @@ Core/cmakeConfig.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view:
 
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double4x3_precision.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_const.h:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/_fixes.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat2x3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wchar.h:
 
@@ -2572,9 +2998,13 @@ Core/cmakeConfig.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/desugars_to.h:
 
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat3x2.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/datasizeof.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/copy_cvref.h:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/integer.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/generate.h:
 
@@ -2593,6 +3023,8 @@ Core/cmakeConfig.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/common_reference.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/alignment_of.h:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/func_trigonometric.inl:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic_flag.h:
 
@@ -2626,6 +3058,8 @@ Core/cmakeConfig.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/tuple_like_no_subrange.h:
 
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double3x4_precision.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/tuple_indices.h:
@@ -2657,6 +3091,8 @@ Core/cmakeConfig.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_fill.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/support.h:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/func_geometric.inl:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_class.h:
 
@@ -2757,6 +3193,8 @@ LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.cxx:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory_resource/polymorphic_allocator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/uses_allocator.h:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_double4_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/temporary_buffer.h:
 
@@ -2870,9 +3308,13 @@ LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.cxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/insert_iterator.h:
 
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double3x2_precision.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stddef.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/scalar_uint_sized.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/incrementable_traits.h:
 
@@ -2917,6 +3359,8 @@ LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.cxx:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/subrange.h:
 
 /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Layers/LayerStack.h:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat3x2.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_union.h:
 
@@ -2964,6 +3408,8 @@ LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.cxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h:
 
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_vec1.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/is_transparent.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_implicitly_default_constructible.h:
@@ -2995,6 +3441,8 @@ LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.cxx:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binder2nd.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/support/pthread.h:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_vec3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/resource.h:
 
@@ -3036,6 +3484,8 @@ LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.cxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_integral.h:
 
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float2x3_precision.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_replace_copy.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/integer_sequence.h:
@@ -3053,6 +3503,8 @@ LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.cxx:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_parse_context.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/lazy.h:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double4x4.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_sort.h:
 
@@ -3130,6 +3582,8 @@ LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.cxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/language.h:
 
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_vec3.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__debug_utils/strict_weak_ordering_check.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/parser_std_format_spec.h:
@@ -3159,6 +3613,10 @@ LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.cxx:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/move.h:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_int3.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double4x2.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/remove.h:
 
@@ -3254,11 +3712,15 @@ LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.cxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_primary_template.h:
 
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_float4.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/to_chars_base_10.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/error_code.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/chars_format.h:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double2x2_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/common_comparison_category.h:
 
@@ -3274,11 +3736,15 @@ LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.cxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__undef_macros:
 
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_projection.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/relation.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/countl.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/blsr.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsfilcnt_t.h:
 
@@ -3287,6 +3753,8 @@ LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.cxx:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/bit_ceil.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_minmax.h:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_float4_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/bit_cast.h:
 
@@ -3307,6 +3775,8 @@ LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.cxx:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/partial_sort_copy.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cerrno:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_int2.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_remove_copy.h:
 
@@ -3380,6 +3850,8 @@ LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.cxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/three_way_comp_ref_type.h:
 
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/packing.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_context.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/min.h:
@@ -3411,6 +3883,8 @@ LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.cxx:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/common_type.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdint.h:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double3x2.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/set_union.h:
 
@@ -3464,9 +3938,15 @@ LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.cxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/partial_order.h:
 
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_uint3_sized.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_stable_partition.h:
 
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/scalar_int_sized.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_assignable.h:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_bool4_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/jthread.h:
 
@@ -3532,6 +4012,8 @@ LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.cxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_null_pointer.h:
 
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float4x2.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_is_heap_until.h:
@@ -3556,6 +4038,8 @@ LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.cxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_pop_heap.h:
 
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_float2.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_partition.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_for_each_n.h:
@@ -3573,6 +4057,10 @@ LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.cxx:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/copyable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/_types.h:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_half.hpp:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double3x3_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_minmax_element.h:
 
@@ -3730,6 +4218,8 @@ LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.cxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_adjacent_find.h:
 
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float3x2.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_all_extents.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/unique.h:
@@ -3743,6 +4233,8 @@ LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.cxx:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__cstddef/byte.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/scalar_constants.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/width_estimation_table.h:
 
@@ -3864,6 +4356,8 @@ LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.cxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/uniform_random_bit_generator.h:
 
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_clip_space.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_generate_n.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wint_t.h:
@@ -3888,7 +4382,11 @@ LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.cxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/is_partitioned.h:
 
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/common.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/includes.h:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_bool4.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_unsigned.h:
 
@@ -3903,6 +4401,8 @@ LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx.cxx:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int8_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/in_out_out_result.h:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat2x2.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_callable.h:
 
@@ -3928,6 +4428,8 @@ LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/equal.h:
 
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_uint2.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_copy_if.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/modulo.h:
@@ -3948,11 +4450,15 @@ LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/__xlocale.h:
 
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat4x2.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/bit_log2.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/set_difference.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/binary_search.h:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float3x3_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/new:
 
@@ -3996,6 +4502,8 @@ LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx:
 
 /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog/details/registry.h:
 
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/func_packing.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/destructible.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/dependent_type.h:
@@ -4008,6 +4516,8 @@ LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stdarg_header_macro.h:
 
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_int2_sized.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/_limits.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_short.h:
@@ -4019,6 +4529,8 @@ LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sort.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/shared_ptr.h:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_projection.inl:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/in_in_result.h:
 
@@ -4068,6 +4580,8 @@ LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/swap_allocator.h:
 
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double2x3_precision.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_bool.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_find_if_not.h:
@@ -4077,6 +4591,8 @@ LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/minmax.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/to_chars_floating_point.h:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double3x3.hpp:
 
 /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/LHCpch.h:
 
@@ -4143,6 +4659,8 @@ LHCraft/CMakeFiles/LHCraftApp.dir/cmake_pch.hxx:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_rotate.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_rsize_t.h:
+
+/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_half.inl:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdlib.h:
 

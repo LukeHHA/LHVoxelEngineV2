@@ -63,7 +63,7 @@ namespace Core
         m_Context = std::make_unique<OpenGLContext>(m_Window);
         m_Context->Init();
         CORE_LOG_INFO("Window {0} created: Width={1}, Heigth={2}", args.Title, args.Width, args.Height);
-
+        glfwSetInputMode(m_Window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
         glfwSetWindowUserPointer(m_Window, &m_Data);
         SetVSync(true);
 

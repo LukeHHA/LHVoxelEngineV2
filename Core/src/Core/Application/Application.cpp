@@ -19,30 +19,6 @@ namespace Core
 		s_Instance = this;
 		m_Window = std::unique_ptr<Window>(Window::Create());
 		m_Window->SetEventCallback(std::bind(&Application::OnEvent, this, std::placeholders::_1));
-
-		float verticies[4 * 7] = {
-			0.0, -0.5, 0.0, 0.8, 0.2, 1.0, 0.5,
-			0.5, -0.5, 0.0, 0.2, 1.0, 0.0, 0.5,
-			0.0, 0.5, 0.0, 1.0, 1.0, 0.0, 0.5,
-			0.5, 0.5, 0.0, 1.0, 1.0, 0.0, 0.5};
-
-		m_VertexBuffer = VertexBuffer::Create(verticies, sizeof(verticies));
-		m_VertexArray = VertexArray::Create();
-
-		BufferLayout layout = {
-			{ShaderDataType::Float3, "a_Position"},
-			{ShaderDataType::Float4, "a_Color"}};
-
-		m_VertexBuffer->SetLayout(layout);
-
-		m_VertexArray->AddVertexBuffer(m_VertexBuffer);
-
-		std::array<unsigned int, 6> indicies = {0, 1, 2, 1, 3, 2};
-
-		m_IndexBuffer = IndexBuffer::Create(indicies.data(), indicies.size());
-		m_VertexArray->SetIndexBuffer(m_IndexBuffer);
-
-		m_Shader = Shader::Create("Core/Shaders/vertex.vs", "Core/Shaders/fragment.fs");
 	}
 
 	Application::~Application()
@@ -53,14 +29,6 @@ namespace Core
 	{
 		while (m_Running)
 		{
-			RenderCommands::SetClearColor({0.1, 0.1, 0.1, 0.1});
-			RenderCommands::Clear();
-
-			Renderer::BeginScene();
-
-			Renderer::Submit(m_Shader, m_VertexArray);
-			Renderer::EndScene();
-
 			m_Window->OnUpdate(); // glPollEvents and swap buffer
 
 			for (Layer *layer : m_LayerStack)

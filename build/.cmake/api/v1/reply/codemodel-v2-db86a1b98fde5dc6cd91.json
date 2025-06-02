@@ -151,14 +151,14 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "CopyShaders::@94795ff35dabbbd3a8ca",
-					"jsonFile" : "target-CopyShaders-Debug-e9b1d1a052a1d1478c6e.json",
+					"jsonFile" : "target-CopyShaders-Debug-5778865d63acb2e0bd80.json",
 					"name" : "CopyShaders",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "Core::@94795ff35dabbbd3a8ca",
-					"jsonFile" : "target-Core-Debug-548823b8a1f75d51f8dc.json",
+					"jsonFile" : "target-Core-Debug-5ca778ddd316f7bcd837.json",
 					"name" : "Core",
 					"projectIndex" : 1
 				},
@@ -172,7 +172,7 @@
 				{
 					"directoryIndex" : 4,
 					"id" : "LHCraftApp::@8e41550d2fe1761a45fc",
-					"jsonFile" : "target-LHCraftApp-Debug-f1b9045de35602ff772b.json",
+					"jsonFile" : "target-LHCraftApp-Debug-04ab936ec4e5dedf1f78.json",
 					"name" : "LHCraftApp",
 					"projectIndex" : 3
 				}

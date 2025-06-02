@@ -38,13 +38,13 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 80,
+				"line" : 81,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 62,
+				"line" : 63,
 				"parent" : 0
 			},
 			{
@@ -59,19 +59,19 @@
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 42,
+				"line" : 43,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 48,
+				"line" : 49,
 				"parent" : 0
 			},
 			{
 				"command" : 6,
 				"file" : 0,
-				"line" : 57,
+				"line" : 58,
 				"parent" : 0
 			}
 		]
@@ -329,7 +329,8 @@
 				16,
 				17,
 				18,
-				19
+				19,
+				20
 			]
 		}
 	],
@@ -377,14 +378,15 @@
 				16,
 				17,
 				18,
-				19
+				19,
+				20
 			]
 		},
 		{
 			"name" : "Precompile Header File",
 			"sourceIndexes" : 
 			[
-				20
+				21
 			]
 		}
 	],
@@ -508,6 +510,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 2,
 			"path" : "Core/src/Core/Renderer/Platform/OpenGLRendererAPI.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "Core/src/Core/Camera/ProjectionCamera.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

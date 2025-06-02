@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [Unreleased] - 2025-06-02
+
+### Added
+
+- `Projection Camera` plan to remove interface if ortho camera isnt needed and have a standalong camera
+- `Renderer` Minimal renderer with api abstraction and commands
+- `Shader`
+- `Unique/Scope` wrapper for smart pointers **Needs To Be Propegated**
+
 ## [Unreleased] - 2025-05-26
 
 ### Added
@@ -41,7 +50,3 @@ All notable changes to this project will be documented in this file.
 ### Fixed
 
 - Fixed the include paths in `Core.h` aswell as `Application.h`
-
-### Security
-
-## [1.0] – 2025-05-24

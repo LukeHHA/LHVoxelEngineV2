@@ -37,6 +37,7 @@ add_library(Core STATIC
     src/Core/Renderer/Renderer.cpp
     src/Core/Renderer/RenderCommands.cpp
     src/Core/Renderer/Platform/OpenGLRendererAPI.cpp
+    src/Core/Camera/ProjectionCamera.cpp
 )
 
 target_compile_definitions(Core PUBLIC

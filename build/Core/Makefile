@@ -259,6 +259,30 @@ src/Core/Application/Application.cpp.s:
 	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Application/Application.cpp.s
 .PHONY : src/Core/Application/Application.cpp.s
 
+src/Core/Camera/ProjectionCamera.o: src/Core/Camera/ProjectionCamera.cpp.o
+.PHONY : src/Core/Camera/ProjectionCamera.o
+
+# target to build an object file
+src/Core/Camera/ProjectionCamera.cpp.o:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Camera/ProjectionCamera.cpp.o
+.PHONY : src/Core/Camera/ProjectionCamera.cpp.o
+
+src/Core/Camera/ProjectionCamera.i: src/Core/Camera/ProjectionCamera.cpp.i
+.PHONY : src/Core/Camera/ProjectionCamera.i
+
+# target to preprocess a source file
+src/Core/Camera/ProjectionCamera.cpp.i:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Camera/ProjectionCamera.cpp.i
+.PHONY : src/Core/Camera/ProjectionCamera.cpp.i
+
+src/Core/Camera/ProjectionCamera.s: src/Core/Camera/ProjectionCamera.cpp.s
+.PHONY : src/Core/Camera/ProjectionCamera.s
+
+# target to generate assembly for a file
+src/Core/Camera/ProjectionCamera.cpp.s:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Camera/ProjectionCamera.cpp.s
+.PHONY : src/Core/Camera/ProjectionCamera.cpp.s
+
 src/Core/Input/Input.o: src/Core/Input/Input.cpp.o
 .PHONY : src/Core/Input/Input.o
 
@@ -691,6 +715,9 @@ help:
 	@echo "... src/Core/Application/Application.o"
 	@echo "... src/Core/Application/Application.i"
 	@echo "... src/Core/Application/Application.s"
+	@echo "... src/Core/Camera/ProjectionCamera.o"
+	@echo "... src/Core/Camera/ProjectionCamera.i"
+	@echo "... src/Core/Camera/ProjectionCamera.s"
 	@echo "... src/Core/Input/Input.o"
 	@echo "... src/Core/Input/Input.i"
 	@echo "... src/Core/Input/Input.s"

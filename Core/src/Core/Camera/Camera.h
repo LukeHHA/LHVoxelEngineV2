@@ -21,7 +21,7 @@ namespace Core
 
 		virtual ~Camera() = default;
 
-		virtual glm::mat4 GetViewMatrix() = 0;
+		virtual glm::mat4 GetViewMatrix() const = 0;
 
 	protected:
 		glm::mat4 m_Projection = glm::mat4(1.0f);

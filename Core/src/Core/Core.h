@@ -62,7 +62,7 @@ namespace Core
     template <typename T, typename... Args>
     constexpr Unique<T> CreateUnique(Args &&...args)
     {
-        return std::make_unqiue<T>(std::forward<Args>(args)...);
+        return std::make_unique<T>(std::forward<Args>(args)...);
     }
 
     template <typename T>

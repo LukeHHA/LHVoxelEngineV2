@@ -57,3 +57,5 @@ CXX_FLAGS = -g -std=gnu++20 -arch arm64 -Wall -Wextra
 
 # PCH options: Core/CMakeFiles/Core.dir/src/Core/Renderer/Platform/OpenGLRendererAPI.cpp.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch;-Xclang;-include;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx
 
+# PCH options: Core/CMakeFiles/Core.dir/src/Core/Camera/ProjectionCamera.cpp.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch;-Xclang;-include;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx
+

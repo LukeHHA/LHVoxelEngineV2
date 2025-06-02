@@ -956,6 +956,7 @@ LHCraft/CMakeFiles/LHCraftApp.dir/src/App.cpp.o
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_rsize_t.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_size_t.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_wchar_t.h
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/float.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/limits.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/ptrcheck.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdarg.h
@@ -1743,6 +1744,7 @@ LHCraft/CMakeFiles/LHCraftApp.dir/src/App.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cctype
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cerrno
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cfloat
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/charconv
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/climits
@@ -1765,6 +1767,7 @@ LHCraft/CMakeFiles/LHCraftApp.dir/src/App.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/errno.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/exception
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/format
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream
@@ -1815,6 +1818,7 @@ LHCraft/CMakeFiles/LHCraftApp.dir/src/App.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/fcntl.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/gethostuuid.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h
@@ -1958,6 +1962,210 @@ LHCraft/CMakeFiles/LHCraftApp.dir/src/App.cpp.o
  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glad/include/KHR/khrplatform.h
  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glad/include/glad/glad.h
  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glfw/glfw/glfw3.h
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/matrix.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat2x2.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat2x3.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat2x3.inl
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat2x4.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat2x4.inl
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat3x2.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat3x2.inl
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat3x3.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat3x3.inl
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat3x4.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat3x4.inl
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat4x2.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat4x2.inl
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat4x3.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat4x3.inl
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat4x4.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat4x4.inl
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_vec2.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_vec3.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_vec4.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double2x3.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double2x3_precision.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double2x4.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double2x4_precision.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double3x2.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double3x2_precision.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double3x3.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double3x3_precision.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double3x4.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double3x4_precision.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double4x2.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double4x2_precision.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double4x3.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double4x3_precision.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double4x4.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double4x4_precision.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float2x3.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float2x3_precision.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float2x4.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float2x4_precision.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float3x2.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float3x2_precision.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float3x3.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float3x3_precision.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float3x4.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float3x4_precision.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float4x2.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float4x2_precision.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float4x3.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float4x3_precision.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float4x4.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float4x4_precision.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/common.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/func_vector_relational.inl
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/qualifier.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/setup.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/vector_relational.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/compute_vector_relational.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/_fixes.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/_vectorize.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/compute_common.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/func_common.inl
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/func_exponential.inl
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/qualifier.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/setup.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_vec1.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_vec1.inl
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_vec2.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_vec3.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_vec4.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/exponential.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/func_geometric.inl
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_vec3.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/geometric.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/func_matrix.inl
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/qualifier.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/setup.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat2x2.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat2x3.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat2x4.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat3x2.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat3x3.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat3x4.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat4x2.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat4x3.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat4x4.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/matrix.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/vec2.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/vec3.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/vec4.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/compute_vector_relational.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/setup.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/compute_vector_relational.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/qualifier.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/setup.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat2x2.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_mat2x2.inl
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_vec2.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_vec2.inl
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_vec3.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_vec3.inl
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_vec4.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_vec4.inl
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/setup.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/scalar_int_sized.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/scalar_uint_sized.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_int2.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_int3.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_int4.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_uint2.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_uint3.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_uint4.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double2x2.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_double2x2_precision.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float2x2.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_float2x2_precision.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_bool2.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_bool2_precision.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_bool3.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_bool3_precision.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_bool4.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_bool4_precision.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_double2.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_double2_precision.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_double3.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_double3_precision.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_double4.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_double4_precision.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_float2.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_float2_precision.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_float3.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_float3_precision.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_float4.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_float4_precision.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_int2.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_int2_sized.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_int3.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_int3_sized.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_int4.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_int4_sized.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_uint2.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_uint2_sized.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_uint3.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_uint3_sized.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_uint4.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/vector_uint4_sized.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/common.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/common.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/simd/platform.h
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/_fixes.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/_vectorize.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/func_integer.inl
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/func_packing.inl
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/func_trigonometric.inl
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/qualifier.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/setup.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_half.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/type_half.inl
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/exponential.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/fwd.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/geometric.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/glm.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/scalar_constants.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/geometric.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/detail/setup.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/scalar_constants.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/scalar_constants.inl
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/gtc/constants.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/gtc/constants.inl
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/matrix.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/trigonometric.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_clip_space.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_clip_space.inl
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_projection.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_projection.inl
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_transform.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/ext/matrix_transform.inl
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/geometric.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat4x4.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/matrix.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/trigonometric.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/vec2.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/vec3.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/vec4.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/gtc/matrix_transform.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/gtc/matrix_transform.inl
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/integer.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat2x2.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat2x3.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat2x4.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat3x2.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat3x3.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat3x4.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat4x2.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat4x3.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/mat4x4.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/matrix.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/packing.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/trigonometric.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/vec2.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/vec3.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/vec4.hpp
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glm/glm/vector_relational.hpp
  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog/common-inl.h
  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog/common.h
  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog/details/backtracer-inl.h
@@ -1996,12 +2204,16 @@ LHCraft/CMakeFiles/LHCraftApp.dir/src/App.cpp.o
  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog/tweakme.h
  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/spdlog/include/spdlog/version.h
  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Application/Application.h
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Camera/Camera.h
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Camera/ProjectionCamera.h
  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Core.h
  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/EntryPoint.h
  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Events/ApplicationEvents.h
  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Events/Events.h
  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Events/KeyCodes.h
  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Events/KeyEvents.h
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Events/MouseCodes.h
+ /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Events/MouseEvents.h
  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/LHCpch.h
  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/LHCraft.h
  /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Layers/Layer.h
