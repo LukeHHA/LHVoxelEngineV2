@@ -137,13 +137,6 @@ all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles 0
 .PHONY : all
 
-# The main codegen target
-codegen: cmake_check_build_system
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/Vendor/FastNoise2/src//CMakeFiles/progress.marks
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Core/Vendor/FastNoise2/src/codegen
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles 0
-.PHONY : codegen
-
 # The main clean target
 clean:
 	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Core/Vendor/FastNoise2/src/clean
@@ -332,7 +325,6 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... codegen"
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"

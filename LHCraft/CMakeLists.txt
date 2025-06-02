@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.50)
+cmake_minimum_required(VERSION 3.20)
 project(LHCraftApp)
 
 add_executable(LHCraftApp
