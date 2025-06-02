@@ -2,11 +2,15 @@ cmake_minimum_required(VERSION 3.20)
 project(LHCraftCoreLib VERSION 1.0)
 
 if(APPLE)
-set(OPENGL_VERSION_MAJOR 4)
-set(OPENGL_VERSION_MINOR 1)
-else() # to be set when trying other platfroms
-set(OPENGL_VERSION_MAJOR 4)
-set(OPENGL_VERSION_MINOR 1)
+    set(OPENGL_VERSION_MAJOR 4)
+    set(OPENGL_VERSION_MINOR 1)
+
+elseif(UNIX AND NOT APPLE) # to be set when trying other platfroms
+    set(OPENGL_VERSION_MAJOR 3)
+    set(OPENGL_VERSION_MINOR 1)
+
+    find_package(OpenGL REQUIRED)
+    find_package(X11 REQUIRED)
 endif()
 
 
@@ -69,6 +73,19 @@ if (APPLE)
     target_link_libraries(Core PUBLIC "-framework IOKit")
     target_link_libraries(Core PUBLIC "-framework Cocoa")
     target_link_libraries(Core PUBLIC "-framework OpenGL")
+elseif(UNIX AND NOT APPLE)
+    target_link_libraries(Core PUBLIC
+        ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/glfw/glfw/libglfw3.a
+        OpenGL::GL
+        X11::X11            
+        pthread             
+        Xrandr              
+        Xi                  
+        Xxf86vm             
+        Xcursor             
+        dl                  
+        m                   
+    )
 endif()
 
 add_custom_target(CopyShaders ALL
