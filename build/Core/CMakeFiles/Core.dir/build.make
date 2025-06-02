@@ -117,21 +117,21 @@ Core/CMakeFiles/Core.dir/src/Core/Application/Application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Core.dir/src/Core/Application/Application.cpp.s"
 	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx -S /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Application/Application.cpp -o CMakeFiles/Core.dir/src/Core/Application/Application.cpp.s
 
-Core/CMakeFiles/Core.dir/src/Core/window/Window.cpp.o: Core/CMakeFiles/Core.dir/flags.make
-Core/CMakeFiles/Core.dir/src/Core/window/Window.cpp.o: /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/window/Window.cpp
-Core/CMakeFiles/Core.dir/src/Core/window/Window.cpp.o: Core/CMakeFiles/Core.dir/cmake_pch.hxx
-Core/CMakeFiles/Core.dir/src/Core/window/Window.cpp.o: Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch
-Core/CMakeFiles/Core.dir/src/Core/window/Window.cpp.o: Core/CMakeFiles/Core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Core/CMakeFiles/Core.dir/src/Core/window/Window.cpp.o"
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx -MD -MT Core/CMakeFiles/Core.dir/src/Core/window/Window.cpp.o -MF CMakeFiles/Core.dir/src/Core/window/Window.cpp.o.d -o CMakeFiles/Core.dir/src/Core/window/Window.cpp.o -c /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/window/Window.cpp
+Core/CMakeFiles/Core.dir/src/Core/Window/Window.cpp.o: Core/CMakeFiles/Core.dir/flags.make
+Core/CMakeFiles/Core.dir/src/Core/Window/Window.cpp.o: /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Window/Window.cpp
+Core/CMakeFiles/Core.dir/src/Core/Window/Window.cpp.o: Core/CMakeFiles/Core.dir/cmake_pch.hxx
+Core/CMakeFiles/Core.dir/src/Core/Window/Window.cpp.o: Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch
+Core/CMakeFiles/Core.dir/src/Core/Window/Window.cpp.o: Core/CMakeFiles/Core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Core/CMakeFiles/Core.dir/src/Core/Window/Window.cpp.o"
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx -MD -MT Core/CMakeFiles/Core.dir/src/Core/Window/Window.cpp.o -MF CMakeFiles/Core.dir/src/Core/Window/Window.cpp.o.d -o CMakeFiles/Core.dir/src/Core/Window/Window.cpp.o -c /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Window/Window.cpp
 
-Core/CMakeFiles/Core.dir/src/Core/window/Window.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Core.dir/src/Core/window/Window.cpp.i"
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx -E /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/window/Window.cpp > CMakeFiles/Core.dir/src/Core/window/Window.cpp.i
+Core/CMakeFiles/Core.dir/src/Core/Window/Window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Core.dir/src/Core/Window/Window.cpp.i"
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx -E /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Window/Window.cpp > CMakeFiles/Core.dir/src/Core/Window/Window.cpp.i
 
-Core/CMakeFiles/Core.dir/src/Core/window/Window.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Core.dir/src/Core/window/Window.cpp.s"
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx -S /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/window/Window.cpp -o CMakeFiles/Core.dir/src/Core/window/Window.cpp.s
+Core/CMakeFiles/Core.dir/src/Core/Window/Window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Core.dir/src/Core/Window/Window.cpp.s"
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx -S /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Window/Window.cpp -o CMakeFiles/Core.dir/src/Core/Window/Window.cpp.s
 
 Core/CMakeFiles/Core.dir/src/Core/Logging/Logging.cpp.o: Core/CMakeFiles/Core.dir/flags.make
 Core/CMakeFiles/Core.dir/src/Core/Logging/Logging.cpp.o: /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/src/Core/Logging/Logging.cpp
@@ -409,7 +409,7 @@ Core/CMakeFiles/Core.dir/src/Core/Camera/ProjectionCamera.cpp.s: cmake_force
 Core_OBJECTS = \
 "CMakeFiles/Core.dir/Vendor/glad/src/glad.c.o" \
 "CMakeFiles/Core.dir/src/Core/Application/Application.cpp.o" \
-"CMakeFiles/Core.dir/src/Core/window/Window.cpp.o" \
+"CMakeFiles/Core.dir/src/Core/Window/Window.cpp.o" \
 "CMakeFiles/Core.dir/src/Core/Logging/Logging.cpp.o" \
 "CMakeFiles/Core.dir/src/Core/Layers/Layer.cpp.o" \
 "CMakeFiles/Core.dir/src/Core/Layers/LayerStack.cpp.o" \
@@ -434,7 +434,7 @@ Core_EXTERNAL_OBJECTS =
 Core/libCore.a: Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch
 Core/libCore.a: Core/CMakeFiles/Core.dir/Vendor/glad/src/glad.c.o
 Core/libCore.a: Core/CMakeFiles/Core.dir/src/Core/Application/Application.cpp.o
-Core/libCore.a: Core/CMakeFiles/Core.dir/src/Core/window/Window.cpp.o
+Core/libCore.a: Core/CMakeFiles/Core.dir/src/Core/Window/Window.cpp.o
 Core/libCore.a: Core/CMakeFiles/Core.dir/src/Core/Logging/Logging.cpp.o
 Core/libCore.a: Core/CMakeFiles/Core.dir/src/Core/Layers/Layer.cpp.o
 Core/libCore.a: Core/CMakeFiles/Core.dir/src/Core/Layers/LayerStack.cpp.o

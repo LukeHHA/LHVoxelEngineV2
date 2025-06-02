@@ -660,29 +660,29 @@ src/Core/Renderer/VertexArray.cpp.s:
 	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Renderer/VertexArray.cpp.s
 .PHONY : src/Core/Renderer/VertexArray.cpp.s
 
-src/Core/window/Window.o: src/Core/window/Window.cpp.o
-.PHONY : src/Core/window/Window.o
+src/Core/Window/Window.o: src/Core/Window/Window.cpp.o
+.PHONY : src/Core/Window/Window.o
 
 # target to build an object file
-src/Core/window/Window.cpp.o:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/window/Window.cpp.o
-.PHONY : src/Core/window/Window.cpp.o
+src/Core/Window/Window.cpp.o:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Window/Window.cpp.o
+.PHONY : src/Core/Window/Window.cpp.o
 
-src/Core/window/Window.i: src/Core/window/Window.cpp.i
-.PHONY : src/Core/window/Window.i
+src/Core/Window/Window.i: src/Core/Window/Window.cpp.i
+.PHONY : src/Core/Window/Window.i
 
 # target to preprocess a source file
-src/Core/window/Window.cpp.i:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/window/Window.cpp.i
-.PHONY : src/Core/window/Window.cpp.i
+src/Core/Window/Window.cpp.i:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Window/Window.cpp.i
+.PHONY : src/Core/Window/Window.cpp.i
 
-src/Core/window/Window.s: src/Core/window/Window.cpp.s
-.PHONY : src/Core/window/Window.s
+src/Core/Window/Window.s: src/Core/Window/Window.cpp.s
+.PHONY : src/Core/Window/Window.s
 
 # target to generate assembly for a file
-src/Core/window/Window.cpp.s:
-	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/window/Window.cpp.s
-.PHONY : src/Core/window/Window.cpp.s
+src/Core/Window/Window.cpp.s:
+	cd /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/Core.dir/build.make Core/CMakeFiles/Core.dir/src/Core/Window/Window.cpp.s
+.PHONY : src/Core/Window/Window.cpp.s
 
 # Help Target
 help:
@@ -758,9 +758,9 @@ help:
 	@echo "... src/Core/Renderer/VertexArray.o"
 	@echo "... src/Core/Renderer/VertexArray.i"
 	@echo "... src/Core/Renderer/VertexArray.s"
-	@echo "... src/Core/window/Window.o"
-	@echo "... src/Core/window/Window.i"
-	@echo "... src/Core/window/Window.s"
+	@echo "... src/Core/Window/Window.o"
+	@echo "... src/Core/Window/Window.i"
+	@echo "... src/Core/Window/Window.s"
 .PHONY : help
 
 

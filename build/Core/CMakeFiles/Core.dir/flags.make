@@ -23,7 +23,7 @@ CXX_FLAGS = -g -std=gnu++20 -arch arm64 -Wall -Wextra
 
 # PCH options: Core/CMakeFiles/Core.dir/src/Core/Application/Application.cpp.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch;-Xclang;-include;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx
 
-# PCH options: Core/CMakeFiles/Core.dir/src/Core/window/Window.cpp.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch;-Xclang;-include;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx
+# PCH options: Core/CMakeFiles/Core.dir/src/Core/Window/Window.cpp.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch;-Xclang;-include;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx
 
 # PCH options: Core/CMakeFiles/Core.dir/src/Core/Logging/Logging.cpp.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx.pch;-Xclang;-include;-Xclang;/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/build/Core/CMakeFiles/Core.dir/cmake_pch.hxx
 

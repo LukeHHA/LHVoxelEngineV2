@@ -39,8 +39,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Core.dir/src/Core/Renderer/Shader/Shader.cpp.o.d"
   "CMakeFiles/Core.dir/src/Core/Renderer/VertexArray.cpp.o"
   "CMakeFiles/Core.dir/src/Core/Renderer/VertexArray.cpp.o.d"
-  "CMakeFiles/Core.dir/src/Core/window/Window.cpp.o"
-  "CMakeFiles/Core.dir/src/Core/window/Window.cpp.o.d"
+  "CMakeFiles/Core.dir/src/Core/Window/Window.cpp.o"
+  "CMakeFiles/Core.dir/src/Core/Window/Window.cpp.o.d"
   "libCore.a"
   "libCore.pdb"
 )

@@ -24,7 +24,7 @@ add_subdirectory(Vendor/FastNoise2)
 add_library(Core STATIC
     ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/glad/src/glad.c
     src/Core/Application/Application.cpp
-    src/Core/window/Window.cpp
+    src/Core/Window/Window.cpp
     src/Core/Logging/Logging.cpp
     src/Core/Layers/Layer.cpp
     src/Core/Layers/LayerStack.cpp
