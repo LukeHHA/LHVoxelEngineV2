@@ -1,1 +1,0 @@
-/usr/bin/c++ -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/LHCraftApp.dir/src/App.cpp.o -o LHCraftApp  ../Core/libCore.a /Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/Core/Vendor/glfw/glfw/libglfw3.a ../Core/Vendor/FastNoise2/src/libFastNoiseD.a -framework IOKit -framework Cocoa -framework OpenGL

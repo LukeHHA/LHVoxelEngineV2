@@ -1,2 +1,0 @@
-/usr/bin/ar qc libFastNoiseD.a CMakeFiles/FastNoise.dir/FastNoise/Metadata.cpp.o CMakeFiles/FastNoise.dir/FastNoise/SmartNode.cpp.o CMakeFiles/FastNoise.dir/FastNoise/FastNoise_C.cpp.o CMakeFiles/FastNoise.dir/FastSIMD/FastSIMD.cpp.o CMakeFiles/FastNoise.dir/FastSIMD/FastSIMD_Level_NEON.cpp.o CMakeFiles/FastNoise.dir/FastSIMD/FastSIMD_Level_Scalar.cpp.o
-/usr/bin/ranlib libFastNoiseD.a
