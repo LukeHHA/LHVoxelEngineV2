@@ -13,13 +13,10 @@ elseif(UNIX AND NOT APPLE) # to be set when trying other platfroms
     find_package(X11 REQUIRED)
 endif()
 
-
 configure_file(
     cmakeConfig.h.in
     cmakeConfig.h
 )
-
-add_subdirectory(Vendor/FastNoise2)
 
 add_library(Core STATIC
     ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/glad/src/glad.c
@@ -44,11 +41,6 @@ add_library(Core STATIC
     src/Core/Camera/ProjectionCamera.cpp
 )
 
-target_compile_definitions(Core PUBLIC
-    LHCRAFT_ENABLE_ASSERTS
-    GL_SILENCE_DEPRECATION
-)
-
 # exposes the header PUBLICLY so the compiler can resolve the include
 target_include_directories(Core PUBLIC 
     ${CMAKE_BINARY_DIR}/Core
@@ -66,7 +58,6 @@ target_precompile_headers(Core PUBLIC
 # Target link libs seems to need to be specified with PUBLIC/PRIVATE/INTERFACE or none at all
 target_link_libraries(Core PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/glfw/glfw/libglfw3.a
-    FastNoise
 )
 
 if (APPLE)
@@ -75,16 +66,9 @@ if (APPLE)
     target_link_libraries(Core PUBLIC "-framework OpenGL")
 elseif(UNIX AND NOT APPLE)
     target_link_libraries(Core PUBLIC
-        ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/glfw/glfw/libglfw3.a
         OpenGL::GL
         X11::X11            
-        pthread             
-        Xrandr              
-        Xi                  
-        Xxf86vm             
-        Xcursor             
-        dl                  
-        m                   
+        pthread                               
     )
 endif()
 
@@ -96,4 +80,9 @@ add_custom_target(CopyShaders ALL
 )
 
 add_dependencies(Core CopyShaders)
+
+target_compile_definitions(Core PUBLIC
+    LHCRAFT_ENABLE_ASSERTS
+    GL_SILENCE_DEPRECATION
+)
 
