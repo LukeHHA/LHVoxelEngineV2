@@ -4,13 +4,6 @@ project(LHCraftCoreLib VERSION 1.0)
 if(APPLE)
     set(OPENGL_VERSION_MAJOR 4)
     set(OPENGL_VERSION_MINOR 1)
-
-elseif(UNIX AND NOT APPLE) # to be set when trying other platfroms
-    set(OPENGL_VERSION_MAJOR 3)
-    set(OPENGL_VERSION_MINOR 1)
-
-    find_package(OpenGL REQUIRED)
-    find_package(X11 REQUIRED)
 endif()
 
 configure_file(
@@ -64,12 +57,6 @@ if (APPLE)
     target_link_libraries(Core PUBLIC "-framework IOKit")
     target_link_libraries(Core PUBLIC "-framework Cocoa")
     target_link_libraries(Core PUBLIC "-framework OpenGL")
-elseif(UNIX AND NOT APPLE)
-    target_link_libraries(Core PUBLIC
-        OpenGL::GL
-        X11::X11            
-        pthread                               
-    )
 endif()
 
 add_custom_target(CopyShaders ALL
