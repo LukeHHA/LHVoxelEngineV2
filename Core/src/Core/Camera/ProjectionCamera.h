@@ -1,3 +1,7 @@
+/**
+ * @file ProjectionCamera
+ * @brief Specilization of a camera for projection over ortho
+ */
 #pragma once
 
 #include "Camera.h"
@@ -15,9 +19,28 @@ namespace Core
 		RIGHT
 	};
 
+	/**
+	 * @class ProjectionCamera
+	 * @brief Projection matrix camera class
+	 *
+	 * The projection camera uses the glm::perspective function that creates a camera
+	 * with a sense of depth wher objects get smaller the further they are away from
+	 * the camera.
+	 */
 	class ProjectionCamera : public Camera
 	{
 	public:
+		/**
+		 * @fn ProjectionCamera()
+		 * @brief Overloads of constructor for different Pos args
+		 *
+		 * @param glm::vec3 position
+		 * @param float x,y,z
+		 *
+		 * the constructor alows for the position of the camera to be specified
+		 * without the need for the glm library but values for the perspective
+		 * need to be provided
+		 */
 		ProjectionCamera(float fov, float aspectRatio, float nearClip, float farClip, glm::vec3 position = glm::vec3(0.0f, 0.0f, 0.0f), glm::vec3 up = glm::vec3(0.0f, 1.0f, 0.0f));
 		ProjectionCamera(float fov, float aspectRatio, float nearClip, float farClip, float posX, float posY, float posZ, float upX, float upY, float upZ, float yaw, float pitch);
 
