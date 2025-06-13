@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "name": "Launch LHCraft",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/LHCraft/LHCraftApp",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "lldb"
+    }
+  ]
+}

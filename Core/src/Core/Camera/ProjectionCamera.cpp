@@ -10,6 +10,7 @@ namespace Core
 		m_Position = position;
 		m_WorldUp = up;
 		updateCameraVectors();
+		UpdateProjection();
 	}
 
 	ProjectionCamera::ProjectionCamera(float fov, float aspectRatio, float nearClip, float farClip, float posX, float posY, float posZ, float upX, float upY, float upZ, float yaw, float pitch)
@@ -21,6 +22,7 @@ namespace Core
 		m_Yaw = yaw;
 		m_Pitch = pitch;
 		updateCameraVectors();
+		UpdateProjection();
 	}
 
 	void ProjectionCamera::OnUpdate(TimeStep ts)
@@ -53,7 +55,7 @@ namespace Core
 		{
 			m_Position -= m_Right * velocity;
 		}
-		else if (Input::IsKeyPressed(Key::D))
+		if (Input::IsKeyPressed(Key::D))
 		{
 			m_Position += m_Right * velocity;
 		}
@@ -62,16 +64,22 @@ namespace Core
 		{
 			m_Position += m_Front * velocity;
 		}
-		else if (Input::IsKeyPressed(Key::S))
+		if (Input::IsKeyPressed(Key::S))
 		{
 			m_Position -= m_Front * velocity;
+		}
+		if (Input::IsKeyPressed(Key::Space))
+		{
+			m_Position += m_Up * velocity;
+		}
+		if (Input::IsKeyPressed(Key::LeftShift))
+		{
+			m_Position -= m_Up * velocity;
 		}
 	}
 	void ProjectionCamera::ProcessMouseMovement(GLboolean constrainPitch)
 	{
 		const glm::vec2 &mouse{Input::GetMouseX(), Input::GetMouseY()};
-
-		CORE_LOG_TRACE("{0}{1}", Input::GetMouseX(), Input::GetMouseY());
 
 		if (firstMouse)
 		{
@@ -112,7 +120,6 @@ namespace Core
 
 	void ProjectionCamera::ProcessMouseScroll(float yoffset)
 	{
-		CORE_LOG_TRACE("Scroll registered");
 		m_Zoom -= (float)yoffset;
 		if (m_Zoom < 1.0f)
 			m_Zoom = 1.0f;
