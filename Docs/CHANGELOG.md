@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [Unreleased] - 2025-06-13
+
+### Added
+
+- Working camera controlls for all directions including a mouse controller
+- render submission is now working on the client side application
+
 ## [Unreleased] - 2025-06-02
 
 ### Added
