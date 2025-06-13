@@ -30,37 +30,7 @@ Ideally by learning to effectivly abstract the OpenGl pipeline and messy configu
 
 ## Acknowledgements
 
-- **Event System**  
-  Adapted from [Hazel Engine](https://github.com/TheCherno/Hazel)’s EventDispatcher subsystem, licensed under Apache 2.0.
+- **Engine System**  
+  Adapted from [Hazel Engine](https://github.com/TheCherno/Hazel)’s Hazel Engine, licensed under Apache 2.0.
 
   - Original authors: Cherno and Hazel contributors
-  - Modified: renamed namespaces (hz → Core), prefixed macros (HZ* → CORE*), and refactored the dispatch API.
-
-- **EventDispatch System**  
-   Adapted from [Hazel Engine](https://github.com/TheCherno/Hazel)’s EventDispatcher subsystem, licensed under Apache 2.0.
-
-  - Original authors: Cherno and Hazel contributors
-  - Modified: renamed namespaces (hz → Core), prefixed macros (HZ* → CORE*), and refactored the dispatch API.
-
-- **Window System**  
-  Adapted from [Hazel Engine](https://github.com/TheCherno/Hazel)’s Window subsystem, licensed under Apache 2.0.
-
-  - Original authors: Cherno and Hazel contributors
-  - Modified: renamed namespaces (hz → Core), prefixed macros (HZ* → CORE*), and refactored the dispatch API.
-
-- **Layer System**  
-  Adapted from [Hazel Engine](https://github.com/TheCherno/Hazel)’s Layer subsystem, licensed under Apache 2.0.
-
-  - Original authors: Cherno and Hazel contributors
-  - Modified: renamed namespaces (hz → Core), prefixed macros (HZ* → CORE*), and refactored the dispatch API.
-
-- **Logging System**  
-  Adapted from [Hazel Engine](https://github.com/TheCherno/Hazel)’s Logging subsystem, licensed under Apache 2.0.
-
-  - Original authors: Cherno and Hazel contributors
-  - Modified: renamed namespaces (hz → Core), prefixed macros (HZ* → CORE*), and refactored the dispatch API.
-
-- **Application System**  
-  Adapted from [Hazel Engine](https://github.com/TheCherno/Hazel)’s Application subsystem, licensed under Apache 2.0.
-  - Original authors: Cherno and Hazel contributors
-  - Modified: renamed namespaces (hz → Core), prefixed macros (HZ* → CORE*), and refactored the dispatch API.
