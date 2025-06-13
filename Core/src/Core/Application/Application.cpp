@@ -1,13 +1,11 @@
 // Modified from Hazel’s Application (Apache 2.0);
 // renamed namespace hz → Core and prefixed macros with CORE_…
 
-#include "Core/LHCpch.h"
-
 #include "Core/Application/Application.h"
-#include "Core/Input/Input.h"
 #include "Core/Events/KeyCodes.h"
 
-#include "Core/Renderer/Renderer.h"
+#include "Core/TimeStep.h"
+
 
 namespace Core
 {
@@ -29,10 +27,13 @@ namespace Core
 	{
 		while (m_Running)
 		{
+			float time = glfwGetTime();
+			TimeStep timestep = time - m_LastTime;
+			m_LastTime = time;
 			m_Window->OnUpdate(); // glPollEvents and swap buffer
 
 			for (Layer *layer : m_LayerStack)
-				layer->OnUpdate(/*timestep*/);
+				layer->OnUpdate(timestep);
 		}
 	}
 

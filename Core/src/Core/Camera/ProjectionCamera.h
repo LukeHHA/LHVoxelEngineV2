@@ -6,7 +6,7 @@
 
 #include "Camera.h"
 #include "Core/Events/MouseEvents.h"
-#include "Core/Events/KeyEvents.h"
+#include "Core/TimeStep.h"
 
 namespace Core
 {
@@ -44,7 +44,7 @@ namespace Core
 		ProjectionCamera(float fov, float aspectRatio, float nearClip, float farClip, glm::vec3 position = glm::vec3(0.0f, 0.0f, 0.0f), glm::vec3 up = glm::vec3(0.0f, 1.0f, 0.0f));
 		ProjectionCamera(float fov, float aspectRatio, float nearClip, float farClip, float posX, float posY, float posZ, float upX, float upY, float upZ, float yaw, float pitch);
 
-		void OnUpdate(float ts);
+		void OnUpdate(TimeStep ts);
 		void OnEvent(Event &e);
 
 		inline void SetViewportSize(float width, float height)
@@ -68,7 +68,7 @@ namespace Core
 	private:
 		void updateCameraVectors();
 
-		void ProcessKeyboard(float deltaTime);
+		void ProcessKeyboard(TimeStep ts);
 		void ProcessMouseMovement(GLboolean constrainPitch = true);
 		void ProcessMouseScroll(float yoffset);
 

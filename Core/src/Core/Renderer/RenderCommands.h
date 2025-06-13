@@ -1,6 +1,5 @@
 #pragma once
 
-#include "Core/LHCpch.h"
 #include "RendererAPI.h"
 
 namespace Core

@@ -23,7 +23,7 @@ namespace Core
 		updateCameraVectors();
 	}
 
-	void ProjectionCamera::OnUpdate(float ts)
+	void ProjectionCamera::OnUpdate(TimeStep ts)
 	{
 		ProcessKeyboard(ts);
 		ProcessMouseMovement();
@@ -46,7 +46,7 @@ namespace Core
 		m_Projection = glm::perspective(glm::radians(m_Zoom), m_AspectRatio, m_NearClip, m_FarClip);
 	}
 
-	void ProjectionCamera::ProcessKeyboard(float ts)
+	void ProjectionCamera::ProcessKeyboard(TimeStep ts)
 	{
 		float velocity = m_MovementSpeed * ts;
 		if (Input::IsKeyPressed(Key::A))

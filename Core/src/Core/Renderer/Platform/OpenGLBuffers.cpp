@@ -1,6 +1,4 @@
 #include "OpenGLBuffers.h"
-#include "Core/LHCpch.h"
-
 #include "glad/glad.h"
 
 namespace Core

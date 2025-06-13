@@ -19,11 +19,6 @@
 #include "Core/Layers/LayerStack.h"
 #include "Core/Events/ApplicationEvents.h"
 
-#include "Core/Renderer/Shader/Shader.h"
-#include "Core/Renderer/Buffers.h"
-#include "Core/Renderer/VertexArray.h"
-#include "Core/Camera/ProjectionCamera.h"
-
 namespace Core
 {
     /**
@@ -81,11 +76,7 @@ namespace Core
         bool m_Running = true;
         LayerStack m_LayerStack;
 
-        std::shared_ptr<Shader> m_Shader;
-        std::shared_ptr<VertexArray> m_VertexArray;
-        std::shared_ptr<VertexBuffer> m_VertexBuffer;
-        std::shared_ptr<IndexBuffer> m_IndexBuffer;
-        std::unique_ptr<ProjectionCamera> m_Camera;
+        float m_LastTime = 0.0f;
     };
 
     /**

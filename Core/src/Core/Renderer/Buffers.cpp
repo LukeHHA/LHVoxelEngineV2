@@ -1,5 +1,3 @@
-#include "Core/LHCpch.h"
-
 #include "Buffers.h"
 #include "Core/Renderer/Platform/OpenGLBuffers.h"
 

@@ -1,6 +1,5 @@
 #pragma once
 
-#include "Core/LHCpch.h"
 #include "Core/Core.h"
 
 namespace Core
@@ -48,10 +47,10 @@ namespace Core
 			return 4 * 4;
 		case ShaderDataType::Bool:
 			return 1;
+		case ShaderDataType::None:
+		    CORE_ASSERT(false, "Unknown ShaderDataType!");
+			return 0;
 		}
-
-		CORE_ASSERT(false, "Unknown ShaderDataType!");
-		return 0;
 	}
 
 	struct BufferElement

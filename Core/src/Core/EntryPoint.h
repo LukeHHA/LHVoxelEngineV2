@@ -1,10 +1,7 @@
 #pragma once
 
-#include "Core/Core.h"
 #include "Core/Application/Application.h"
 #include "cmakeConfig.h"
-
-#ifdef __APPLE__
 
 extern Core::Application *Core::CreateApplication();
 
@@ -25,5 +22,3 @@ int main(int argc, char **argv)
     app->Run();
     delete app;
 }
-
-#endif

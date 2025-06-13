@@ -32,3 +32,4 @@ html/
 latex/
 build/
 Doxyfile
+.cache/

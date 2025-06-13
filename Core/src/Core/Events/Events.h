@@ -3,7 +3,6 @@
 
 #pragma once
 
-#include "Core/LHCpch.h"
 #include "Core/Core.h"
 
 namespace Core

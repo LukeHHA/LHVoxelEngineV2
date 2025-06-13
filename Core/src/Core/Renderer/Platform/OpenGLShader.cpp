@@ -1,6 +1,7 @@
 #include "OpenGLShader.h"
 #include "Core/Core.h"
 #include <filesystem>
+#include <fstream>
 
 namespace Core
 {

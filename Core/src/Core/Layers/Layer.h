@@ -4,6 +4,7 @@
 #pragma once
 
 #include "Core/Events/Events.h"
+#include "Core/TimeStep.h"
 
 namespace Core
 {
@@ -15,7 +16,7 @@ namespace Core
 
         virtual void OnAttach() {}
         virtual void OnDetach() {}
-        virtual void OnUpdate(/*Timestep ts*/) {}
+        virtual void OnUpdate(TimeStep ts) {}
         virtual void OnImGuiRender() {} // unused for now
         virtual void OnEvent(Event &event) {}
 

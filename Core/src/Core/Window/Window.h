@@ -16,9 +16,9 @@
 #pragma once
 
 #include "Core/Events/Events.h"
-#include "Core/Renderer/Platform/OpenGLContext.h"
 #include "glad/glad.h"
 #include "glfw/glfw3.h"
+#include "Core/Renderer/Context/GraphicsContext.h"
 
 #include <functional>
 #include <string>

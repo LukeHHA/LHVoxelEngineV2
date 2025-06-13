@@ -1,6 +1,7 @@
 #include "Input.h"
 
 #include "Core/Application/Application.h"
+
 #include "glfw/glfw3.h"
 
 namespace Core
