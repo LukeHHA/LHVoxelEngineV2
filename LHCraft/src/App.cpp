@@ -12,7 +12,7 @@ public:
     LHCraft()
     {
         PushLayer(new TestLayer());
-        PushLayer(new TestOverlay());
+        // PushLayer(new TestOverlay());
     }
 
     ~LHCraft()

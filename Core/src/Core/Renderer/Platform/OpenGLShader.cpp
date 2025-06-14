@@ -12,8 +12,8 @@ namespace Core
         // 1. retrieve the vertex/fragment source code from filePath
         std::string vertexPathFull = std::filesystem::current_path().string() + "/" + vertexPath;
         std::string fragmentPathFull = std::filesystem::current_path().string() + "/" + fragmetnPath;
-        CORE_LOG_TRACE("({0})", vertexPathFull);
-        CORE_LOG_TRACE("({0})", fragmentPathFull);
+        CORE_LOG_WARN("({0})", vertexPathFull);
+        CORE_LOG_WARN("({0})", fragmentPathFull);
         std::string vertexCode;
         std::string fragmentCode;
         std::ifstream vShaderFile;
@@ -44,6 +44,7 @@ namespace Core
         const char *vShaderCode = vertexCode.c_str();
         const char *fShaderCode = fragmentCode.c_str();
         // 2. compile shaders
+
         unsigned int vertex, fragment;
         // vertex shader
         vertex = glCreateShader(GL_VERTEX_SHADER);

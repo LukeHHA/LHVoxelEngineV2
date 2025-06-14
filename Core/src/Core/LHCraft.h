@@ -13,4 +13,5 @@
 #include "Core/Renderer/VertexArray.h"
 #include "Core/Renderer/Shader/Shader.h"
 #include "Core/Renderer/RenderCommands.h"
+#include "Core/Renderer/Texture.h"
 // Entry Point

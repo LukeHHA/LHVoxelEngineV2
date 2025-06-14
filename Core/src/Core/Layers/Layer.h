@@ -17,7 +17,7 @@ namespace Core
         virtual void OnAttach() {}
         virtual void OnDetach() {}
         virtual void OnUpdate(TimeStep ts) {}
-        virtual void OnImGuiRender() {} // unused for now
+        // virtual void OnImGuiRender() {} // unused for now
         virtual void OnEvent(Event &event) {}
 
         const std::string &GetName() const { return m_DebugName; }

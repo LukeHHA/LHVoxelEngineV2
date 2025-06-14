@@ -114,7 +114,6 @@ namespace Core
 	bool ProjectionCamera::OnMouseScroll(MouseScrolledEvent &e)
 	{
 		float yOffset = e.GetYOffset();
-		CORE_LOG_TRACE("scroll event offset: {0}", e.GetYOffset());
 		ProcessMouseScroll(yOffset);
 	}
 

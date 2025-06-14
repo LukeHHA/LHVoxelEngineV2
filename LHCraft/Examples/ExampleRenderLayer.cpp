@@ -4,16 +4,17 @@ TestLayer::TestLayer()
 {
 	m_VertexArray = Core::VertexArray::Create();
 
-	float vertices[4 * 7] = {
-		-0.5f, -0.5f, -1.0f, 0.0f, 0.0f, 0.3f, 1.0f,
-		0.5f, -0.5f, -1.0f, 1.0f, 0.0f, 0.1f, 1.0f,
-		0.5f, 0.5f, -1.0f, 1.0f, 1.0f, 0.5f, 1.0f,
-		-0.5f, 0.5f, -1.0f, 0.8f, 0.3f, 0.5f, 1.0f};
+	float vertices[4 * 5] = {
+		-0.5f, -0.5f, -1.0f, 0.0f, 0.0f,
+		0.5f, -0.5f, -1.0f, 1.0f, 0.0f,
+		0.5f, 0.5f, -1.0f, 1.0f, 1.0f,
+		-0.5f, 0.5f, -1.0f, 0.0f, 1.0f};
 
 	std::shared_ptr<Core::VertexBuffer> vertexBuffer = Core::VertexBuffer::Create(vertices, sizeof(vertices));
 	Core::BufferLayout layout = {
 		{Core::ShaderDataType::Float3, "a_Position"},
-		{Core::ShaderDataType::Float4, "a_Color"}};
+		{Core::ShaderDataType::Float2, "a_Color"}};
+
 	vertexBuffer->SetLayout(layout);
 	m_VertexArray->AddVertexBuffer(vertexBuffer);
 
@@ -22,7 +23,12 @@ TestLayer::TestLayer()
 	m_VertexArray->SetIndexBuffer(indexBuffer);
 
 	m_Camera = std::make_unique<Core::ProjectionCamera>(45.0f, 1200.0f / 720.0f, 0.1f, 1000.0f);
+
+	m_Texture = Core::Texture2D::Create("/Users/amyalex/Documents/Production_Projects/LHVoxelEngineV2/LHCraft/assets/awesomeface.png");
+
 	m_Shader = Core::Shader::Create("Core/Shaders/vertex.vs", "Core/Shaders/fragment.fs");
+
+	m_Shader->SetInt("u_Texture", 0);
 }
 
 void TestLayer::OnUpdate(Core::TimeStep ts)
@@ -34,16 +40,8 @@ void TestLayer::OnUpdate(Core::TimeStep ts)
 
 	Core::Renderer::BeginScene(*m_Camera);
 
-	for (int y = 0; y < 20; y++)
-	{
-		for (int x = 0; x < 25; x++)
-		{
-			glm::vec3 pos(x, y, 0.0f);
-			glm::mat4 transform = glm::translate(glm::mat4(1.0f), pos);
-			Core::Renderer::Submit(m_Shader, m_VertexArray, transform);
-			// CORE_LOG_TRACE("Submitting Vertex for render");
-		}
-	}
+	m_Texture->Bind();
+	Core::Renderer::Submit(m_Shader, m_VertexArray, glm::scale(glm::mat4(1.0f), glm::vec3(1.5f)));
 }
 
 void TestLayer::OnEvent(Core::Event &event)
