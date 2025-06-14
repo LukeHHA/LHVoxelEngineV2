@@ -4,6 +4,7 @@
 
 - [x] configure `cmake` appropriatly and ensure seperation of concern.
 - [x] work out how debug and dist builds are handled in a configurable way.
+- [ ] really iron out the camera class and make it much more straight forward to updated variables and provide a much better client api
 - [ ] work out wether overloaded functions to submit geometery is better or function templates
 - [ ] clean up the member data for the renderer and camera
 - [ ] get a minimal example compiling using metal

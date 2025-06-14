@@ -25,6 +25,7 @@ namespace Core
 		shader->setMat4("u_Transform", transform);
 		shader->setMat4("u_VPmatrix", s_SceneData->VPmatrix);
 
+		CORE_ASSERT(vertexArray != nullptr, "VertexArray is nullptr when a render submission was made");
 		vertexArray->Bind();
 		RenderCommands::DrawIndexed(vertexArray);
 	}

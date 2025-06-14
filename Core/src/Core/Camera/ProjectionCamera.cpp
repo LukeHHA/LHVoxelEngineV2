@@ -125,6 +125,7 @@ namespace Core
 			m_Zoom = 1.0f;
 		if (m_Zoom > 45.0f)
 			m_Zoom = 45.0f;
+		UpdateProjection();
 	}
 
 	void ProjectionCamera::updateCameraVectors()

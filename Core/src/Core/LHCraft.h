@@ -14,4 +14,3 @@
 #include "Core/Renderer/Shader/Shader.h"
 #include "Core/Renderer/RenderCommands.h"
 // Entry Point
-#include "EntryPoint.h"
