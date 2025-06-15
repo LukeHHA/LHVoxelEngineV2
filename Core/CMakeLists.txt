@@ -14,6 +14,7 @@ configure_file(
 add_library(Core STATIC
     ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/glad/src/glad.c
     ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/stb_image/stb_image/stb_image.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/imgui/imgui/imgui.cpp
     src/Core/Application/Application.cpp
     src/Core/Window/Window.cpp
     src/Core/Logging/Logging.cpp
@@ -35,6 +36,7 @@ add_library(Core STATIC
     src/Core/Camera/ProjectionCamera.cpp
     src/Core/Renderer/Texture.cpp
     src/Core/Renderer/Platform/OpenGlTexture2D.cpp
+    src/Core/Renderer/Platform/ImguiOpenGLRenderer.cpp
 )
 
 # exposes the header PUBLICLY so the compiler can resolve the include
@@ -46,6 +48,7 @@ target_include_directories(Core PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/glad/include
     ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/spdlog/include
     ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/stb_image
+    ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/imgui
 )
 
 target_precompile_headers(Core PUBLIC

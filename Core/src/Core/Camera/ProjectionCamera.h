@@ -89,7 +89,6 @@ namespace Core
 		// camera options
 		float m_MovementSpeed = 2.5f;
 		float m_MouseSensitivity = 0.1f;
-		float m_Zoom = 45.0f;
 
 		glm::vec2 m_InitialMousePosition = {0.0f, 0.0f};
 

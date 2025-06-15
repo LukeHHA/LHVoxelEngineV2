@@ -48,7 +48,7 @@ namespace Core
 		case ShaderDataType::Bool:
 			return 1;
 		case ShaderDataType::None:
-		    CORE_ASSERT(false, "Unknown ShaderDataType!");
+			CORE_ASSERT(false, "Unknown ShaderDataType!");
 			return 0;
 		}
 	}
@@ -94,6 +94,9 @@ namespace Core
 				return 4;
 			case ShaderDataType::Bool:
 				return 1;
+			case ShaderDataType::None:
+				CORE_ASSERT(false, "Unknown ShaderDataType!");
+				return 0;
 			}
 
 			CORE_ASSERT(false, "Unknown ShaderDataType!");

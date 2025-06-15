@@ -52,7 +52,7 @@ namespace Core
 	{
 		CORE_PROFILE_FUNCTION();
 		// m_AspectRatio = m_ViewportWidth / m_ViewportHeight;
-		m_Projection = glm::perspective(glm::radians(m_Zoom), m_AspectRatio, m_NearClip, m_FarClip);
+		m_Projection = glm::perspective(glm::radians(m_FOV), m_AspectRatio, m_NearClip, m_FarClip);
 	}
 
 	void ProjectionCamera::ProcessKeyboard(TimeStep ts)
@@ -85,6 +85,7 @@ namespace Core
 			m_Position -= m_Up * velocity;
 		}
 	}
+
 	void ProjectionCamera::ProcessMouseMovement(GLboolean constrainPitch)
 	{
 		CORE_PROFILE_FUNCTION();
@@ -125,16 +126,17 @@ namespace Core
 		CORE_PROFILE_FUNCTION();
 		float yOffset = e.GetYOffset();
 		ProcessMouseScroll(yOffset);
+		return false;
 	}
 
 	void ProjectionCamera::ProcessMouseScroll(float yoffset)
 	{
 		CORE_PROFILE_FUNCTION();
-		m_Zoom -= (float)yoffset;
-		if (m_Zoom < 1.0f)
-			m_Zoom = 1.0f;
-		if (m_Zoom > 45.0f)
-			m_Zoom = 45.0f;
+		m_FOV -= (float)yoffset;
+		if (m_FOV < 1.0f)
+			m_FOV = 1.0f;
+		if (m_FOV > 45.0f)
+			m_FOV = 45.0f;
 		UpdateProjection();
 	}
 

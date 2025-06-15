@@ -32,10 +32,10 @@ namespace Core
 			return GL_INT;
 		case ShaderDataType::Bool:
 			return GL_BOOL;
+		case ShaderDataType::None:
+			CORE_ASSERT(false, "Unknown ShaderDataType!");
+			return 0;
 		}
-
-		CORE_ASSERT(false, "Unknown ShaderDataType!");
-		return 0;
 	}
 
 	OpenGLVertexArray::OpenGLVertexArray()
