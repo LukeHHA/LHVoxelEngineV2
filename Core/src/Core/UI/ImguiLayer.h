@@ -13,9 +13,10 @@ namespace Core
 		void OnAttach();
 		void OnDetach();
 
-		void OnUpdate();
+		void OnUpdate(TimeStep ts);
 		void OnEvent(Event &event);
 
 	private:
+		float m_Time = 0.0f;
 	};
 }

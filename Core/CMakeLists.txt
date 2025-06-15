@@ -37,6 +37,7 @@ add_library(Core STATIC
     src/Core/Renderer/Texture.cpp
     src/Core/Renderer/Platform/OpenGlTexture2D.cpp
     src/Core/Renderer/Platform/ImguiOpenGLRenderer.cpp
+    src/Core/UI/ImguiLayer.cpp
 )
 
 # exposes the header PUBLICLY so the compiler can resolve the include

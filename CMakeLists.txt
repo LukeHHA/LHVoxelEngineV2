@@ -21,7 +21,7 @@ if(CMAKE_BUILD_TYPE STREQUAL "Debug")
     )
   else()
     # -w turns off all warnings
-    target_compile_options(LHCraft PUBLIC
+    target_compile_options(Core PUBLIC
       -w
     )
   endif()
