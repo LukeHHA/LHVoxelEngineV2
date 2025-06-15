@@ -75,6 +75,4 @@ add_dependencies(Core CopyShaders)
 target_compile_definitions(Core PUBLIC
     LHCRAFT_ENABLE_ASSERTS
     GL_SILENCE_DEPRECATION
-    Wno-unused-variable 
 )
-

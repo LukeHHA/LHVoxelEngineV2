@@ -1,5 +1,6 @@
+#include "Core/LHCpch.h"
 #include "OpenGLShader.h"
-#include "Core/Core.h"
+
 #include <filesystem>
 #include <fstream>
 
@@ -9,6 +10,7 @@ namespace Core
     // ------------------------------------------------------------------------
     OpenGLShader::OpenGLShader(std::string vertexPath, std::string fragmetnPath)
     {
+        CORE_PROFILE_FUNCTION();
         // 1. retrieve the vertex/fragment source code from filePath
         std::string vertexPathFull = std::filesystem::current_path().string() + "/" + vertexPath;
         std::string fragmentPathFull = std::filesystem::current_path().string() + "/" + fragmetnPath;

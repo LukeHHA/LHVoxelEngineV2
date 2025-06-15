@@ -1,7 +1,9 @@
 #include "ExampleRenderLayer.h"
+#include "Core/Debug/Instrumentor.h"
 
 TestLayer::TestLayer()
 {
+	CORE_PROFILE_FUNCTION();
 	m_VertexArray = Core::VertexArray::Create();
 
 	float vertices[4 * 5] = {
@@ -33,6 +35,8 @@ TestLayer::TestLayer()
 
 void TestLayer::OnUpdate(Core::TimeStep ts)
 {
+	CORE_PROFILE_FUNCTION();
+
 	m_Camera->OnUpdate(ts);
 
 	Core::RenderCommands::SetClearColor({0.1, 0.3, 0.9, 1.0});
@@ -41,7 +45,17 @@ void TestLayer::OnUpdate(Core::TimeStep ts)
 	Core::Renderer::BeginScene(*m_Camera);
 
 	m_Texture->Bind();
-	Core::Renderer::Submit(m_Shader, m_VertexArray, glm::scale(glm::mat4(1.0f), glm::vec3(1.5f)));
+	for (int y = 0; y < 6; y++)
+	{
+		for (int x = 0; x < 6; x++)
+		{
+			glm::vec3 pos(x, y, 0.0f);
+			glm::mat4 transform = glm::translate(glm::mat4(1.0f), pos);
+			transform = glm::rotate(transform, (float)glfwGetTime(), glm::vec3(0.0f, 0.0f, 0.1f));
+			Core::Renderer::Submit(m_Shader, m_VertexArray, transform);
+			// CORE_LOG_TRACE("Submitting Vertex for render");
+		}
+	}
 }
 
 void TestLayer::OnEvent(Core::Event &event)

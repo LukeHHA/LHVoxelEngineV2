@@ -1,3 +1,5 @@
+#include "Core/LHCpch.h"
+
 #include "Renderer.h"
 #include "Core/Renderer/RenderCommands.h"
 
@@ -7,19 +9,23 @@ namespace Core
 
 	void Renderer::Init()
 	{
+		CORE_PROFILE_FUNCTION();
 		RenderCommands::Init();
 	}
 	void Renderer::BeginScene(ProjectionCamera &camera)
 	{
+		CORE_PROFILE_FUNCTION();
 		s_SceneData->VPmatrix = camera.GetViewProjection();
 	}
 
 	void Renderer::EndScene()
 	{
+		CORE_PROFILE_FUNCTION();
 	}
 
 	void Renderer::Submit(const std::shared_ptr<Shader> &shader, const std::shared_ptr<VertexArray> &vertexArray, const glm::mat4 &transform)
 	{
+		CORE_PROFILE_FUNCTION();
 		CORE_ASSERT(shader != nullptr, "Shader is nullptr when a render submission was made");
 		shader->Use();
 		shader->setMat4("u_Transform", transform);

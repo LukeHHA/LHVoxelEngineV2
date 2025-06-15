@@ -11,7 +11,11 @@
 #include <vector>
 #include <unordered_map>
 #include <array>
+#include <chrono>
 
 #include <cstddef>
 
 #include "Core/Core.h"
+
+#include "Core/Debug/Instrumentor.h"
+#include "Core/Logging/Logging.h"

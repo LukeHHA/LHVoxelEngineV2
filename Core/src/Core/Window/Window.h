@@ -25,6 +25,8 @@
 
 namespace Core
 {
+#define ENABLE_VSYNC 1
+#define DISABLE_VSYNC 0
 
     struct WindowArgs
     {

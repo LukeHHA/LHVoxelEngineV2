@@ -8,6 +8,7 @@ namespace Core
 {
 	OpenGLTexture2D::OpenGLTexture2D(const std::string &path)
 	{
+		CORE_PROFILE_FUNCTION();
 		stbi_set_flip_vertically_on_load(true);
 
 		int width, height, channels;
@@ -17,14 +18,30 @@ namespace Core
 		m_Width = width;
 		m_Height = height;
 
+		GLenum format = 0, dataFormat = 0;
+		if (channels == 3)
+		{
+			format = GL_RGB8;
+			dataFormat = GL_RGB;
+		}
+		else if (channels == 4)
+		{
+			format = GL_RGBA8;
+			dataFormat = GL_RGBA;
+		}
+		else
+		{
+			CORE_ASSERT(true, "Unkown format for provided image")
+		}
+
 		glGenTextures(1, &m_TextureID);
 		glBindTexture(GL_TEXTURE_2D, m_TextureID);
-		glTexStorage2D(GL_TEXTURE_2D, 1, GL_RGBA8, m_Width, m_Height);
+		glTexStorage2D(GL_TEXTURE_2D, 1, format, m_Width, m_Height);
 
 		glTexParameteri(m_TextureID, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
 		glTexParameteri(m_TextureID, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
 
-		glTexSubImage2D(GL_TEXTURE_2D, 0, 0, 0, m_Width, m_Height, GL_RGBA, GL_UNSIGNED_BYTE, data);
+		glTexSubImage2D(GL_TEXTURE_2D, 0, 0, 0, m_Width, m_Height, dataFormat, GL_UNSIGNED_BYTE, data);
 
 		stbi_image_free(data);
 	}

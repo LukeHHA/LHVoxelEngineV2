@@ -1,7 +1,7 @@
 // Modified from Hazel’s Window (Apache 2.0);
 // renamed namespace hz → Core and prefixed macros with CORE_…
 
-#include "Core/Core.h"
+#include "Core/LHCpch.h"
 #include "cmakeConfig.h"
 #include "Window.h"
 #include "Core/Events/ApplicationEvents.h"
@@ -26,16 +26,19 @@ namespace Core
 
     Window::Window(const WindowArgs &args)
     {
+        CORE_PROFILE_FUNCTION();
         Init(args);
     }
 
     Window::~Window()
     {
+        CORE_PROFILE_FUNCTION();
         Shutdown();
     }
 
     void Window::Init(const WindowArgs &args)
     {
+        CORE_PROFILE_FUNCTION();
         m_Data.Title = args.Title;
         m_Data.Height = args.Height;
         m_Data.Width = args.Width;
@@ -171,11 +174,13 @@ namespace Core
 
     void Window::Shutdown()
     {
+        CORE_PROFILE_FUNCTION();
         glfwDestroyWindow(m_Window);
     }
 
     void Window::OnUpdate()
     {
+        CORE_PROFILE_FUNCTION();
         glfwPollEvents();
         m_Context->SwapBuffers();
     }
@@ -191,7 +196,7 @@ namespace Core
             glfwSwapInterval(0);
         }
 
-        m_Data.VSyncEnabled = true;
+        m_Data.VSyncEnabled = enabled;
     }
 
     bool Window::IsVSync() const

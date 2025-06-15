@@ -1,3 +1,4 @@
+#include "Core/LHCpch.h"
 #include "ProjectionCamera.h"
 #include "Core/Input/Input.h"
 
@@ -7,6 +8,7 @@ namespace Core
 		: m_Front(glm::vec3(0.0f, 0.0f, -1.0f)), m_FOV(fov), m_AspectRatio(aspectRatio), m_NearClip(nearClip), m_FarClip(farClip)
 
 	{
+		CORE_PROFILE_FUNCTION();
 		m_Position = position;
 		m_WorldUp = up;
 		updateCameraVectors();
@@ -17,6 +19,7 @@ namespace Core
 		: m_Front(glm::vec3(0.0f, 0.0f, -1.0f)), m_FOV(fov), m_AspectRatio(aspectRatio), m_NearClip(nearClip), m_FarClip(farClip)
 
 	{
+		CORE_PROFILE_FUNCTION();
 		m_Position = glm::vec3(posX, posY, posZ);
 		m_WorldUp = glm::vec3(upX, upY, upZ);
 		m_Yaw = yaw;
@@ -27,29 +30,34 @@ namespace Core
 
 	void ProjectionCamera::OnUpdate(TimeStep ts)
 	{
+		CORE_PROFILE_FUNCTION();
 		ProcessKeyboard(ts);
 		ProcessMouseMovement();
 	}
 
 	void ProjectionCamera::OnEvent(Event &e)
 	{
+		CORE_PROFILE_FUNCTION();
 		EventDispatcher dispatcher(e);
 		dispatcher.Dispatch<MouseScrolledEvent>(std::bind(&ProjectionCamera::OnMouseScroll, this, std::placeholders::_1));
 	}
 
 	glm::mat4 ProjectionCamera::GetViewMatrix() const
 	{
+		CORE_PROFILE_FUNCTION();
 		return glm::lookAt(m_Position, m_Position + m_Front, m_Up);
 	}
 
 	void ProjectionCamera::UpdateProjection()
 	{
+		CORE_PROFILE_FUNCTION();
 		// m_AspectRatio = m_ViewportWidth / m_ViewportHeight;
 		m_Projection = glm::perspective(glm::radians(m_Zoom), m_AspectRatio, m_NearClip, m_FarClip);
 	}
 
 	void ProjectionCamera::ProcessKeyboard(TimeStep ts)
 	{
+		CORE_PROFILE_FUNCTION();
 		float velocity = m_MovementSpeed * ts;
 		if (Input::IsKeyPressed(Key::A))
 		{
@@ -79,6 +87,7 @@ namespace Core
 	}
 	void ProjectionCamera::ProcessMouseMovement(GLboolean constrainPitch)
 	{
+		CORE_PROFILE_FUNCTION();
 		const glm::vec2 &mouse{Input::GetMouseX(), Input::GetMouseY()};
 
 		if (firstMouse)
@@ -113,12 +122,14 @@ namespace Core
 
 	bool ProjectionCamera::OnMouseScroll(MouseScrolledEvent &e)
 	{
+		CORE_PROFILE_FUNCTION();
 		float yOffset = e.GetYOffset();
 		ProcessMouseScroll(yOffset);
 	}
 
 	void ProjectionCamera::ProcessMouseScroll(float yoffset)
 	{
+		CORE_PROFILE_FUNCTION();
 		m_Zoom -= (float)yoffset;
 		if (m_Zoom < 1.0f)
 			m_Zoom = 1.0f;
@@ -129,6 +140,7 @@ namespace Core
 
 	void ProjectionCamera::updateCameraVectors()
 	{
+		CORE_PROFILE_FUNCTION();
 		// calculate the new m_Front vector
 		glm::vec3 front;
 		front.x = cos(glm::radians(m_Yaw)) * cos(glm::radians(m_Pitch));

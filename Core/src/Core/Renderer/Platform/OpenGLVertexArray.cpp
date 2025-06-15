@@ -1,6 +1,7 @@
+#include "Core/LHCpch.h"
+
 #include "OpenGLVertexArray.h"
 #include "glad/glad.h"
-#include "Core/Core.h"
 
 namespace Core
 {
@@ -39,11 +40,13 @@ namespace Core
 
 	OpenGLVertexArray::OpenGLVertexArray()
 	{
+		CORE_PROFILE_FUNCTION();
 		glGenVertexArrays(1, &m_VertexArrayID);
 	}
 
 	OpenGLVertexArray::~OpenGLVertexArray()
 	{
+		CORE_PROFILE_FUNCTION();
 	}
 
 	void OpenGLVertexArray::Bind() const
@@ -57,6 +60,7 @@ namespace Core
 
 	void OpenGLVertexArray::AddVertexBuffer(const std::shared_ptr<VertexBuffer> &vertexBuffer)
 	{
+		CORE_PROFILE_FUNCTION();
 		glBindVertexArray(m_VertexArrayID);
 		vertexBuffer->Bind();
 
@@ -123,6 +127,7 @@ namespace Core
 
 	void OpenGLVertexArray::SetIndexBuffer(const std::shared_ptr<IndexBuffer> &indexBuffer)
 	{
+		CORE_PROFILE_FUNCTION();
 		glBindVertexArray(m_VertexArrayID);
 		indexBuffer->Bind();
 
