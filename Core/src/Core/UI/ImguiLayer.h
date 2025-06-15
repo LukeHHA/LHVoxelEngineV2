@@ -4,19 +4,28 @@
 
 namespace Core
 {
-	class ImguiLayer : public Layer
+	class ImGuiLayer : public Layer
 	{
 	public:
-		ImguiLayer();
-		~ImguiLayer();
+		ImGuiLayer();
+		~ImGuiLayer() = default;
 
-		void OnAttach();
-		void OnDetach();
+		virtual void OnAttach() override;
+		virtual void OnDetach() override;
+		virtual void OnEvent(Event &e) override;
 
-		void OnUpdate(TimeStep ts);
-		void OnEvent(Event &event);
+		void Begin();
+		void End();
+
+		void OnImGuiRender() override;
+
+		void BlockEvents(bool block) { m_BlockEvents = block; }
+
+		void SetDarkThemeColors();
+
+		uint32_t GetActiveWidgetID() const;
 
 	private:
-		float m_Time = 0.0f;
+		bool m_BlockEvents = true;
 	};
 }

@@ -15,6 +15,12 @@ add_library(Core STATIC
     ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/glad/src/glad.c
     ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/stb_image/stb_image/stb_image.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/imgui/imgui/imgui.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/imgui/imgui/imgui_tables.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/imgui/imgui/imgui_demo.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/imgui/imgui/imgui_draw.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/imgui/imgui/imgui_widgets.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/imgui/imgui/misc/cpp/imgui_stdlib.cpp
+    src/Core/UI/ImguiBuild.cpp 
     src/Core/Application/Application.cpp
     src/Core/Window/Window.cpp
     src/Core/Logging/Logging.cpp
@@ -36,7 +42,6 @@ add_library(Core STATIC
     src/Core/Camera/ProjectionCamera.cpp
     src/Core/Renderer/Texture.cpp
     src/Core/Renderer/Platform/OpenGlTexture2D.cpp
-    src/Core/Renderer/Platform/ImguiOpenGLRenderer.cpp
     src/Core/UI/ImguiLayer.cpp
 )
 

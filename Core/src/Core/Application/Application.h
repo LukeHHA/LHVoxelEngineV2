@@ -18,6 +18,7 @@
 #include "Core/Layers/Layer.h"
 #include "Core/Layers/LayerStack.h"
 #include "Core/Events/ApplicationEvents.h"
+#include "Core/UI/ImguiLayer.h"
 
 namespace Core
 {
@@ -40,6 +41,7 @@ namespace Core
         void OnEvent(Event &event);
         static Application &Get() { return *s_Instance; }
         Window &GetWindow() { return *m_Window; }
+        ImGuiLayer *GetImGuiLayer() { return m_ImGuiLayer; }
 
         /**
          * @fn void PushLayer(Layer *layer)
@@ -75,6 +77,7 @@ namespace Core
         std::unique_ptr<Window> m_Window;
         bool m_Running = true;
         LayerStack m_LayerStack;
+        ImGuiLayer *m_ImGuiLayer;
 
         float m_LastTime = 0.0f;
     };

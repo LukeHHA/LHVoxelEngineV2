@@ -24,6 +24,9 @@ namespace Core
 		m_Window->SetEventCallback(std::bind(&Application::OnEvent, this, std::placeholders::_1));
 
 		Renderer::Init();
+
+		m_ImGuiLayer = new ImGuiLayer();
+		PushOverlay(m_ImGuiLayer);
 	}
 
 	Application::~Application()
@@ -39,10 +42,22 @@ namespace Core
 			float time = glfwGetTime();
 			TimeStep timestep = time - m_LastTime;
 			m_LastTime = time;
-			m_Window->OnUpdate(); // glPollEvents and swap buffer
 
 			for (Layer *layer : m_LayerStack)
+			{
 				layer->OnUpdate(timestep);
+			}
+
+			m_ImGuiLayer->Begin();
+			{
+				CORE_PROFILE_SCOPE("LayerStack OnImGuiRender");
+
+				for (Layer *layer : m_LayerStack)
+					layer->OnImGuiRender();
+			}
+			m_ImGuiLayer->End();
+
+			m_Window->OnUpdate(); // glPollEvents and swap buffer
 		}
 	}
 
