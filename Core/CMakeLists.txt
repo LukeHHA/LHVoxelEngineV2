@@ -55,6 +55,8 @@ target_include_directories(Core PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/spdlog/include
     ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/stb_image
     ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/imgui
+    ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/entt/include
+    ${CMAKE_CURRENT_SOURCE_DIR}/Vendor/assimp/assimp/include
 )
 
 target_precompile_headers(Core PUBLIC
@@ -85,3 +87,5 @@ target_compile_definitions(Core PUBLIC
     LHCRAFT_ENABLE_ASSERTS
     GL_SILENCE_DEPRECATION
 )
+
+add_subdirectory(Vendor/assimp/assimp)
